@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="sspku.mapper.CompanyMapper">
+	<resultMap id="BaseResultMap" type="sspku.dao.Company">
+		<id column="id" property="id" jdbcType="INTEGER" />
+		<result column="name" property="name" jdbcType="VARCHAR" />
+		<result column="source" property="source" jdbcType="VARCHAR" />
+		<result column="sourceId" property="sourceid" jdbcType="VARCHAR" />
+		<result column="alias" property="alias" jdbcType="VARCHAR" />
+		<result column="city" property="city" jdbcType="VARCHAR" />
+		<result column="type" property="type" jdbcType="INTEGER" />
+		<result column="keyWord" property="keyword" jdbcType="VARCHAR" />
+		<result column="financeStage" property="financestage" jdbcType="VARCHAR" />
+		<result column="industry" property="industry" jdbcType="VARCHAR" />
+		<result column="createTime" property="createtime" jdbcType="TIMESTAMP" />
+		<result column="refLink" property="reflink" jdbcType="VARCHAR" />
+		<result column="docLink" property="doclink" jdbcType="VARCHAR" />
+	</resultMap>
+	<resultMap id="ResultMapWithBLOBs" type="sspku.dao.CompanyWithBLOBs"
+		extends="BaseResultMap">
+		<result column="description" property="description" jdbcType="LONGVARCHAR" />
+		<result column="remark" property="remark" jdbcType="LONGVARCHAR" />
+	</resultMap>
+	<sql id="Example_Where_Clause">
+		<where>
+			<foreach collection="oredCriteria" item="criteria" separator="or">
+				<if test="criteria.valid">
+					<trim prefix="(" suffix=")" prefixOverrides="and">
+						<foreach collection="criteria.criteria" item="criterion">
+							<choose>
+								<when test="criterion.noValue">
+									and ${criterion.condition}
+								</when>
+								<when test="criterion.singleValue">
+									and ${criterion.condition} #{criterion.value}
+								</when>
+								<when test="criterion.betweenValue">
+									and ${criterion.condition} #{criterion.value}
+									and
+									#{criterion.secondValue}
+								</when>
+								<when test="criterion.listValue">
+									and ${criterion.condition}
+									<foreach collection="criterion.value" item="listItem"
+										open="(" close=")" separator=",">
+										#{listItem}
+									</foreach>
+								</when>
+							</choose>
+						</foreach>
+					</trim>
+				</if>
+			</foreach>
+		</where>
+	</sql>
+	<sql id="Update_By_Example_Where_Clause">
+		<where>
+			<foreach collection="example.oredCriteria" item="criteria"
+				separator="or">
+				<if test="criteria.valid">
+					<trim prefix="(" suffix=")" prefixOverrides="and">
+						<foreach collection="criteria.criteria" item="criterion">
+							<choose>
+								<when test="criterion.noValue">
+									and ${criterion.condition}
+								</when>
+								<when test="criterion.singleValue">
+									and ${criterion.condition} #{criterion.value}
+								</when>
+								<when test="criterion.betweenValue">
+									and ${criterion.condition} #{criterion.value}
+									and
+									#{criterion.secondValue}
+								</when>
+								<when test="criterion.listValue">
+									and ${criterion.condition}
+									<foreach collection="criterion.value" item="listItem"
+										open="(" close=")" separator=",">
+										#{listItem}
+									</foreach>
+								</when>
+							</choose>
+						</foreach>
+					</trim>
+				</if>
+			</foreach>
+		</where>
+	</sql>
+	<sql id="Base_Column_List">
+		id, name, source, sourceId, alias, city, type, keyWord,
+		financeStage,
+		industry, createTime,
+		refLink, docLink
+	</sql>
+	<sql id="Blob_Column_List">
+		description, remark
+	</sql>
+	<select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs"
+		parameterType="sspku.dao.CompanyExample">
+		select
+		<if test="distinct">
+			distinct
+		</if>
+		'true' as QUERYID,
+		<include refid="Base_Column_List" />
+		,
+		<include refid="Blob_Column_List" />
+		from company
+		<if test="_parameter != null">
+			<include refid="Example_Where_Clause" />
+		</if>
+		<if test="orderByClause != null">
+			order by ${orderByClause}
+		</if>
+		<if test="start !=0 or limit!=0">
+			limit #{start},#{limit}
+		</if>
+	</select>
+	<select id="selectByExample" resultMap="BaseResultMap"
+		parameterType="sspku.dao.CompanyExample">
+		select
+		<if test="distinct">
+			distinct
+		</if>
+		'true' as QUERYID,
+		<include refid="Base_Column_List" />
+		from company
+		<if test="_parameter != null">
+			<include refid="Example_Where_Clause" />
+		</if>
+		<if test="orderByClause != null">
+			order by ${orderByClause}
+		</if>
+		<if test="start !=0 or limit!=0">
+			limit #{start},#{limit}
+		</if>
+	</select>
+	<select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs"
+		parameterType="java.lang.Integer">
+		select
+		<include refid="Base_Column_List" />
+		,
+		<include refid="Blob_Column_List" />
+		from company
+		where id = #{id,jdbcType=INTEGER}
+	</select>
+	<delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+		delete from
+		company
+		where id = #{id,jdbcType=INTEGER}
+	</delete>
+	<delete id="deleteByExample" parameterType="sspku.dao.CompanyExample">
+		delete from company
+		<if test="_parameter != null">
+			<include refid="Example_Where_Clause" />
+		</if>
+	</delete>
+	<insert id="insert" parameterType="sspku.dao.CompanyWithBLOBs">
+		insert into company (id, name,
+		source,
+		sourceId, alias, city,
+		type, keyWord, financeStage,
+		industry,
+		createTime, refLink,
+		docLink, description, remark
+		)
+		values
+		(#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR},
+		#{source,jdbcType=VARCHAR},
+		#{sourceid,jdbcType=VARCHAR},
+		#{alias,jdbcType=VARCHAR}, #{city,jdbcType=VARCHAR},
+		#{type,jdbcType=INTEGER}, #{keyword,jdbcType=VARCHAR},
+		#{financestage,jdbcType=VARCHAR},
+		#{industry,jdbcType=VARCHAR},
+		#{createtime,jdbcType=TIMESTAMP}, #{reflink,jdbcType=VARCHAR},
+		#{doclink,jdbcType=VARCHAR}, #{description,jdbcType=LONGVARCHAR},
+		#{remark,jdbcType=LONGVARCHAR}
+		)
+	</insert>
+	<insert id="insertSelective" parameterType="sspku.dao.CompanyWithBLOBs">
+		insert into company
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				id,
+			</if>
+			<if test="name != null">
+				name,
+			</if>
+			<if test="source != null">
+				source,
+			</if>
+			<if test="sourceid != null">
+				sourceId,
+			</if>
+			<if test="alias != null">
+				alias,
+			</if>
+			<if test="city != null">
+				city,
+			</if>
+			<if test="type != null">
+				type,
+			</if>
+			<if test="keyword != null">
+				keyWord,
+			</if>
+			<if test="financestage != null">
+				financeStage,
+			</if>
+			<if test="industry != null">
+				industry,
+			</if>
+			<if test="createtime != null">
+				createTime,
+			</if>
+			<if test="reflink != null">
+				refLink,
+			</if>
+			<if test="doclink != null">
+				docLink,
+			</if>
+			<if test="description != null">
+				description,
+			</if>
+			<if test="remark != null">
+				remark,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				#{id,jdbcType=INTEGER},
+			</if>
+			<if test="name != null">
+				#{name,jdbcType=VARCHAR},
+			</if>
+			<if test="source != null">
+				#{source,jdbcType=VARCHAR},
+			</if>
+			<if test="sourceid != null">
+				#{sourceid,jdbcType=VARCHAR},
+			</if>
+			<if test="alias != null">
+				#{alias,jdbcType=VARCHAR},
+			</if>
+			<if test="city != null">
+				#{city,jdbcType=VARCHAR},
+			</if>
+			<if test="type != null">
+				#{type,jdbcType=INTEGER},
+			</if>
+			<if test="keyword != null">
+				#{keyword,jdbcType=VARCHAR},
+			</if>
+			<if test="financestage != null">
+				#{financestage,jdbcType=VARCHAR},
+			</if>
+			<if test="industry != null">
+				#{industry,jdbcType=VARCHAR},
+			</if>
+			<if test="createtime != null">
+				#{createtime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="reflink != null">
+				#{reflink,jdbcType=VARCHAR},
+			</if>
+			<if test="doclink != null">
+				#{doclink,jdbcType=VARCHAR},
+			</if>
+			<if test="description != null">
+				#{description,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="remark != null">
+				#{remark,jdbcType=LONGVARCHAR},
+			</if>
+		</trim>
+	</insert>
+	<select id="countByExample" parameterType="sspku.dao.CompanyExample"
+		resultType="java.lang.Integer">
+		select count(*) from company
+		<if test="_parameter != null">
+			<include refid="Example_Where_Clause" />
+		</if>
+	</select>
+	<update id="updateByExampleSelective" parameterType="map">
+		update company
+		<set>
+			<if test="record.id != null">
+				id = #{record.id,jdbcType=INTEGER},
+			</if>
+			<if test="record.name != null">
+				name = #{record.name,jdbcType=VARCHAR},
+			</if>
+			<if test="record.source != null">
+				source = #{record.source,jdbcType=VARCHAR},
+			</if>
+			<if test="record.sourceid != null">
+				sourceId = #{record.sourceid,jdbcType=VARCHAR},
+			</if>
+			<if test="record.alias != null">
+				alias = #{record.alias,jdbcType=VARCHAR},
+			</if>
+			<if test="record.city != null">
+				city = #{record.city,jdbcType=VARCHAR},
+			</if>
+			<if test="record.type != null">
+				type = #{record.type,jdbcType=INTEGER},
+			</if>
+			<if test="record.keyword != null">
+				keyWord = #{record.keyword,jdbcType=VARCHAR},
+			</if>
+			<if test="record.financestage != null">
+				financeStage = #{record.financestage,jdbcType=VARCHAR},
+			</if>
+			<if test="record.industry != null">
+				industry = #{record.industry,jdbcType=VARCHAR},
+			</if>
+			<if test="record.createtime != null">
+				createTime = #{record.createtime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="record.reflink != null">
+				refLink = #{record.reflink,jdbcType=VARCHAR},
+			</if>
+			<if test="record.doclink != null">
+				docLink = #{record.doclink,jdbcType=VARCHAR},
+			</if>
+			<if test="record.description != null">
+				description = #{record.description,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="record.remark != null">
+				remark = #{record.remark,jdbcType=LONGVARCHAR},
+			</if>
+		</set>
+		<if test="_parameter != null">
+			<include refid="Update_By_Example_Where_Clause" />
+		</if>
+	</update>
+	<update id="updateByExampleWithBLOBs" parameterType="map">
+		update company
+		set id = #{record.id,jdbcType=INTEGER},
+		name =
+		#{record.name,jdbcType=VARCHAR},
+		source =
+		#{record.source,jdbcType=VARCHAR},
+		sourceId =
+		#{record.sourceid,jdbcType=VARCHAR},
+		alias =
+		#{record.alias,jdbcType=VARCHAR},
+		city =
+		#{record.city,jdbcType=VARCHAR},
+		type =
+		#{record.type,jdbcType=INTEGER},
+		keyWord =
+		#{record.keyword,jdbcType=VARCHAR},
+		financeStage =
+		#{record.financestage,jdbcType=VARCHAR},
+		industry =
+		#{record.industry,jdbcType=VARCHAR},
+		createTime =
+		#{record.createtime,jdbcType=TIMESTAMP},
+		refLink =
+		#{record.reflink,jdbcType=VARCHAR},
+		docLink =
+		#{record.doclink,jdbcType=VARCHAR},
+		description =
+		#{record.description,jdbcType=LONGVARCHAR},
+		remark =
+		#{record.remark,jdbcType=LONGVARCHAR}
+		<if test="_parameter != null">
+			<include refid="Update_By_Example_Where_Clause" />
+		</if>
+	</update>
+	<update id="updateByExample" parameterType="map">
+		update company
+		set id = #{record.id,jdbcType=INTEGER},
+		name =
+		#{record.name,jdbcType=VARCHAR},
+		source =
+		#{record.source,jdbcType=VARCHAR},
+		sourceId =
+		#{record.sourceid,jdbcType=VARCHAR},
+		alias =
+		#{record.alias,jdbcType=VARCHAR},
+		city =
+		#{record.city,jdbcType=VARCHAR},
+		type =
+		#{record.type,jdbcType=INTEGER},
+		keyWord =
+		#{record.keyword,jdbcType=VARCHAR},
+		financeStage =
+		#{record.financestage,jdbcType=VARCHAR},
+		industry =
+		#{record.industry,jdbcType=VARCHAR},
+		createTime =
+		#{record.createtime,jdbcType=TIMESTAMP},
+		refLink =
+		#{record.reflink,jdbcType=VARCHAR},
+		docLink =
+		#{record.doclink,jdbcType=VARCHAR}
+		<if test="_parameter != null">
+			<include refid="Update_By_Example_Where_Clause" />
+		</if>
+	</update>
+	<update id="updateByPrimaryKeySelective" parameterType="sspku.dao.CompanyWithBLOBs">
+		update company
+		<set>
+			<if test="name != null">
+				name = #{name,jdbcType=VARCHAR},
+			</if>
+			<if test="source != null">
+				source = #{source,jdbcType=VARCHAR},
+			</if>
+			<if test="sourceid != null">
+				sourceId = #{sourceid,jdbcType=VARCHAR},
+			</if>
+			<if test="alias != null">
+				alias = #{alias,jdbcType=VARCHAR},
+			</if>
+			<if test="city != null">
+				city = #{city,jdbcType=VARCHAR},
+			</if>
+			<if test="type != null">
+				type = #{type,jdbcType=INTEGER},
+			</if>
+			<if test="keyword != null">
+				keyWord = #{keyword,jdbcType=VARCHAR},
+			</if>
+			<if test="financestage != null">
+				financeStage = #{financestage,jdbcType=VARCHAR},
+			</if>
+			<if test="industry != null">
+				industry = #{industry,jdbcType=VARCHAR},
+			</if>
+			<if test="createtime != null">
+				createTime = #{createtime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="reflink != null">
+				refLink = #{reflink,jdbcType=VARCHAR},
+			</if>
+			<if test="doclink != null">
+				docLink = #{doclink,jdbcType=VARCHAR},
+			</if>
+			<if test="description != null">
+				description = #{description,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="remark != null">
+				remark = #{remark,jdbcType=LONGVARCHAR},
+			</if>
+		</set>
+		where id = #{id,jdbcType=INTEGER}
+	</update>
+	<update id="updateByPrimaryKeyWithBLOBs" parameterType="sspku.dao.CompanyWithBLOBs">
+		update
+		company
+		set name = #{name,jdbcType=VARCHAR},
+		source =
+		#{source,jdbcType=VARCHAR},
+		sourceId = #{sourceid,jdbcType=VARCHAR},
+		alias = #{alias,jdbcType=VARCHAR},
+		city = #{city,jdbcType=VARCHAR},
+		type = #{type,jdbcType=INTEGER},
+		keyWord = #{keyword,jdbcType=VARCHAR},
+		financeStage = #{financestage,jdbcType=VARCHAR},
+		industry =
+		#{industry,jdbcType=VARCHAR},
+		createTime =
+		#{createtime,jdbcType=TIMESTAMP},
+		refLink =
+		#{reflink,jdbcType=VARCHAR},
+		docLink = #{doclink,jdbcType=VARCHAR},
+		description = #{description,jdbcType=LONGVARCHAR},
+		remark =
+		#{remark,jdbcType=LONGVARCHAR}
+		where id = #{id,jdbcType=INTEGER}
+	</update>
+	<update id="updateByPrimaryKey" parameterType="sspku.dao.Company">
+		update company
+		set
+		name = #{name,jdbcType=VARCHAR},
+		source = #{source,jdbcType=VARCHAR},
+		sourceId = #{sourceid,jdbcType=VARCHAR},
+		alias =
+		#{alias,jdbcType=VARCHAR},
+		city = #{city,jdbcType=VARCHAR},
+		type =
+		#{type,jdbcType=INTEGER},
+		keyWord = #{keyword,jdbcType=VARCHAR},
+		financeStage = #{financestage,jdbcType=VARCHAR},
+		industry =
+		#{industry,jdbcType=VARCHAR},
+		createTime =
+		#{createtime,jdbcType=TIMESTAMP},
+		refLink =
+		#{reflink,jdbcType=VARCHAR},
+		docLink = #{doclink,jdbcType=VARCHAR}
+		where id = #{id,jdbcType=INTEGER}
+	</update>
+</mapper>
