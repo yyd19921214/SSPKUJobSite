@@ -33,7 +33,6 @@ public class JobServiceTest extends BaseControllerTest {
 		Integer id=1;
 		JobWithBLOBs job=jobSer.getJobDetails(id);
 		Assert.assertNotNull(job);
-		
 	}
 	
 
