@@ -28,9 +28,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.google.common.base.Strings;
 
+import sspku.dao.CompanyExample;
 import sspku.dao.CompanyWithBLOBs;
 import sspku.dao.JobExample;
 import sspku.dao.JobWithBLOBs;
+import sspku.mapper.CompanyMapper;
 import sspku.mapper.JobMapper;
 
 public class LuceneUtil {
@@ -113,7 +115,6 @@ public class LuceneUtil {
 	public static List<LuceneSearchJob> getSearchJobId(String text, String field) throws IOException, ParseException {
 		Analyzer analyzer = new JcsegAnalyzer5X(1);
 		IndexSearcher isearcher = getIndexSearch();
-		// 瑙ｆ瀽涓�涓畝鍗曠殑鏌ヨ
 		QueryParser parser = new QueryParser(field, analyzer);
 		Query query = parser.parse(text);
 		ScoreDoc[] hits = isearcher.search(query, 100).scoreDocs;
@@ -121,6 +122,21 @@ public class LuceneUtil {
 		for (int i = 0; i < hits.length; i++) {
 			Document hitDoc = isearcher.doc(hits[i].doc);
 			result.add(new LuceneSearchJob(hitDoc.get("jobId"), hitDoc.get("jobName"), hitDoc.get("jobSearchIndex"),
+					hits[i].score));
+		}
+		return result;
+	}
+	
+	public static List<LuceneSearchCompany> getSearchCompany(String text, String field) throws IOException, ParseException {
+		Analyzer analyzer = new JcsegAnalyzer5X(1);
+		IndexSearcher isearcher = getIndexSearch();
+		QueryParser parser = new QueryParser(field, analyzer);
+		Query query = parser.parse(text);
+		ScoreDoc[] hits = isearcher.search(query, 100).scoreDocs;
+		List<LuceneSearchCompany> result = new ArrayList<>();
+		for (int i = 0; i < hits.length; i++) {
+			Document hitDoc = isearcher.doc(hits[i].doc);
+			result.add(new LuceneSearchCompany(hitDoc.get("companyId"), hitDoc.get("simpleName"), hitDoc.get("alias"),
 					hits[i].score));
 		}
 		return result;
@@ -138,21 +154,34 @@ public class LuceneUtil {
 			e.printStackTrace();
 		}
 	}
+	
+	public static void indexCompany() {
+		ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:spring.xml",
+				"classpath:spring-mybatis.xml", "classpath:spring-mvc.xml");
+		CompanyMapper mapper = (CompanyMapper) ac.getBean("companyMapper");
+		CompanyExample ex = new CompanyExample();
+		List<CompanyWithBLOBs> companys = mapper.selectByExampleWithBLOBs(ex);
+		try {
+			createCompanyIndex(companys);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 
 	public static void main(String[] args) {
-		
+		indexCompany();
 //		indexJob();
-		 String text = "java 鐏荆鍋ヨ韩";
-		 String field = "jobSearchIndex";
-		 try {
-		 List<LuceneSearchJob> ids = getSearchJobId(text, field);
-		 ids.forEach(i -> System.out.println(i.JobSearchIndex));
-		 // System.out.println(id.size());
-		 } catch (IOException e) {
-		 e.printStackTrace();
-		 } catch (ParseException e) {
-		 e.printStackTrace();
-		 }
+//		 String text = "java 鐏荆鍋ヨ韩";
+//		 String field = "jobSearchIndex";
+//		 try {
+//		 List<LuceneSearchJob> ids = getSearchJobId(text, field);
+//		 ids.forEach(i -> System.out.println(i.JobSearchIndex));
+//		 // System.out.println(id.size());
+//		 } catch (IOException e) {
+//		 e.printStackTrace();
+//		 } catch (ParseException e) {
+//		 e.printStackTrace();
+//		 }
 
 	}
 

@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.List;
 
 import org.apache.lucene.queryparser.classic.ParseException;
+import org.junit.Assert;
 import org.junit.Test;
 
 import sspku.util.LuceneSearchJob;
@@ -28,4 +29,21 @@ public class LuceneIndexTest {
 			e.printStackTrace();
 		}
 	}
+	
+	@Test
+	public void testCompanySearch(){
+		String text = "轻松筹";
+		String field = "simpleName";
+		try {
+			List<LuceneSearchJob> ids = LuceneUtil.getSearchJobId(text, field);
+			ids.forEach(i -> System.out.println(i.jobName));
+			Assert.assertTrue(ids.size()>0);
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
 }
