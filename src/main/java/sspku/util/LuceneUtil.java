@@ -3,6 +3,7 @@ package sspku.util;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.apache.lucene.analysis.Analyzer;
@@ -27,6 +28,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.google.common.base.Strings;
 
+import sspku.dao.CompanyWithBLOBs;
 import sspku.dao.JobExample;
 import sspku.dao.JobWithBLOBs;
 import sspku.mapper.JobMapper;
@@ -63,6 +65,26 @@ public class LuceneUtil {
 		}
 		iwriter.close();
 	}
+	
+	public static void createCompanyIndex(List<CompanyWithBLOBs> companys) throws IOException{
+		Directory directory = getDirectory();
+		Analyzer analyzer = new JcsegAnalyzer5X(1);
+		IndexWriterConfig config = new IndexWriterConfig(analyzer);
+		IndexWriter iwriter = new IndexWriter(directory, config);
+		for(CompanyWithBLOBs company:companys){
+			Document doc=new Document();
+			if(!Strings.isNullOrEmpty(company.getName())){
+				doc.add(new Field("simpleName",company.getName(),TextField.TYPE_STORED));
+			}
+			if(!Strings.isNullOrEmpty(company.getAlias())){
+				String alias=String.join(" ",Arrays.asList(company.getAlias().split(",")));
+				doc.add(new Field("alias",alias,TextField.TYPE_STORED));
+			}
+			doc.add(new Field("companyId", company.getId().toString(), StringField.TYPE_STORED));
+			iwriter.addDocument(doc);
+		}
+		iwriter.close();
+	}
 
 	private static Directory getDirectory() throws IOException {
 		if (directory == null) {
@@ -91,7 +113,7 @@ public class LuceneUtil {
 	public static List<LuceneSearchJob> getSearchJobId(String text, String field) throws IOException, ParseException {
 		Analyzer analyzer = new JcsegAnalyzer5X(1);
 		IndexSearcher isearcher = getIndexSearch();
-		// 解析一个简单的查询
+		// 瑙ｆ瀽涓�涓畝鍗曠殑鏌ヨ
 		QueryParser parser = new QueryParser(field, analyzer);
 		Query query = parser.parse(text);
 		ScoreDoc[] hits = isearcher.search(query, 100).scoreDocs;
@@ -120,7 +142,7 @@ public class LuceneUtil {
 	public static void main(String[] args) {
 		
 //		indexJob();
-		 String text = "java 火辣健身";
+		 String text = "java 鐏荆鍋ヨ韩";
 		 String field = "jobSearchIndex";
 		 try {
 		 List<LuceneSearchJob> ids = getSearchJobId(text, field);
