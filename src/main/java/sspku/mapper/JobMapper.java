@@ -25,6 +25,8 @@ public interface JobMapper{
     List<Job> selectByExample(JobExample example);
 
     JobWithBLOBs selectByPrimaryKey(Integer id);
+    
+    Job selectBaseByPrimaryKey(Integer id);
 
     int updateByExampleSelective(@Param("record") JobWithBLOBs record, @Param("example") JobExample example);
 
