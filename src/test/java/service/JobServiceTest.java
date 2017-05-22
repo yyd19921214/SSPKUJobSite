@@ -35,6 +35,13 @@ public class JobServiceTest extends BaseControllerTest {
 		Assert.assertNotNull(job);
 	}
 	
+	@Test
+	public void testSearchJobByText(){
+		String text="java研发";
+		List<Job> res=jobSer.searchJobByText(text);
+		Assert.assertTrue(res.size()>0);
+	}
+	
 
 
 }

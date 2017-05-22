@@ -1,8 +1,10 @@
 package sspku.service;
 
 import java.util.List;
+import java.util.function.Predicate;
 
 import sspku.dao.Job;
+import sspku.dao.JobExample;
 import sspku.dao.JobWithBLOBs;
 
 public interface IJobService {
@@ -43,6 +45,14 @@ public interface IJobService {
 	 * @return
 	 */
 	List<Job> searchJobByText(String text);
+	
+	/**
+	 * search and filter Jobs by text
+	 * @param text
+	 * @param predicat
+	 * @return
+	 */
+	List<Job> searchJobByText(String text,Predicate<Job> predicat);
 	
 
 	

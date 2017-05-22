@@ -6,6 +6,8 @@ public class JobConstant {
 	
 	public static final int defaultCount=100;
 	
+	public static final double thresholdSearch=2.0;
+	
 	public enum JobState {  
 	    HIRING("招聘中", 1), CLOSED("招聘已结束", 0);
 	    private String name;  

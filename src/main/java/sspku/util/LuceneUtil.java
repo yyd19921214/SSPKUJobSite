@@ -40,6 +40,12 @@ public class LuceneUtil {
 	public LuceneUtil() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public static final String COMPANY_SIMPLE_NAME="simpleName";
+	public static final String COMPANY_ALIAS_NAME="alias";
+	public static final String JOB_NAME="jobName";
+	public static final String JOB_SEARCHINDEX="jobSearchIndex";
+	
 
 	private static volatile Directory directory = null;
 	private static volatile IndexSearcher isearcher = null;
@@ -47,6 +53,8 @@ public class LuceneUtil {
 	private static final boolean diskIndex = true;
 
 	private static final String indexPath = "/tmp/luceneIndex";
+	
+	private static final Analyzer analyzer = new JcsegAnalyzer5X(1);
 
 	public static void createJobIndex(List<JobWithBLOBs> jobs) throws IOException {
 		Directory directory = getDirectory();
@@ -57,10 +65,10 @@ public class LuceneUtil {
 		for (JobWithBLOBs job : jobs) {
 			Document doc = new Document();
 			if (!Strings.isNullOrEmpty(job.getName())) {
-				doc.add(new Field("jobName", job.getName(), TextField.TYPE_STORED));
+				doc.add(new Field(JOB_NAME, job.getName(), TextField.TYPE_STORED));
 			}
 			if (!Strings.isNullOrEmpty(job.getSearchindex())) {
-				doc.add(new Field("jobSearchIndex", job.getSearchindex(), TextField.TYPE_STORED));
+				doc.add(new Field(JOB_SEARCHINDEX, job.getSearchindex(), TextField.TYPE_STORED));
 			}
 			doc.add(new Field("jobId", job.getId().toString(), StringField.TYPE_STORED));
 			iwriter.addDocument(doc);
@@ -76,11 +84,11 @@ public class LuceneUtil {
 		for(CompanyWithBLOBs company:companys){
 			Document doc=new Document();
 			if(!Strings.isNullOrEmpty(company.getName())){
-				doc.add(new Field("simpleName",company.getName(),TextField.TYPE_STORED));
+				doc.add(new Field(COMPANY_SIMPLE_NAME,company.getName(),TextField.TYPE_STORED));
 			}
 			if(!Strings.isNullOrEmpty(company.getAlias())){
 				String alias=String.join(" ",Arrays.asList(company.getAlias().split(",")));
-				doc.add(new Field("alias",alias,TextField.TYPE_STORED));
+				doc.add(new Field(COMPANY_ALIAS_NAME,alias,TextField.TYPE_STORED));
 			}
 			doc.add(new Field("companyId", company.getId().toString(), StringField.TYPE_STORED));
 			iwriter.addDocument(doc);
@@ -112,8 +120,7 @@ public class LuceneUtil {
 		return isearcher;
 	}
 
-	public static List<LuceneSearchJob> getSearchJobId(String text, String field) throws IOException, ParseException {
-		Analyzer analyzer = new JcsegAnalyzer5X(1);
+	public static List<LuceneSearchJob> getSearchJob(String text, String field) throws IOException, ParseException {
 		IndexSearcher isearcher = getIndexSearch();
 		QueryParser parser = new QueryParser(field, analyzer);
 		Query query = parser.parse(text);
@@ -128,7 +135,6 @@ public class LuceneUtil {
 	}
 	
 	public static List<LuceneSearchCompany> getSearchCompany(String text, String field) throws IOException, ParseException {
-		Analyzer analyzer = new JcsegAnalyzer5X(1);
 		IndexSearcher isearcher = getIndexSearch();
 		QueryParser parser = new QueryParser(field, analyzer);
 		Query query = parser.parse(text);

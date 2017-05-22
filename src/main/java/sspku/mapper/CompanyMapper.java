@@ -25,6 +25,8 @@ public interface CompanyMapper {
     List<Company> selectByExample(CompanyExample example);
 
     CompanyWithBLOBs selectByPrimaryKey(Integer id);
+    
+    Company selectBaseByPrimaryKey(Integer id);
 
     int updateByExampleSelective(@Param("record") CompanyWithBLOBs record, @Param("example") CompanyExample example);
 
