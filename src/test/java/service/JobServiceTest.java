@@ -12,6 +12,7 @@ import sspku.dao.JobWithBLOBs;
 import sspku.service.impl.JobService;
 
 public class JobServiceTest extends BaseControllerTest {
+	
 
 	@Autowired
 	private JobService jobSer;

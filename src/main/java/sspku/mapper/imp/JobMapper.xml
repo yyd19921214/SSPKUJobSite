@@ -30,6 +30,7 @@
 		<result column="remark" property="remark" jdbcType="LONGVARCHAR" />
 		<result column="searchIndex" property="searchindex" jdbcType="LONGVARCHAR" />
 	</resultMap>
+	
 	<sql id="Example_Where_Clause">
 		<where>
 			<foreach collection="oredCriteria" item="criteria" separator="or">
@@ -146,6 +147,7 @@
 			limit #{start},#{limit}
 		</if>
 	</select>
+	
 	<select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs"
 		parameterType="java.lang.Integer">
 		select

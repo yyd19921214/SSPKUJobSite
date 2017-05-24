@@ -7,6 +7,8 @@ import java.util.stream.Collectors;
 
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Service;
 
 import sspku.dao.Job;
@@ -17,6 +19,7 @@ import sspku.service.IJobService;
 import sspku.util.JobConstant;
 import sspku.util.JobConstant.JobState;
 import sspku.util.LuceneUtil;
+import sspku.util.RedisClient;
 
 @Service
 public class JobService implements IJobService {
@@ -74,14 +77,11 @@ public class JobService implements IJobService {
 		}
 		return null;
 	}
-	
+
 	@Override
 	public List<Job> searchJobByText(String text, Predicate<Job> predicat) {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
-	
-	
 
 }
