@@ -60,6 +60,13 @@
 			<version>2.3.2</version>
 		</dependency>
 		<!-- mybatis end -->
+		
+		<!-- json -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.1.15</version>
+		</dependency>
 
 		<!-- spring4 start -->
 		<dependency>
@@ -205,6 +212,7 @@
 			<artifactId>spring-data-redis</artifactId>
 			<version>1.8.3.RELEASE</version>
 		</dependency>
+
 	</dependencies>
 
 	<build>

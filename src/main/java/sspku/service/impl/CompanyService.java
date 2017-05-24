@@ -8,17 +8,24 @@ import org.apache.lucene.queryparser.classic.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+
 import sspku.dao.Company;
 import sspku.mapper.CompanyMapper;
 import sspku.service.ICompanyService;
 import sspku.util.CompanyConstant;
+import sspku.util.LuceneSearchCompany;
 import sspku.util.LuceneUtil;
+import sspku.util.RedisClient;
 
 @Service
 public class CompanyService implements ICompanyService {
 
 	@Autowired
 	private CompanyMapper companyMap;
+	@Autowired
+	private RedisClient redisUtil;
 
 	public void setCompanyMap(CompanyMapper companyMap) {
 		this.companyMap = companyMap;
@@ -37,13 +44,12 @@ public class CompanyService implements ICompanyService {
 
 	@Override
 	public List<Company> listCompanyByName(String name) {
-		try {
-			List<Company> companys = LuceneUtil.getSearchCompany(name, LuceneUtil.COMPANY_SIMPLE_NAME).parallelStream()
-					.filter(i -> i.score > CompanyConstant.thresholdSearch)
-					.map(i -> companyMap.selectBaseByPrimaryKey(Integer.valueOf(i.companyId))).collect(Collectors.toList());
+		List<LuceneSearchCompany> list = getLuceneCompany(name);
+		if (list != null) {
+			List<Company> companys = list.parallelStream().filter(i -> i.score > CompanyConstant.thresholdSearch)
+					.map(i -> companyMap.selectBaseByPrimaryKey(Integer.valueOf(i.companyId)))
+					.collect(Collectors.toList());
 			return companys;
-		} catch (NumberFormatException | IOException | ParseException e) {
-			e.printStackTrace();
 		}
 		return null;
 	}
@@ -52,6 +58,22 @@ public class CompanyService implements ICompanyService {
 	public int updateCompany(Company company) {
 		// TODO Auto-generated method stub
 		return 0;
+	}
+
+	private List<LuceneSearchCompany> getLuceneCompany(String text) {
+		List<LuceneSearchCompany> list = null;
+		if (CompanyConstant.USE_CACHE && redisUtil.existsKey(text)) {
+			list = JSONObject.parseArray(redisUtil.get(text), LuceneSearchCompany.class);
+		} else {
+			try {
+				list = LuceneUtil.getSearchCompany(text, LuceneUtil.COMPANY_SIMPLE_NAME);
+				if (CompanyConstant.USE_CACHE)
+					redisUtil.set(text, JSON.toJSONString(list));
+			} catch (IOException | ParseException e) {
+				e.printStackTrace();
+			}
+		}
+		return list;
 	}
 
 }
