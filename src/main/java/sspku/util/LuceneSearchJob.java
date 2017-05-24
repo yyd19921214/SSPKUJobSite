@@ -5,6 +5,7 @@ public  class LuceneSearchJob{
 	public String jobName;
 	public String JobSearchIndex;
 	public double score;
+	
 	public LuceneSearchJob(String joobId, String jobName, String jobSearchIndex, double score) {
 		super();
 		this.joobId = joobId;
@@ -12,4 +13,9 @@ public  class LuceneSearchJob{
 		JobSearchIndex = jobSearchIndex;
 		this.score = score;
 	}
+	public LuceneSearchJob() {
+		super();
+	}
+	
+	
 }

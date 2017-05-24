@@ -1,6 +1,7 @@
 package service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -19,7 +20,7 @@ public class JobServiceTest extends BaseControllerTest {
 	public void setJobSer(JobService jobSer) {
 		this.jobSer = jobSer;
 	}
-	
+
 	@Test
 	public void testListLatestJob() {
 		String city = "成都";
@@ -27,21 +28,26 @@ public class JobServiceTest extends BaseControllerTest {
 		List<Job> res = jobSer.listLatestJob(count, city, 1);
 		Assert.assertTrue(res.size() == count);
 	}
-	
+
 	@Test
-	public void testGetDetail(){
-		Integer id=1;
-		JobWithBLOBs job=jobSer.getJobDetails(id);
+	public void testGetDetail() {
+		Integer id = 1;
+		JobWithBLOBs job = jobSer.getJobDetails(id);
 		Assert.assertNotNull(job);
 	}
-	
-	@Test
-	public void testSearchJobByText(){
-		String text="java研发";
-		List<Job> res=jobSer.searchJobByText(text);
-		Assert.assertTrue(res.size()>0);
-	}
-	
 
+	@Test
+	public void testSearchJobByText() {
+		String text = "java研发";
+		List<Job> res = jobSer.searchJobByText(text);
+		Assert.assertTrue(res.size() > 0);
+	}
+
+	@Test
+	public void testSearchJobByTextPredicte() {
+		String text = "java研发";
+		List<Job> res = jobSer.searchJobByText(text, j -> j.getCity().equals("北京"));
+		Assert.assertTrue(res.size() > 0);
+	}
 
 }

@@ -15,6 +15,13 @@ public class LuceneSearchCompany {
 		this.score=score;
 	}
 
+	public LuceneSearchCompany() {
+		super();
+	}
+	
+	
+	
+
 
 
 }

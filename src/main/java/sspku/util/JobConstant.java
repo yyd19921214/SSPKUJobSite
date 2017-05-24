@@ -8,6 +8,8 @@ public class JobConstant {
 	
 	public static final double thresholdSearch=2.0;
 	
+	public static final boolean USE_CACHE=true;
+	
 	public enum JobState {  
 	    HIRING("招聘中", 1), CLOSED("招聘已结束", 0);
 	    private String name;  
