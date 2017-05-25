@@ -135,4 +135,12 @@ public class JobService implements IJobService {
 		return searchList;
 	}
 
+	@Override
+	public List<Job> getSimilarJobs(Job job) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
 }

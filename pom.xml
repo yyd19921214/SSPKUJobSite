@@ -60,7 +60,7 @@
 			<version>2.3.2</version>
 		</dependency>
 		<!-- mybatis end -->
-		
+
 		<!-- json -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
@@ -211,6 +211,12 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-redis</artifactId>
 			<version>1.8.3.RELEASE</version>
+		</dependency>
+		<!-- mockit -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.9.5</version>
 		</dependency>
 
 	</dependencies>
