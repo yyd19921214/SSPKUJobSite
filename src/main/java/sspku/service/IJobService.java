@@ -74,6 +74,13 @@ public interface IJobService {
 	 */
 	List<Job> filterJobs(List<Job> jobs,Predicate<Job> predicate,Comparator<Job> comparator);
 	
+	/**
+	 * get similar job of certain job
+	 * @param job
+	 * @return
+	 */
+	List<Job> getSimilarJobs(Job job);
+	
 
 	
 	
