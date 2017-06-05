@@ -17,15 +17,13 @@ import sspku.service.ICompanyService;
 import sspku.util.CompanyConstant;
 import sspku.util.LuceneSearchCompany;
 import sspku.util.LuceneUtil;
-import sspku.util.RedisClient;
+import sspku.util.RedisUtil;
 
 @Service
 public class CompanyService implements ICompanyService {
 
 	@Autowired
 	private CompanyMapper companyMap;
-	@Autowired
-	private RedisClient redisUtil;
 
 	public void setCompanyMap(CompanyMapper companyMap) {
 		this.companyMap = companyMap;
@@ -62,13 +60,13 @@ public class CompanyService implements ICompanyService {
 
 	private List<LuceneSearchCompany> getLuceneCompany(String text) {
 		List<LuceneSearchCompany> list = null;
-		if (CompanyConstant.USE_CACHE && redisUtil.existsKey(text)) {
-			list = JSONObject.parseArray(redisUtil.get(text), LuceneSearchCompany.class);
+		if (CompanyConstant.USE_CACHE && RedisUtil.existsKey(text)) {
+			list = JSONObject.parseArray(RedisUtil.getString(text), LuceneSearchCompany.class);
 		} else {
 			try {
 				list = LuceneUtil.getSearchCompany(text, LuceneUtil.COMPANY_SIMPLE_NAME);
 				if (CompanyConstant.USE_CACHE)
-					redisUtil.set(text, JSON.toJSONString(list));
+					RedisUtil.setString(text, JSON.toJSONString(list));
 			} catch (IOException | ParseException e) {
 				e.printStackTrace();
 			}

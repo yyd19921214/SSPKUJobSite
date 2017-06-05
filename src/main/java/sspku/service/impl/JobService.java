@@ -22,7 +22,7 @@ import sspku.util.JobConstant;
 import sspku.util.JobConstant.JobState;
 import sspku.util.LuceneSearchJob;
 import sspku.util.LuceneUtil;
-import sspku.util.RedisClient;
+import sspku.util.RedisUtil;
 
 @Service
 public class JobService implements IJobService {
@@ -31,8 +31,6 @@ public class JobService implements IJobService {
 	// state=1(招聘尚未结束)利用AOP?
 	@Autowired
 	private JobMapper jobMapper;
-	@Autowired
-	private RedisClient redisUtil;
 
 	public void setJobMapper(JobMapper jobMapper) {
 		this.jobMapper = jobMapper;
@@ -121,13 +119,13 @@ public class JobService implements IJobService {
 
 	private List<LuceneSearchJob> getLuceneJob(String text) {
 		List<LuceneSearchJob> searchList = null;
-		if (JobConstant.USE_CACHE && redisUtil.existsKey(text)) {
-			searchList = JSONObject.parseArray(redisUtil.get(text), LuceneSearchJob.class);
+		if (JobConstant.USE_CACHE && RedisUtil.existsKey(text)) {
+			searchList = JSONObject.parseArray(RedisUtil.getString(text), LuceneSearchJob.class);
 		} else {
 			try {
 				searchList = LuceneUtil.getSearchJob(text, LuceneUtil.JOB_SEARCHINDEX);
 				if (JobConstant.USE_CACHE)
-					redisUtil.set(text, JSON.toJSONString(searchList));
+					RedisUtil.setString(text, JSON.toJSONString(searchList));
 			} catch (IOException | ParseException e) {
 				e.printStackTrace();
 			}
