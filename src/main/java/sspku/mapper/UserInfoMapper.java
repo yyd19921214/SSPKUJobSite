@@ -15,6 +15,8 @@ public interface UserInfoMapper {
     int deleteByExample(UserInfoExample example);
 
     int deleteByPrimaryKey(Integer userid);
+    
+    int insertBase(UserInfo record);
 
     int insert(UserInfoWithBLOBs record);
 
@@ -25,6 +27,8 @@ public interface UserInfoMapper {
     List<UserInfo> selectByExample(UserInfoExample example);
 
     UserInfoWithBLOBs selectByPrimaryKey(Integer userid);
+    
+    List<UserInfo> selectByUserName(String userName);
 
     int updateByExampleSelective(@Param("record") UserInfoWithBLOBs record, @Param("example") UserInfoExample example);
 
