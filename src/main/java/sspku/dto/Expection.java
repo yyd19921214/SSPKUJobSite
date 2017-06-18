@@ -9,7 +9,7 @@ package sspku.dto;
 public class Expection {
 
 	public String expJob;
-	public int jobType;// 工作类型(全职 or 兼职)
+	public Integer jobType;// 工作类型(全职 or 兼职)
 	public String expCity;
 	public Integer expMinSalary;
 	public Integer expMaxSalary;
@@ -19,7 +19,7 @@ public class Expection {
 		super();
 	}
 	
-	public Expection(String expJob, int jobType, String expCity, Integer expMinSalary, Integer expMaxSalary,
+	public Expection(String expJob, Integer jobType, String expCity, Integer expMinSalary, Integer expMaxSalary,
 			String otherRequire) {
 		super();
 		this.expJob = expJob;
@@ -38,11 +38,11 @@ public class Expection {
 		this.expJob = expJob;
 	}
 
-	public int getJobType() {
+	public Integer getJobType() {
 		return jobType;
 	}
 
-	public void setJobType(int jobType) {
+	public void setJobType(Integer jobType) {
 		this.jobType = jobType;
 	}
 
