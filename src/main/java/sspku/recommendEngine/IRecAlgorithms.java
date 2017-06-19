@@ -1,9 +1,7 @@
 package sspku.recommendEngine;
 
-import java.util.Collection;
+import java.util.Map;
 
 public interface IRecAlgorithms {
-	
-	Collection<String> predict();
-
+	Map<String,Double> predict(int userId, int topNum);
 }

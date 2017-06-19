@@ -1,6 +1,5 @@
 package base;
 
-
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,12 +13,12 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
-@ContextConfiguration(locations = { "classpath:spring.xml","classpath:spring-mybatis.xml","classpath:spring-mvc.xml" })
+@ContextConfiguration(locations = { "classpath:spring.xml", "classpath:spring-mybatis.xml",
+		"classpath:spring-mvc.xml" })
 public class BaseControllerTest {
-	protected MockHttpServletRequest  request;
+	protected MockHttpServletRequest request;
 	protected MockHttpSession session;
 	protected MockHttpServletResponse response;
 	protected MockMvc mockMvc;
@@ -31,10 +30,6 @@ public class BaseControllerTest {
 		request = new MockHttpServletRequest();
 		response = new MockHttpServletResponse();
 		session = new MockHttpSession();
-
 		mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
-
-
 	}
 }
-

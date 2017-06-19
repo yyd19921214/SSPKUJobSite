@@ -14,13 +14,10 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
 ">
 	<aop:aspectj-autoproxy />
 	<context:property-placeholder location="classpath:config.properties" />
-
 	<!-- 自动扫描(自动注入) -->
 	<context:component-scan base-package="sspku.service" />
 	<context:component-scan base-package="sspku.controller" />
 	<context:component-scan base-package="sspku.util" />
-	<!-- <context:component-scan base-package="sspku.aop" /> -->
-
-
-
+	<context:component-scan base-package="sspku.recommendEngine" />
+	
 </beans>

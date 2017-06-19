@@ -1,19 +1,13 @@
 package sspku.service.impl;
 
-import java.io.IOException;
 import java.util.List;
 
 import org.apache.commons.collections.CollectionUtils;
-import org.codehaus.jackson.JsonParseException;
-import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.alibaba.fastjson.JSON;
 
-import core.ajaxResult.ErrorCode;
-import core.ajaxResult.Result;
 import sspku.dao.UserInfo;
 import sspku.dao.UserInfoWithBLOBs;
 import sspku.dto.BasicInfo;
@@ -30,12 +24,10 @@ public class UserInfoService implements IUserInfoService {
 	@Autowired
 	private UserInfoMapper userMapper;
 
-	private ObjectMapper objectMapper = new ObjectMapper();
-
 	@Override
 	public UserInfo login(String userName, String passwd) {
-		List<UserInfo> user=userMapper.selectByUserName(userName);
-		if(user.get(0).getPasswd().equals(passwd)){
+		List<UserInfo> user = userMapper.selectByUserName(userName);
+		if (user.get(0).getPasswd().equals(passwd)) {
 			return user.get(0);
 		}
 		return null;
@@ -43,8 +35,8 @@ public class UserInfoService implements IUserInfoService {
 
 	@Override
 	public UserInfo register(UserInfo user) {
-		List<UserInfo> users=userMapper.selectByUserName(user.getUsername());
-		if(!CollectionUtils.isEmpty(users)){
+		List<UserInfo> users = userMapper.selectByUserName(user.getUsername());
+		if (!CollectionUtils.isEmpty(users)) {
 			return null;
 		}
 		userMapper.insertBase(user);
@@ -53,11 +45,10 @@ public class UserInfoService implements IUserInfoService {
 
 	@Override
 	public Boolean changePasswd(String nickName, String oldPasswd, String newPasswd) {
-		List<UserInfo> users=userMapper.selectByUserName(nickName);
-		if(!users.get(0).getPasswd().equals(oldPasswd)){
+		List<UserInfo> users = userMapper.selectByUserName(nickName);
+		if (!users.get(0).getPasswd().equals(oldPasswd)) {
 			return false;
-		}
-		else{
+		} else {
 			users.get(0).setPasswd(newPasswd);
 			userMapper.updateByPrimaryKey(users.get(0));
 			return true;
@@ -141,7 +132,7 @@ public class UserInfoService implements IUserInfoService {
 	@Override
 	public List<Expection> dispExpection(int id) {
 		UserInfoWithBLOBs user = userMapper.selectByPrimaryKey(id);
-		if (user.getExpection()!= null) {
+		if (user.getExpection() != null) {
 			List<Expection> workExp = JSON.parseArray(user.getExpection(), Expection.class);
 			return workExp;
 		}
