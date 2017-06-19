@@ -52,7 +52,7 @@ public class LuceneUtil {
 
 	private static final boolean diskIndex = true;
 
-	private static final String indexPath = "/tmp/luceneIndex";
+	private static final String indexPath = "/data/luceneIndex";
 	
 	private static final Analyzer analyzer = new JcsegAnalyzer5X(1);
 
@@ -175,8 +175,8 @@ public class LuceneUtil {
 	}
 
 	public static void main(String[] args) {
-		indexCompany();
-//		indexJob();
+//		indexCompany();
+		indexJob();
 //		 String text = "java 鐏荆鍋ヨ韩";
 //		 String field = "jobSearchIndex";
 //		 try {

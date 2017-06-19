@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="sspku.mapper.UserInfoMapper">
+	<resultMap id="BaseResultMap" type="sspku.dao.UserInfo">
+		<id column="userId" property="userid" jdbcType="INTEGER" />
+		<result column="userName" property="username" jdbcType="VARCHAR" />
+		<result column="passwd" property="passwd" jdbcType="VARCHAR" />
+		<result column="email" property="email" jdbcType="VARCHAR" />
+		<result column="phone" property="phone" jdbcType="VARCHAR" />
+		<result column="skill" property="skill" jdbcType="VARCHAR" />
+		<result column="resumeLink" property="resumelink" jdbcType="VARCHAR" />
+	</resultMap>
+	<resultMap id="ResultMapWithBLOBs" type="sspku.dao.UserInfoWithBLOBs"
+		extends="BaseResultMap">
+		<result column="basicInfo" property="basicinfo" jdbcType="LONGVARCHAR" />
+		<result column="workExp" property="workexp" jdbcType="LONGVARCHAR" />
+		<result column="eduExp" property="eduexp" jdbcType="LONGVARCHAR" />
+		<result column="projectExp" property="projectexp" jdbcType="LONGVARCHAR" />
+		<result column="expection" property="expection" jdbcType="LONGVARCHAR" />
+		<result column="selfDesc" property="selfdesc" jdbcType="LONGVARCHAR" />
+		<result column="message" property="message" jdbcType="LONGVARCHAR" />
+		<result column="searchIndex" property="searchindex" jdbcType="LONGVARCHAR" />
+		<result column="remark" property="remark" jdbcType="LONGVARCHAR" />
+	</resultMap>
+	<sql id="Example_Where_Clause">
+		<where>
+			<foreach collection="oredCriteria" item="criteria" separator="or">
+				<if test="criteria.valid">
+					<trim prefix="(" suffix=")" prefixOverrides="and">
+						<foreach collection="criteria.criteria" item="criterion">
+							<choose>
+								<when test="criterion.noValue">
+									and ${criterion.condition}
+								</when>
+								<when test="criterion.singleValue">
+									and ${criterion.condition} #{criterion.value}
+								</when>
+								<when test="criterion.betweenValue">
+									and ${criterion.condition} #{criterion.value}
+									and
+									#{criterion.secondValue}
+								</when>
+								<when test="criterion.listValue">
+									and ${criterion.condition}
+									<foreach collection="criterion.value" item="listItem"
+										open="(" close=")" separator=",">
+										#{listItem}
+									</foreach>
+								</when>
+							</choose>
+						</foreach>
+					</trim>
+				</if>
+			</foreach>
+		</where>
+	</sql>
+	<sql id="Update_By_Example_Where_Clause">
+		<where>
+			<foreach collection="example.oredCriteria" item="criteria"
+				separator="or">
+				<if test="criteria.valid">
+					<trim prefix="(" suffix=")" prefixOverrides="and">
+						<foreach collection="criteria.criteria" item="criterion">
+							<choose>
+								<when test="criterion.noValue">
+									and ${criterion.condition}
+								</when>
+								<when test="criterion.singleValue">
+									and ${criterion.condition} #{criterion.value}
+								</when>
+								<when test="criterion.betweenValue">
+									and ${criterion.condition} #{criterion.value}
+									and
+									#{criterion.secondValue}
+								</when>
+								<when test="criterion.listValue">
+									and ${criterion.condition}
+									<foreach collection="criterion.value" item="listItem"
+										open="(" close=")" separator=",">
+										#{listItem}
+									</foreach>
+								</when>
+							</choose>
+						</foreach>
+					</trim>
+				</if>
+			</foreach>
+		</where>
+	</sql>
+	<sql id="Base_Column_List">
+		userId, userName, passwd, email, phone, skill, resumeLink
+	</sql>
+	<sql id="Blob_Column_List">
+		basicInfo, workExp, eduExp, projectExp, expection,
+		selfDesc, message,
+		searchIndex,
+		remark
+	</sql>
+	<select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs"
+		parameterType="sspku.dao.UserInfoExample">
+		select
+		<if test="distinct">
+			distinct
+		</if>
+		'true' as QUERYID,
+		<include refid="Base_Column_List" />
+		,
+		<include refid="Blob_Column_List" />
+		from userinfo
+		<if test="_parameter != null">
+			<include refid="Example_Where_Clause" />
+		</if>
+		<if test="orderByClause != null">
+			order by ${orderByClause}
+		</if>
+	</select>
+	<select id="selectByExample" resultMap="BaseResultMap"
+		parameterType="sspku.dao.UserInfoExample">
+		select
+		<if test="distinct">
+			distinct
+		</if>
+		'true' as QUERYID,
+		<include refid="Base_Column_List" />
+		from userinfo
+		<if test="_parameter != null">
+			<include refid="Example_Where_Clause" />
+		</if>
+		<if test="orderByClause != null">
+			order by ${orderByClause}
+		</if>
+	</select>
+	<select id="selectByUserName" resultMap="BaseResultMap"
+		parameterType="java.lang.String">
+		select
+		<include refid="Base_Column_List" />
+		from userinfo
+		where userName=#{userName,jdbcType=VARCHAR}
+	</select>
+	<select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs"
+		parameterType="java.lang.Integer">
+		select
+		<include refid="Base_Column_List" />
+		,
+		<include refid="Blob_Column_List" />
+		from userinfo
+		where userId = #{userid,jdbcType=INTEGER}
+	</select>
+	<delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+		delete from
+		userinfo
+		where userId = #{userid,jdbcType=INTEGER}
+	</delete>
+	<delete id="deleteByExample" parameterType="sspku.dao.UserInfoExample">
+		delete from userinfo
+		<if test="_parameter != null">
+			<include refid="Example_Where_Clause" />
+		</if>
+	</delete>
+	<insert id="insert" parameterType="sspku.dao.UserInfoWithBLOBs">
+		insert into userinfo (userId,
+		userName, passwd,
+		email, phone, skill,
+		resumeLink, basicInfo, workExp,
+		eduExp, projectExp, expection,
+		selfDesc, message, searchIndex,
+		remark)
+		values (#{userid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR},
+		#{passwd,jdbcType=VARCHAR},
+		#{email,jdbcType=VARCHAR},
+		#{phone,jdbcType=VARCHAR}, #{skill,jdbcType=VARCHAR},
+		#{resumelink,jdbcType=VARCHAR}, #{basicinfo,jdbcType=LONGVARCHAR},
+		#{workexp,jdbcType=LONGVARCHAR},
+		#{eduexp,jdbcType=LONGVARCHAR},
+		#{projectexp,jdbcType=LONGVARCHAR},
+		#{expection,jdbcType=LONGVARCHAR},
+		#{selfdesc,jdbcType=LONGVARCHAR}, #{message,jdbcType=LONGVARCHAR},
+		#{searchindex,jdbcType=LONGVARCHAR},
+		#{remark,jdbcType=LONGVARCHAR})
+	</insert>
+	<insert id="insertBase" parameterType="sspku.dao.UserInfo">
+		insert into userinfo (userId, userName, passwd,
+		email, phone, skill,
+		resumeLink)
+		values (#{userid,jdbcType=INTEGER},
+		#{username,jdbcType=VARCHAR},
+		#{passwd,jdbcType=VARCHAR},
+		#{email,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR},
+		#{skill,jdbcType=VARCHAR},
+		#{resumelink,jdbcType=VARCHAR})
+	</insert>
+	<insert id="insertSelective" parameterType="sspku.dao.UserInfoWithBLOBs">
+		insert into userinfo
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="userid != null">
+				userId,
+			</if>
+			<if test="username != null">
+				userName,
+			</if>
+			<if test="passwd != null">
+				passwd,
+			</if>
+			<if test="email != null">
+				email,
+			</if>
+			<if test="phone != null">
+				phone,
+			</if>
+			<if test="skill != null">
+				skill,
+			</if>
+			<if test="resumelink != null">
+				resumeLink,
+			</if>
+			<if test="basicinfo != null">
+				basicInfo,
+			</if>
+			<if test="workexp != null">
+				workExp,
+			</if>
+			<if test="eduexp != null">
+				eduExp,
+			</if>
+			<if test="projectexp != null">
+				projectExp,
+			</if>
+			<if test="expection != null">
+				expection,
+			</if>
+			<if test="selfdesc != null">
+				selfDesc,
+			</if>
+			<if test="message != null">
+				message,
+			</if>
+			<if test="searchindex != null">
+				searchIndex,
+			</if>
+			<if test="remark != null">
+				remark,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="userid != null">
+				#{userid,jdbcType=INTEGER},
+			</if>
+			<if test="username != null">
+				#{username,jdbcType=VARCHAR},
+			</if>
+			<if test="passwd != null">
+				#{passwd,jdbcType=VARCHAR},
+			</if>
+			<if test="email != null">
+				#{email,jdbcType=VARCHAR},
+			</if>
+			<if test="phone != null">
+				#{phone,jdbcType=VARCHAR},
+			</if>
+			<if test="skill != null">
+				#{skill,jdbcType=VARCHAR},
+			</if>
+			<if test="resumelink != null">
+				#{resumelink,jdbcType=VARCHAR},
+			</if>
+			<if test="basicinfo != null">
+				#{basicinfo,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="workexp != null">
+				#{workexp,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="eduexp != null">
+				#{eduexp,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="projectexp != null">
+				#{projectexp,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="expection != null">
+				#{expection,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="selfdesc != null">
+				#{selfdesc,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="message != null">
+				#{message,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="searchindex != null">
+				#{searchindex,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="remark != null">
+				#{remark,jdbcType=LONGVARCHAR},
+			</if>
+		</trim>
+	</insert>
+	<select id="countByExample" parameterType="sspku.dao.UserInfoExample"
+		resultType="java.lang.Integer">
+		select count(*) from userinfo
+		<if test="_parameter != null">
+			<include refid="Example_Where_Clause" />
+		</if>
+	</select>
+	<update id="updateByExampleSelective" parameterType="map">
+		update userinfo
+		<set>
+			<if test="record.userid != null">
+				userId = #{record.userid,jdbcType=INTEGER},
+			</if>
+			<if test="record.username != null">
+				userName = #{record.username,jdbcType=VARCHAR},
+			</if>
+			<if test="record.passwd != null">
+				passwd = #{record.passwd,jdbcType=VARCHAR},
+			</if>
+			<if test="record.email != null">
+				email = #{record.email,jdbcType=VARCHAR},
+			</if>
+			<if test="record.phone != null">
+				phone = #{record.phone,jdbcType=VARCHAR},
+			</if>
+			<if test="record.skill != null">
+				skill = #{record.skill,jdbcType=VARCHAR},
+			</if>
+			<if test="record.resumelink != null">
+				resumeLink = #{record.resumelink,jdbcType=VARCHAR},
+			</if>
+			<if test="record.basicinfo != null">
+				basicInfo = #{record.basicinfo,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="record.workexp != null">
+				workExp = #{record.workexp,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="record.eduexp != null">
+				eduExp = #{record.eduexp,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="record.projectexp != null">
+				projectExp = #{record.projectexp,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="record.expection != null">
+				expection = #{record.expection,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="record.selfdesc != null">
+				selfDesc = #{record.selfdesc,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="record.message != null">
+				message = #{record.message,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="record.searchindex != null">
+				searchIndex = #{record.searchindex,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="record.remark != null">
+				remark = #{record.remark,jdbcType=LONGVARCHAR},
+			</if>
+		</set>
+		<if test="_parameter != null">
+			<include refid="Update_By_Example_Where_Clause" />
+		</if>
+	</update>
+	<update id="updateByExampleWithBLOBs" parameterType="map">
+		update userinfo
+		set userId = #{record.userid,jdbcType=INTEGER},
+		userName = #{record.username,jdbcType=VARCHAR},
+		passwd =
+		#{record.passwd,jdbcType=VARCHAR},
+		email =
+		#{record.email,jdbcType=VARCHAR},
+		phone =
+		#{record.phone,jdbcType=VARCHAR},
+		skill =
+		#{record.skill,jdbcType=VARCHAR},
+		resumeLink =
+		#{record.resumelink,jdbcType=VARCHAR},
+		basicInfo =
+		#{record.basicinfo,jdbcType=LONGVARCHAR},
+		workExp =
+		#{record.workexp,jdbcType=LONGVARCHAR},
+		eduExp =
+		#{record.eduexp,jdbcType=LONGVARCHAR},
+		projectExp =
+		#{record.projectexp,jdbcType=LONGVARCHAR},
+		expection =
+		#{record.expection,jdbcType=LONGVARCHAR},
+		selfDesc =
+		#{record.selfdesc,jdbcType=LONGVARCHAR},
+		message =
+		#{record.message,jdbcType=LONGVARCHAR},
+		searchIndex =
+		#{record.searchindex,jdbcType=LONGVARCHAR},
+		remark =
+		#{record.remark,jdbcType=LONGVARCHAR}
+		<if test="_parameter != null">
+			<include refid="Update_By_Example_Where_Clause" />
+		</if>
+	</update>
+	<update id="updateByExample" parameterType="map">
+		update userinfo
+		set userId = #{record.userid,jdbcType=INTEGER},
+		userName = #{record.username,jdbcType=VARCHAR},
+		passwd =
+		#{record.passwd,jdbcType=VARCHAR},
+		email =
+		#{record.email,jdbcType=VARCHAR},
+		phone =
+		#{record.phone,jdbcType=VARCHAR},
+		skill =
+		#{record.skill,jdbcType=VARCHAR},
+		resumeLink =
+		#{record.resumelink,jdbcType=VARCHAR}
+		<if test="_parameter != null">
+			<include refid="Update_By_Example_Where_Clause" />
+		</if>
+	</update>
+	<update id="updateByPrimaryKeySelective" parameterType="sspku.dao.UserInfoWithBLOBs">
+		update userinfo
+		<set>
+			<if test="username != null">
+				userName = #{username,jdbcType=VARCHAR},
+			</if>
+			<if test="passwd != null">
+				passwd = #{passwd,jdbcType=VARCHAR},
+			</if>
+			<if test="email != null">
+				email = #{email,jdbcType=VARCHAR},
+			</if>
+			<if test="phone != null">
+				phone = #{phone,jdbcType=VARCHAR},
+			</if>
+			<if test="skill != null">
+				skill = #{skill,jdbcType=VARCHAR},
+			</if>
+			<if test="resumelink != null">
+				resumeLink = #{resumelink,jdbcType=VARCHAR},
+			</if>
+			<if test="basicinfo != null">
+				basicInfo = #{basicinfo,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="workexp != null">
+				workExp = #{workexp,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="eduexp != null">
+				eduExp = #{eduexp,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="projectexp != null">
+				projectExp = #{projectexp,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="expection != null">
+				expection = #{expection,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="selfdesc != null">
+				selfDesc = #{selfdesc,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="message != null">
+				message = #{message,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="searchindex != null">
+				searchIndex = #{searchindex,jdbcType=LONGVARCHAR},
+			</if>
+			<if test="remark != null">
+				remark = #{remark,jdbcType=LONGVARCHAR},
+			</if>
+		</set>
+		where userId = #{userid,jdbcType=INTEGER}
+	</update>
+	<update id="updateByPrimaryKeyWithBLOBs" parameterType="sspku.dao.UserInfoWithBLOBs">
+		update
+		userinfo
+		set userName = #{username,jdbcType=VARCHAR},
+		passwd =
+		#{passwd,jdbcType=VARCHAR},
+		email = #{email,jdbcType=VARCHAR},
+		phone =
+		#{phone,jdbcType=VARCHAR},
+		skill = #{skill,jdbcType=VARCHAR},
+		resumeLink = #{resumelink,jdbcType=VARCHAR},
+		basicInfo =
+		#{basicinfo,jdbcType=LONGVARCHAR},
+		workExp =
+		#{workexp,jdbcType=LONGVARCHAR},
+		eduExp =
+		#{eduexp,jdbcType=LONGVARCHAR},
+		projectExp =
+		#{projectexp,jdbcType=LONGVARCHAR},
+		expection =
+		#{expection,jdbcType=LONGVARCHAR},
+		selfDesc =
+		#{selfdesc,jdbcType=LONGVARCHAR},
+		message =
+		#{message,jdbcType=LONGVARCHAR},
+		searchIndex =
+		#{searchindex,jdbcType=LONGVARCHAR},
+		remark =
+		#{remark,jdbcType=LONGVARCHAR}
+		where userId =
+		#{userid,jdbcType=INTEGER}
+	</update>
+	<update id="updateByPrimaryKey" parameterType="sspku.dao.UserInfo">
+		update userinfo
+		set userName = #{username,jdbcType=VARCHAR},
+		passwd =
+		#{passwd,jdbcType=VARCHAR},
+		email = #{email,jdbcType=VARCHAR},
+		phone =
+		#{phone,jdbcType=VARCHAR},
+		skill = #{skill,jdbcType=VARCHAR},
+		resumeLink = #{resumelink,jdbcType=VARCHAR}
+		where userId =
+		#{userid,jdbcType=INTEGER}
+	</update>
+</mapper>

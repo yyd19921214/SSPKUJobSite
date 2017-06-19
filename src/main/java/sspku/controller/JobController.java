@@ -45,5 +45,12 @@ public class JobController extends BaseController {
 		List<Job> jobs = jobService.listLatestJob(num, city, workType);
 		return AjaxResult.getOK(jobs);
 	}
+	
+	@ResponseBody
+	@RequestMapping(value = "/getTestJob", method = RequestMethod.GET)
+	public AjaxResult getTestJob(){
+		System.out.println("1");
+		return AjaxResult.getOK("1");
+	}
 
 }
