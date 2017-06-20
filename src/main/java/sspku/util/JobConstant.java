@@ -5,8 +5,8 @@ public class JobConstant {
 	public static final String defaultOrder = "createTime desc";
 	public static final int defaultCount = 100;
 	public static final double thresholdSearch = 2.0;
-	public static final boolean USE_REDIS_CACHE_SEARCH = false;
-	public static final boolean USE_REDIS_CACHE_RECOMMEND = false;
+	public static final boolean USE_REDIS_CACHE_SEARCH = true;
+	public static final boolean USE_REDIS_CACHE_RECOMMEND = true;
 
 	public enum JobState {
 		HIRING("招聘中", 1), CLOSED("招聘已结束", 0);
