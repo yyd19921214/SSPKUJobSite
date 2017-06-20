@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
@@ -45,28 +46,30 @@ public class CaseBasedRecom implements IRecAlgorithms {
 		this.userMapper = userMapper;
 	}
 
-	public Map<String,Double> predict(int userId, int topNum) {
+	public Map<String, Double> predict(int userId, int topNum) {
 		List<Job> jobs = extractUtil.getCandidatedJob(userId);
 		List<Record> candidates = extractUtil.tranformJobToRecord(jobs, userId);
 		List<Record> expectedCaseJob = this.getExpectedCase(userId);
 		if (expectedCaseJob == null) {
-			return new HashMap<String,Double>();
+			return new HashMap<String, Double>();
 		}
 		Map<String, DoubleSummaryStatistics> boundaryMap = this.getMaxAndMin(candidates);
-		Map<String, Double> rawMap = new HashMap<>();
+		Map<String, TreeSet<Double>> rawMap = new HashMap<>();
 		for (Record expect : expectedCaseJob) {
 			for (Record can : candidates) {
-				if (!rawMap.containsKey(can.getKey())) {
-					double score = this.predict(expect, can, boundaryMap);
-					rawMap.put(can.getKey(), score);
+				double score = this.predict(expect, can, boundaryMap);
+				if(!rawMap.containsKey(can.getKey())){
+					rawMap.put(can.getKey(), new TreeSet<Double>());
 				}
+				rawMap.get(can.getKey()).add(score);
 			}
 		}
-		Map<String, Double> resultMap=new LinkedHashMap<>();
-		rawMap.entrySet().stream().sorted(Map.Entry.<String, Double> comparingByValue().reversed()).limit(topNum).forEachOrdered(i->{
-			resultMap.put(i.getKey(),i.getValue());
+		Map<String, Double> resultMap = new LinkedHashMap<>();
+		rawMap.entrySet().stream().forEach(entry -> {
+			resultMap.put(entry.getKey(), entry.getValue().last());
 		});
-		return resultMap;
+		return resultMap.entrySet().stream().sorted(Map.Entry.<String, Double> comparingByValue().reversed())
+				.limit(topNum).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 	}
 
 	public double predict(Record expect, Record item, Map<String, DoubleSummaryStatistics> boundaryMap) {

@@ -1,39 +1,73 @@
 package sspku.recommendEngine;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import com.alibaba.fastjson.JSON;
 import com.google.common.base.Strings;
 
-public class ConstraintBasedRecom {
+import sspku.dao.Job;
+import sspku.dao.UserInfoWithBLOBs;
+import sspku.dto.Expection;
+import sspku.mapper.UserInfoMapper;
 
-	/** a list contains all items can be recommended to user */
-	private List<Record> recomList;// 可推荐的工作列表, 算法自身携带
+@Service
+public class ConstraintBasedRecom implements IRecAlgorithms {
 
-	private static final double leven_threshold = 0.8;
+	@Autowired
+	private ExtractCandidateJobUtil extractUtil;
+	@Autowired
+	private UserInfoMapper userMapper;
 
-	public ConstraintBasedRecom(List<Record> jobs) {
-		this.recomList = jobs;
+	private static final double leven_threshold = 0.7;
+
+	public ExtractCandidateJobUtil getExtractUtil() {
+		return extractUtil;
 	}
 
-	public List<String> predict(List<Record> constraints, int topNum) {
-		Map<String, Double> resultMap = new HashMap<>();
+	public void setExtractUtil(ExtractCandidateJobUtil extractUtil) {
+		this.extractUtil = extractUtil;
+	}
+
+	public UserInfoMapper getUserMapper() {
+		return userMapper;
+	}
+
+	public void setUserMapper(UserInfoMapper userMapper) {
+		this.userMapper = userMapper;
+	}
+
+	public Map<String, Double> predict(int userId, int topNum) {
+		List<Job> jobs = extractUtil.getCandidatedJob(userId);
+		List<Record> candidates = extractUtil.tranformJobToRecord(jobs, userId);
+		List<Record> constraints = this.getConstraintList(userId);
+		Map<String, TreeSet<Double>> rawMap = new HashMap<>();
 		for (Record expect : constraints) {
-			for (Record rec : recomList) {
-				if (!resultMap.containsKey(rec.getKey())) {
-					double score = this.predict(expect, rec);
-					resultMap.put(rec.getKey(), score);
+			for (Record can : candidates) {
+				double score = this.predict(expect, can);
+				if(!rawMap.containsKey(can.getKey())){
+					rawMap.put(can.getKey(), new TreeSet<Double>());
 				}
+				rawMap.get(can.getKey()).add(score);
 			}
 		}
-		List<String> list = resultMap.entrySet().stream()
-				.sorted(Map.Entry.<String, Double> comparingByValue().reversed()).map(i -> i.getKey()).limit(topNum)
-				.collect(Collectors.toList());
-		return list;
+
+		Map<String, Double> resultMap = new LinkedHashMap<>();
+		for (String k : rawMap.keySet()) {
+			resultMap.put(k, rawMap.get(k).last());
+		}
+		return resultMap.entrySet().stream().sorted(Map.Entry.<String, Double> comparingByValue().reversed())
+				.limit(topNum).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 	}
 
 	public double predict(Record constraint, Record item) {
@@ -55,10 +89,17 @@ public class ConstraintBasedRecom {
 			}
 		}
 		for (String k : constraint.getValueStrEq().keySet()) {
-			if (item.getValueStrEq().containsKey(k)
-					&& constraint.getValueStrEq().get(k).equals(item.getValueStrEq().get(k).getValue())) {
-				score += constraint.getValueStrEq().get(k).getWeight();
+			if(item.getValueStrEq().containsKey(k)){
+				String s=item.getValueStrEq().get(k).getValue();
+				String s2=constraint.getValueStrEq().get(k).getValue();
+				if(s.equals(s2)){
+					score += constraint.getValueStrEq().get(k).getWeight();
+				}
 			}
+//			if (item.getValueStrEq().containsKey(k)
+//					&& constraint.getValueStrEq().get(k).equals(item.getValueStrEq().get(k).getValue())) {
+//				score += constraint.getValueStrEq().get(k).getWeight();
+//			}
 		}
 		for (String k : constraint.getValueStrContains().keySet()) {
 			if (item.getValueStrContains().containsKey(k)) {
@@ -82,6 +123,19 @@ public class ConstraintBasedRecom {
 			}
 		}
 		return score;
+	}
+
+	private List<Record> getConstraintList(int userId) {
+		UserInfoWithBLOBs user = userMapper.selectByPrimaryKey(userId);
+		if (Strings.isNullOrEmpty(user.getExpection())) {
+			return null;
+		}
+		List<Expection> expects = JSON.parseArray(user.getExpection(), Expection.class);
+		List<Record> records = new ArrayList<>();
+		expects.forEach(e -> {
+			records.add(Record.getRecordByExpection(e));
+		});
+		return records;
 	}
 
 }

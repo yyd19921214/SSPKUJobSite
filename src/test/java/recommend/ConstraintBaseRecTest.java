@@ -22,7 +22,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 import sspku.dao.Job;
-import sspku.recommendEngine.CaseBasedRecom;
+import sspku.recommendEngine.ConstraintBasedRecom;
 import sspku.recommendEngine.ExtractCandidateJobUtil;
 import sspku.recommendEngine.Record;
 
@@ -30,29 +30,23 @@ import sspku.recommendEngine.Record;
 @WebAppConfiguration
 @ContextConfiguration(locations = { "classpath:spring.xml", "classpath:spring-mybatis.xml",
 		"classpath:spring-mvc.xml" })
-public class CaseBaseRecTest {
-
-	public CaseBaseRecTest() {
-		// TODO Auto-generated constructor stub
-	}
+public class ConstraintBaseRecTest {
 
 	protected MockMvc mockMvc;
 	@Autowired
 	private WebApplicationContext webApplicationContext;
 	@Autowired
-	private CaseBasedRecom caseRec;
+	private ConstraintBasedRecom recommend;
 	@Autowired
 	private ExtractCandidateJobUtil extractUtil;
 
 	@Before
 	public void setup() throws Exception {
 		mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
-		// caseRec.setExtractUtil(extractUtil);
 	}
 
 	@Test
-	public void testPredict() {
-
+	public void testConstraint() {
 		Job job1 = new Job();
 		job1.setCity("北京");
 		job1.setMinsalary(18);
@@ -78,18 +72,18 @@ public class CaseBaseRecTest {
 		jobCandidate.add(job1);
 		jobCandidate.add(job2);
 		jobCandidate.add(job3);
-		List<Record> recordsCandidate=extractUtil.tranformJobToRecord(jobCandidate, 1);
+		List<Record> recordsCandidate = extractUtil.tranformJobToRecord(jobCandidate, 1);
 
 		ExtractCandidateJobUtil extractUtil = mock(ExtractCandidateJobUtil.class);
 		when(extractUtil.getCandidatedJob(anyInt())).thenReturn(jobCandidate);
 		when(extractUtil.tranformJobToRecord(anyListOf(Job.class), anyInt())).thenReturn(recordsCandidate);
-		caseRec.setExtractUtil(extractUtil);
-		
-		Map<String,Double> predictId = caseRec.predict(1, 20);
-		for(String k:predictId.keySet()){
-			System.out.println(k+":"+predictId.get(k));
+		recommend.setExtractUtil(extractUtil);
+		Map<String, Double> predictId = recommend.predict(1, 20);
+		for (String k : predictId.keySet()) {
+			System.out.println(k + ":" + predictId.get(k));
 		}
-		Assert.assertTrue(predictId.size()>0);
+		Assert.assertTrue(predictId.size() > 0);
+
 	}
 
 }
