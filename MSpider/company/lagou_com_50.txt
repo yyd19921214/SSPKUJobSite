@@ -1,0 +1,784 @@
+{"ShortName": "洋葱数学", "city": "北京", "industry": "移动互联网,教育", "desc": "史上最有趣的陪伴式学习产品", "FullName": "光合新知（北京）科技有限公司", "id": 5706, "stage": "成长型(B轮)"}
+{"ShortName": "CareerFrog", "city": "上海", "industry": "教育", "desc": "大学生求职教育领导品牌，通过职业咨询规划及面试辅导帮助大学生“迈好职场第一步”", "FullName": "上海凯洛格信息科技有限公司", "id": 41846, "stage": "成长型(A轮)"}
+{"ShortName": "Video++", "city": "上海", "industry": "数据服务,文化娱乐", "desc": "可能是全球最大的视频识别+多维互动PaaS平台 月均为10829家企业客户提供101亿次服务", "FullName": "上海极链网络科技有限公司", "id": 52315, "stage": "成长型(B轮)"}
+{"ShortName": "生意专家", "city": "上海", "industry": "移动互联网,O2O", "desc": "目光远大 努力奋斗 保持专注", "FullName": "智弧（上海）科技有限公司", "id": 7254, "stage": "成长型(A轮)"}
+{"ShortName": "斗象科技", "city": "上海", "industry": "信息安全", "desc": "http://www.tophant.com FreeBuf黑客与极客 漏洞盒子 网藤风险感知系统", "FullName": "上海斗象信息科技有限公司", "id": 33219, "stage": "成长型(A轮)"}
+{"ShortName": "好奇心日报", "city": "北京", "industry": "移动互联网,文化娱乐", "desc": "最好的商业新闻媒体", "FullName": "北京酷睿奥思科技发展有限公司", "id": 32726, "stage": "成长型(A轮)"}
+{"ShortName": "对啊网", "city": "北京", "industry": "移动互联网", "desc": "对啊网|重塑职业未来，国内领先的在线职业教育网站", "FullName": "北京对啊网教育科技有限公司", "id": 34551, "stage": "成熟型(C轮)"}
+{"ShortName": "端点科技", "city": "杭州", "industry": "电子商务,O2O", "desc": "做最好的软件公司，盈利，高成长空间，技术型公司，专注技术，全Mac办公", "FullName": "杭州端点网络科技有限公司", "id": 43753, "stage": "成长型(A轮)"}
+{"ShortName": "云校", "city": "北京", "industry": "教育,数据服务", "desc": "如果旅途方向一致，我们愿为同行的你背负行囊", "FullName": "北京华樾信息技术研究院", "id": 28393, "stage": "成长型(B轮)"}
+{"ShortName": "壹米滴答", "city": "上海", "industry": "企业服务,其他", "desc": "共建中国最强物流网络平台", "FullName": "上海壹米滴答供应链管理有限公司", "id": 86068, "stage": "成长型(B轮)"}
+{"ShortName": "慧择网", "city": "深圳", "industry": "移动互联网,电子商务", "desc": "国内最大的互联网保险第三方交易平台", "FullName": "深圳市慧择时代科技有限公司", "id": 111387, "stage": "成长型(B轮)"}
+{"ShortName": "巴图鲁公司", "city": "广州", "industry": "电子商务", "desc": "打造中国汽车配件流通市场的新格局。", "FullName": "广州市巴图鲁信息科技有限公司", "id": 33377, "stage": "成长型(B轮)"}
+{"ShortName": "Megvii", "city": "北京", "industry": "移动互联网,硬件", "desc": "极客范儿的人工智能公司，加入我们，一起让机器看懂世界！", "FullName": "北京旷视科技有限公司", "id": 1561, "stage": "成长型(B轮)"}
+{"ShortName": "Finger", "city": "杭州", "industry": "社交网络", "desc": "「Finger」- 你的口袋乐器教师，跟随我们拨动手指，人人都能学会玩乐器。", "FullName": "杭州妥妥网络科技有限公司", "id": 51416, "stage": "成长型(A轮)"}
+{"ShortName": "麦子学院", "city": "成都", "industry": "移动互联网,教育", "desc": "麦子学院(Maiziedu.com)是国内在线教育黑马.专业的B2C高端在线教育平台.", "FullName": "成都麦子信息技术有限公司", "id": 40161, "stage": "成长型(B轮)"}
+{"ShortName": "趣运动", "city": "广州", "industry": "移动互联网 ,O2O", "desc": "我们是国内体育运动O2O领域最前沿平台！", "FullName": "广州柠蜜信息科技有限公司", "id": 10189, "stage": "成熟型(C轮)"}
+{"ShortName": "新农生", "city": "苏州", "industry": "移动互联网,电子商务", "desc": "我们努力打造一个“安全、诚信、健康、共赢”的食品运营商！", "FullName": "云南农垦华清科技有限公司", "id": 135281, "stage": "成长型(A轮)"}
+{"ShortName": "火辣健身", "city": "北京", "industry": "移动互联网,文化娱乐", "desc": "健身行业风口公司，万亿级市场，12个月融资超4轮，黄晓明参投", "FullName": "北京动如脱兔科技有限公司", "id": 40232, "stage": "成长型(B轮)"}
+{"ShortName": "动动", "city": "北京", "industry": "移动互联网,医疗健康", "desc": "用户最多的运动健康APP", "FullName": "北京慢点生活科技有限公司", "id": 9895, "stage": "成长型(B轮)"}
+{"ShortName": "车300", "city": "南京", "industry": "移动互联网,数据服务", "desc": "买卖二手车，先查车300", "FullName": "南京车易淘网络信息技术有限公司", "id": 8602, "stage": "成长型(B轮)"}
+{"ShortName": "Ping++", "city": "上海", "industry": "企业服务,金融", "desc": "聚合支付 SaaS 服务商", "FullName": "上海简米网络科技有限公司", "id": 11001, "stage": "成长型(B轮)"}
+{"ShortName": "妙计旅行", "city": "北京", "industry": "旅游", "desc": "技术实力派，境外自由行智能搜索引擎。", "FullName": "北京汇行科技有限公司", "id": 8861, "stage": "成长型(B轮)"}
+{"ShortName": "丁丁金服", "city": "济南", "industry": "金融,电子商务", "desc": "众人口中的别人家的公司", "FullName": "山东丁丁金融信息咨询服务有限公司", "id": 135319, "stage": "成长型(B轮)"}
+{"ShortName": "聚居网", "city": "长沙", "industry": "移动互联网,硬件", "desc": "小我，大天下", "FullName": "长沙市聚居网络科技有限公司", "id": 29957, "stage": "成长型(A轮)"}
+{"ShortName": "销冠科技", "city": "杭州", "industry": "移动互联网", "desc": "只为更好地卖房！", "FullName": "杭州销冠网络科技有限公司", "id": 14945, "stage": "成长型(B轮)"}
+{"ShortName": "么么直播", "city": "上海", "industry": "移动互联网,社交网络", "desc": "在最IN的城市，玩当下最火爆的事业！", "FullName": "上海星艾网络科技有限公司", "id": 34331, "stage": "成长型(A轮)"}
+{"ShortName": "快看漫画", "city": "北京", "industry": "移动互联网,文化娱乐", "desc": "移动互联网+泛娱乐 打造优质漫画IP，构建出版、游戏、影视全产业链发展模式", "FullName": "快看世界（北京）科技有限公司", "id": 46956, "stage": "成长型(B轮)"}
+{"ShortName": "思微", "city": "深圳", "industry": "其他", "desc": "超高逼格，海归团队，轻松氛围，丰厚福利", "FullName": "深圳市前海思微投资管理有限公司", "id": 79831, "stage": "成长型(A轮)"}
+{"ShortName": "PPsports", "city": "上海", "industry": "移动互联网,文化娱乐", "desc": "用互联网经营足球", "FullName": "上海帕派体育文化发展有限公司", "id": 53429, "stage": "成长型(A轮)"}
+{"ShortName": "磨房网", "city": "深圳", "industry": "移动互联网,旅游", "desc": "协助每一颗自由的心实现远行的梦想", "FullName": "深圳市载途科技有限公司", "id": 40061, "stage": "成长型(A轮)"}
+{"ShortName": "面包旅行", "city": "北京", "industry": "移动互联网,旅游", "desc": "跟有趣的人，做好玩的事，面包猎人带你浪", "FullName": "北京路玺优讯科技有限公司", "id": 6696, "stage": "成熟型(C轮)"}
+{"ShortName": "现金巴士", "city": "上海", "industry": "移动互联网,金融", "desc": "微小额度 快速到达", "FullName": "微额速达(上海)金融信息服务有限公司", "id": 40092, "stage": "成长型(B轮)"}
+{"ShortName": "功夫贷", "city": "杭州", "industry": "移动互联网,金融", "desc": "氛围最好的互联网金融企业，没有之一", "FullName": "杭州大树网络技术有限公司", "id": 90867, "stage": "成长型(A轮)"}
+{"ShortName": "生日管家", "city": "北京", "industry": "移动互联网,电子商务", "desc": "友谊与爱，不可辜负！", "FullName": "北京十月逸栈科技有限公司", "id": 6552, "stage": "成熟型(C轮)"}
+{"ShortName": "天气宝", "city": "深圳", "industry": "移动互联网,金融", "desc": "互联网天气衍生品（类保险），为用户的坏天气赔偿。", "FullName": "武汉低温宝信息有限公司", "id": 69858, "stage": "成长型(A轮)"}
+{"ShortName": "第七天堂", "city": "深圳", "industry": "移动互联网,游戏", "desc": "魔兽世界高玩创建， 永恒之塔主创打磨， 红杉七道任性投资，我们只想做世界一流品质的游戏", "FullName": "深圳第七世界网络科技有限公司", "id": 103907, "stage": "成长型(A轮)"}
+{"ShortName": "易快报", "city": "北京", "industry": "移动互联网,企业服务", "desc": "实力派创业团队，为共同的事业和梦想努力，更有顶级VC投资支持和意想不到的福利惊喜哦～", "FullName": "北京合思信息技术有限公司", "id": 45121, "stage": "成长型(A轮)"}
+{"ShortName": "车轮互联", "city": "上海", "industry": "移动互联网", "desc": "有车，就有车轮！中国车主聚集地！", "FullName": "上海易点时空网络有限公司", "id": 34863, "stage": "成熟型(C轮)"}
+{"ShortName": "壹生科技", "city": "厦门", "industry": "移动互联网,电子商务", "desc": "坚持以深度服务为核心，致力于成为中国最被消费者信赖的家庭消费品零售渠道。", "FullName": "厦门壹生信息科技有限公司", "id": 39428, "stage": "成长型(A轮)"}
+{"ShortName": "有邻", "city": "杭州", "industry": "社交网络,O2O", "desc": "让邻里不再陌生，小区生活有爱又有趣", "FullName": "有邻（杭州）软件技术有限公司", "id": 28860, "stage": "成长型(A轮)"}
+{"ShortName": "欧德蒙", "city": "深圳", "industry": "移动互联网,企业服务", "desc": "专注于智能硬件技术研发及应用，让天下没有难做的智能硬件。", "FullName": "深圳欧德蒙科技有限公司", "id": 37602, "stage": "成长型(A轮)"}
+{"ShortName": "玩车教授-汽车第一新媒体", "city": "广州", "industry": "移动互联网,文化娱乐", "desc": "开创汽车新媒体奇迹", "FullName": "广州路鑫信息技术有限公司", "id": 26249, "stage": "成长型(A轮)"}
+{"ShortName": "掌上大学", "city": "杭州滨江", "industry": "移动互联网", "desc": "中国高校第一服务品牌", "FullName": "杭州新麦科技有限公司", "id": 27455, "stage": "成长型(A轮)"}
+{"ShortName": "特赞|Tezign", "city": "上海", "industry": "移动互联网", "desc": "让天下没有难做的好设计", "FullName": "特赞（上海）信息科技有限公司", "id": 75977, "stage": "成长型(A轮)"}
+{"ShortName": "Coding", "city": "深圳", "industry": "数据服务", "desc": "云端的软件开发平台，Coding Anytime Anywhere！", "FullName": "深圳市扣钉网络科技有限公司", "id": 21406, "stage": "成长型(B轮)"}
+{"ShortName": "蘑菇租房", "city": "上海", "industry": "移动互联网,电子商务", "desc": "用最前沿的技术和最极致的产品设计，努力打造高效实用且优雅出众的互联网租住产品，成为每个都市租住客首选", "FullName": "上海墨果资产管理有限公司", "id": 16659, "stage": "成长型(B轮)"}
+{"ShortName": "浙江企朋－专注企业服务", "city": "杭州", "industry": "移动互联网,电子商务", "desc": "一群来自阿里、腾讯、百度的小伙伴，一款服务上万商户的产品，一个不为钱担忧不用融资的盈利能力", "FullName": "浙江企朋网络技术股份有限公司", "id": 210, "stage": "成长型(A轮)"}
+{"ShortName": "Worktile", "city": "北京", "industry": "移动互联网,企业服务", "desc": "Worktile 让工作更简单", "FullName": "北京易成星光科技有限公司", "id": 4410, "stage": "成长型(A轮)"}
+{"ShortName": "兔展RabbitPre", "city": "深圳", "industry": "移动互联网", "desc": "企业级移动营销大数据平台。", "FullName": "深圳市中北明夷科技有限公司", "id": 28417, "stage": "成长型(B轮)"}
+{"ShortName": "有机有利", "city": "青岛", "industry": "移动互联网,电子商务", "desc": "让饮食如意", "FullName": "青岛有机有利生态农业有限公司", "id": 43175, "stage": "成长型(A轮)"}
+{"ShortName": "游戏科学", "city": "深圳", "industry": "移动互联网,游戏", "desc": "做全球领先的重度游戏开发商", "FullName": "深圳市游科互动科技有限公司", "id": 36721, "stage": "成长型(A轮)"}
+{"ShortName": "八爪鱼", "city": "深圳", "industry": "数据服务", "desc": "找技术牛人，做最好用的网页数据采集器，让数据触手可及！", "FullName": "深圳视界信息技术有限公司", "id": 64327, "stage": "成长型(A轮)"}
+{"ShortName": "火球理财", "city": "北京", "industry": "金融", "desc": "安稳赚 不停歇", "FullName": "北京玄铁科技有限公司", "id": 25101, "stage": "成长型(B轮)"}
+{"ShortName": "兑吧", "city": "杭州", "industry": "移动互联网", "desc": "App运营服务平台", "FullName": "杭州兑吧网络科技有限公司", "id": 23252, "stage": "成长型(A轮)"}
+{"ShortName": "名片全能王", "city": "上海", "industry": "移动互联网", "desc": "全球最大的商务人脉管理应用", "FullName": "上海合合信息科技发展有限公司", "id": 40270, "stage": "成熟型(C轮)"}
+{"ShortName": "新蛋", "city": "成都", "industry": "电子商务", "desc": "只要你有着自己的理想、只要你有勇气面对挑战、只要你对电商充满热情、那么请加入我们，NESC渴望能陪伴", "FullName": "新蛋科技（成都）有限公司", "id": 21556, "stage": "成熟型(不需要融资)"}
+{"ShortName": "VIVA畅读", "city": "北京", "industry": "移动互联网,广告营销", "desc": "领先的新媒体公司 最具影响力的数字阅读平台", "FullName": "北京维旺明科技股份有限公司", "id": 25394, "stage": "成熟型(C轮)"}
+{"ShortName": "YHOUSE", "city": "上海", "industry": "移动互联网", "desc": "国内第一家高端轻奢美食生活方式预定及社区分享平台", "FullName": "上海悦会信息科技有限公司", "id": 18643, "stage": "成熟型(C轮)"}
+{"ShortName": "粉星\b美妆", "city": "广州", "industry": "移动互联网,教育", "desc": "让变美更简单！", "FullName": "广州蜜妆信息科技有限公司", "id": 69037, "stage": "成长型(A轮)"}
+{"ShortName": "脸脸", "city": "杭州", "industry": "移动互联网,O2O", "desc": "全球首款基于场所的生活社交APP", "FullName": "杭州脸脸会网络技术有限公司", "id": 28239, "stage": "成长型(A轮)"}
+{"ShortName": "阿凡题", "city": "北京", "industry": "移动互联网,教育", "desc": "全力打造K12领域 在线教育APP 。获”2015年度竞争力在线教育品牌“”中国教育创新APP“奖项", "FullName": "北京云江科技有限公司", "id": 25027, "stage": "成长型(B轮)"}
+{"ShortName": "青松", "city": "北京", "industry": "移动互联网,企业服务", "desc": "卓越的互联网安全服务，高智商高情商的逗比团队，温馨舒畅的办公环境，欢迎你的加入！", "FullName": "青松智慧（北京）科技有限公司", "id": 78488, "stage": "成长型(B轮)"}
+{"ShortName": "惠租车", "city": "上海", "industry": "旅游", "desc": "不来惠租车 你怎么知道自己可以更牛B！", "FullName": "上海途顺网络科技有限公司", "id": 22298, "stage": "成长型(B轮)"}
+{"ShortName": "麦客CRM", "city": "成都", "industry": "企业服务", "desc": "麦客是家好公司。", "FullName": "北京易多客信息技术有限公司", "id": 5998, "stage": "成长型(A轮)"}
+{"ShortName": "云梯科技", "city": "杭州", "industry": "教育", "desc": "旗下两款产品：口袋题库（有志青年的学习营地）和书链（让书联网，bookln.cn）。", "FullName": "杭州云梯科技有限公司", "id": 38087, "stage": "成长型(A轮)"}
+{"ShortName": "一起写", "city": "北京", "industry": "移动互联网,企业服务", "desc": "云端协作office", "FullName": "晴云科技有限公司", "id": 54024, "stage": "成长型(B轮)"}
+{"ShortName": "灵伴科技", "city": "北京", "industry": "移动互联网,硬件", "desc": "做中国最好的语音语言领域技术公司", "FullName": "北京灵伴未来科技有限公司", "id": 62802, "stage": "成长型(B轮)"}
+{"ShortName": "伙伴网", "city": "北京", "industry": "企业服务", "desc": "红杉资本投资企业，专注中小团队数据管理，Discuz!团队原班人马再次创业！", "FullName": "伙伴聚力（北京）科技有限公司", "id": 587, "stage": "成长型(A轮)"}
+{"ShortName": "宜搜", "city": "深圳", "industry": "移动互联网,游戏", "desc": "专注移动互联网10年，拥有当今最先进的无线数据应用技术和强大的智能搜索系统，无线搜索产品位居前列。", "FullName": "深圳市宜搜科技发展有限公司", "id": 431, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "紫色医疗", "city": "北京", "industry": "移动互联网 ,医疗健康", "desc": "做全球领先的在线医疗产品", "FullName": "北京紫藤康桥科技有限公司", "id": 1712, "stage": "成长型(B轮)"}
+{"ShortName": "婚礼纪", "city": "杭州", "industry": "移动互联网,O2O", "desc": "一站式婚礼服务电商平台", "FullName": "杭州火烧云科技有限公司", "id": 542, "stage": "成长型(B轮)"}
+{"ShortName": "蒲公英内测平台", "city": "西安", "industry": "移动互联网", "desc": "我们是一群怀揣梦想的年轻人，我们有激情、有动力将梦想实现。期待你的加入！", "FullName": "西安点测网络科技有限公司", "id": 35666, "stage": "成长型(A轮)"}
+{"ShortName": "分通物流", "city": "北京", "industry": "移动互联网,电子商务", "desc": "分通一下，即刻送达！", "FullName": "北京分通科技有限公司", "id": 137108, "stage": "成长型(A轮)"}
+{"ShortName": "新媒体管家", "city": "上海", "industry": "移动互联网,广告营销", "desc": "内容变现平台，100万自媒体人在用的媒体管理工具，IDG连续注资，一起来颠覆传统吧！", "FullName": "上海政凯信息科技有限公司", "id": 55644, "stage": "成长型(B轮)"}
+{"ShortName": "泡椒网", "city": "深圳", "industry": "移动互联网,游戏", "desc": "泡椒互娱是中国最具成长性的互动娱乐内容平台，其业务主要在游戏、直播、动漫、阅读、原创版权等领域！", "FullName": "深圳泡椒思志信息技术有限公司", "id": 6568, "stage": "成长型(B轮)"}
+{"ShortName": "压寨网络", "city": "深圳", "industry": "移动互联网", "desc": "怕寂寞，来压寨直播！", "FullName": "深圳压寨网络有限公司", "id": 16355, "stage": "成长型(A轮)"}
+{"ShortName": "小猴科技", "city": "广州", "industry": "移动互联网", "desc": "专注行业！专注产品！专注于企业使命！", "FullName": "广州小猴信息科技有限公司", "id": 130588, "stage": "初创型(不需要融资)"}
+{"ShortName": "五味", "city": "北京", "industry": "O2O", "desc": "通过五味餐厅作为实验基地，打造最好的餐饮全程解决方案提供商", "FullName": "北京五味俱全信息技术有限公司", "id": 13787, "stage": "成长型(A轮)"}
+{"ShortName": "开课吧", "city": "成都", "industry": "移动互联网,教育", "desc": "互联网从业者技能学习社区", "FullName": "慧科教育科技集团有限公司", "id": 95575, "stage": "成熟型(C轮)"}
+{"ShortName": "轻松筹", "city": "北京", "industry": "移动互联网,金融", "desc": "基于社交的全民众筹平台", "FullName": "北京轻松筹网络科技有限公司", "id": 43055, "stage": "成长型(B轮)"}
+{"ShortName": "好卖策划", "city": "北京", "industry": "广告营销", "desc": "创意，不设界", "FullName": "北京好卖广告策划有限公司", "id": 26306, "stage": "初创型(不需要融资)"}
+{"ShortName": "Ruff", "city": "上海", "industry": "数据服务,硬件", "desc": "我们是一家专注于简化物联网开发的公司，欢迎愿意不断学习成长，挑战自己舒适区的人与我们并肩奋战", "FullName": "上海南潮信息科技有限公司", "id": 57743, "stage": "成长型(A轮)"}
+{"ShortName": "INK 银客集团", "city": "北京", "industry": "移动互联网,金融", "desc": "具备完整生态的综合性互联网金融集团", "FullName": "银客未来科技（北京）有限公司", "id": 4188, "stage": "成熟型(C轮)"}
+{"ShortName": "大鱼自助游", "city": "北京", "industry": "旅游", "desc": "大鱼，一个海外民宿线上预订平台，专注于境外特色住宿", "FullName": "鱼行天下（北京）科技有限公司", "id": 1866, "stage": "成熟型(C轮)"}
+{"ShortName": "乐易网络", "city": "深圳", "industry": "移动互联网,游戏", "desc": "专注海外精品手机游戏和应用，致力打造世界级一流产品", "FullName": "深圳市乐易网络有限公司", "id": 33627, "stage": "成长型(A轮)"}
+{"ShortName": "美啦", "city": "深圳", "industry": "移动互联网,社交网络", "desc": "在美啦，遇见最美的自己", "FullName": "深圳市品汇科技有限公司", "id": 30939, "stage": "成熟型(C轮)"}
+{"ShortName": "漫道科技", "city": "北京", "industry": "移动互联网,数据服务", "desc": "A股上市稳健成长高新技术企业", "FullName": "北京创世漫道科技有限公司", "id": 40454, "stage": "上市公司"}
+{"ShortName": "神工", "city": "北京", "industry": "移动互联网,电子商务", "desc": "激情、求学、坚持；超越自我，引领卓越", "FullName": "神工众志（北京）科技有限公司", "id": 37975, "stage": "成长型(B轮)"}
+{"ShortName": "梵尚国际", "city": "北京", "industry": "广告营销", "desc": "公司主营平面设计、室内设计，视频制作。公司前景好，现经营两家线上店铺，与多家线下公司长期合作。", "FullName": "梵尚（北京）国际创意设计股份有限公司", "id": 155389, "stage": "初创型(未融资)"}
+{"ShortName": "OFashion", "city": "北京", "industry": "移动互联网,电子商务", "desc": "全球首家时尚买手制社交购物平台", "FullName": "玫瑰视界（北京）网络科技有限公司", "id": 2316, "stage": "成长型(A轮)"}
+{"ShortName": "加减信息", "city": "广州", "industry": "移动互联网", "desc": "娱乐（加减影院）、学习（加减大学）、温饱（零食饮料），加减包养你，可好？", "FullName": "广州市加减信息技术有限公司", "id": 25145, "stage": "成长型(A轮)"}
+{"ShortName": "上海链家(原德佑)", "city": "上海", "industry": "企业服务", "desc": "Pre-IPO，2017上市！ 打造万亿级房产O2O平台", "FullName": "德佑房地产经纪有限公司", "id": 35713, "stage": "成长型(B轮)"}
+{"ShortName": "助理来也", "city": "上海", "industry": "移动互联网,O2O", "desc": "中国版Magic+Siri 【助理来也】", "FullName": "北京来也网络科技有限公司", "id": 93760, "stage": "成长型(A轮)"}
+{"ShortName": "小黑裙", "city": "杭州", "industry": "移动互联网,医疗健康", "desc": "首个无推销瑜伽连锁品牌", "FullName": "杭州伐木累网络科技有限公司", "id": 78496, "stage": "成长型(A轮)"}
+{"ShortName": "衣+", "city": "北京", "industry": "移动互联网", "desc": "边看边买、计算机视觉搜索引擎", "FullName": "北京陌上花科技有限公司", "id": 29151, "stage": "成长型(A轮)"}
+{"ShortName": "玩票", "city": "上海", "industry": "移动互联网,O2O", "desc": "可能是中国最好的二手票务交易App", "FullName": "上海友闲信息科技有限公司", "id": 76852, "stage": "初创型(天使轮)"}
+{"ShortName": "路书", "city": "北京", "industry": "移动互联网,旅游", "desc": "专业的旅游行程编辑平台！ 微信公众号：lushutravel", "FullName": "路书（北京）科技有限公司", "id": 40054, "stage": "成长型(A轮)"}
+{"ShortName": "机动派", "city": "杭州", "industry": "移动互联网", "desc": "专注车前车后市场", "FullName": "杭州擎怀科技有限公司", "id": 125418, "stage": "初创型(天使轮)"}
+{"ShortName": "FitTime睿健时代", "city": "北京", "industry": "移动互联网,社交网络", "desc": "健身革命开始的地方", "FullName": "无锡市睿健时代贸易有限公司", "id": 21732, "stage": "成长型(B轮)"}
+{"ShortName": "腾展叮咚（Dingtone）", "city": "杭州", "industry": "移动互联网,社交网络", "desc": "全球领先的OTT虚拟运营商，腾展科技已挂牌新三板，2015年营收增长400%，净利润增长1300%。", "FullName": "杭州腾展科技股份有限公司", "id": 24287, "stage": "上市公司"}
+{"ShortName": "Insta360", "city": "深圳", "industry": "硬件,移动互联网", "desc": "数亿融资，全景VR相机领跑者 Insta360， 世界没有边界，未来就在眼前", "FullName": "深圳岚锋创视网络科技有限公司", "id": 25448, "stage": "成长型(B轮)"}
+{"ShortName": "秦丝科技", "city": "深圳", "industry": "移动互联网,企业服务", "desc": "让所有商户员工都高效快乐地工作着！", "FullName": "深圳市秦丝科技有限公司", "id": 73707, "stage": "成长型(A轮)"}
+{"ShortName": "appMagics", "city": "北京", "industry": "移动互联网", "desc": "虚拟技术点亮现实，真正的黑科技与魔法无异", "FullName": "迈吉客科技（上海）有限公司", "id": 18579, "stage": "成长型(A轮)"}
+{"ShortName": "用友政务", "city": "北京", "industry": "数据服务", "desc": "北京用友政务软件有限公司愿做客户信赖的长期合作伙伴，与客户携手构建“幸福政务，掌中管理”。", "FullName": "北京用友政务软件有限公司", "id": 19477, "stage": "上市公司"}
+{"ShortName": "Veeva", "city": "北京", "industry": "移动互联网,企业服务", "desc": "https://www.veeva.com/cn", "FullName": "维我软件（上海）有限公司", "id": 42934, "stage": "上市公司"}
+{"ShortName": "微位科技", "city": "深圳", "industry": "移动互联网", "desc": "公司地址：深圳市南山区科技园讯美科技广场2号楼802室", "FullName": "微位（深圳）网络科技有限公司", "id": 53309, "stage": "成长型(B轮)"}
+{"ShortName": "速途网络", "city": "北京", "industry": "移动互联网,文化娱乐", "desc": "中国新媒体生态运营商", "FullName": "北京中微媒网络科技有限公司", "id": 330, "stage": "成长型(B轮)"}
+{"ShortName": "探探", "city": "北京", "industry": "移动互联网,文化娱乐", "desc": "最值钱的股权激励 最诱人的薪资福利 还有约会假哦 软性福利天天享 还有软妹纸 硬汉纸 歪果仁", "FullName": "探探科技（北京）有限公司", "id": 26782, "stage": "成熟型(C轮)"}
+{"ShortName": "上海正念信息科技有限公司", "city": "上海", "industry": "移动互联网,O2O", "desc": "我们致力于帮助传统连锁企业快速拥抱移动互联网，提供创新的连锁品牌经营O2O平台。", "FullName": "上海正念信息科技有限公司", "id": 52910, "stage": "成长型(A轮)"}
+{"ShortName": "Udesk－企业级智能客服平台", "city": "北京", "industry": "企业服务,数据服务", "desc": "智能客服云平台", "FullName": "北京沃丰时代数据科技有限公司", "id": 25439, "stage": "成长型(B轮)"}
+{"ShortName": "人人聚财", "city": "深圳", "industry": "金融", "desc": "有抵押，更可靠！", "FullName": "深圳市人人聚财金融信息服务有限公司", "id": 29682, "stage": "成长型(A轮)"}
+{"ShortName": "易订货", "city": "深圳", "industry": "企业服务,数据服务", "desc": "供应链SaaS领域领军企业，行业内唯一过B+轮融资公司", "FullName": "深圳市铱云云计算有限公司", "id": 32679, "stage": "成长型(B轮)"}
+{"ShortName": "惠喵", "city": "厦门", "industry": "移动互联网,电子商务", "desc": "买买买，消费升级分享社区！", "FullName": "厦门惠众创想信息技术有限公司", "id": 56153, "stage": "初创型(天使轮)"}
+{"ShortName": "户帮户", "city": "杭州", "industry": "移动互联网,O2O", "desc": "聚一帮有态度的人，服务中国三亿家庭！", "FullName": "杭州户帮户企业管理有限公司", "id": 60928, "stage": "成长型(B轮)"}
+{"ShortName": "新联在线", "city": "广州", "industry": "金融", "desc": "金融与网络完美结合，让您轻松理财。", "FullName": "广东新佳联投资管理有限公司", "id": 43939, "stage": "成长型(A轮)"}
+{"ShortName": "邻汇吧", "city": "杭州", "industry": "企业服务", "desc": "线下流量交易市场", "FullName": "杭州邻汇网络科技有限公司", "id": 59835, "stage": "成长型(A轮)"}
+{"ShortName": "哈里", "city": "郑州", "industry": "移动互联网", "desc": "哈里家族是逆袭的平台，90后发展的平台，拿你的能力来说话，有理想的你请速速加入哈里家族！", "FullName": "郑州哈里童颜商贸有限公司", "id": 93375, "stage": "成长型(不需要融资)"}
+{"ShortName": "同步推", "city": "厦门", "industry": "移动互联网", "desc": "公司专注于互联网、移动互联网与信息化互动社区，致力并服务于推动手机用户的沟通和娱乐。", "FullName": "厦门同步网络有限公司", "id": 3208, "stage": "上市公司"}
+{"ShortName": "72变", "city": "北京", "industry": "硬件", "desc": "全球领先的智能生活平台", "FullName": "北京奇天大胜网络科技有限公司", "id": 43704, "stage": "成长型(A轮)"}
+{"ShortName": "琥珀天气", "city": "北京", "industry": "移动互联网", "desc": "琥珀天气，国内唯一一款被Google Play全球推荐的天气App.", "FullName": "北京琥珀创想科技有限公司", "id": 96428, "stage": "初创型(天使轮)"}
+{"ShortName": "无限航路", "city": "北京", "industry": "移动互联网,文化娱乐", "desc": "年轻、逗逼、迅猛、自由", "FullName": "无限航路网络科技（北京）有限公司", "id": 99293, "stage": "成长型(A轮)"}
+{"ShortName": "好好住", "city": "北京", "industry": "移动互联网,社交网络", "desc": "首个家居分享社交平台，分享中国真实好家。", "FullName": "家宅融智（北京）科技有限公司", "id": 84329, "stage": "成长型(A轮)"}
+{"ShortName": "波罗蜜 全球购", "city": "上海", "industry": "移动互联网,电子商务", "desc": "与顶尖高手共事！", "FullName": "舶乐蜜电子商务（上海）有限公司", "id": 54580, "stage": "成长型(B轮)"}
+{"ShortName": "淘力", "city": "广州", "industry": "移动互联网,企业服务", "desc": "耶鲁大学归国创业者创立的国内首家致力于打造“蓝领人力资源生态系统”的创新型互联网公司", "FullName": "佛山市宜倍事智能科技有限公司", "id": 106456, "stage": "成长型(A轮)"}
+{"ShortName": "礼舍科技", "city": "深圳", "industry": "移动互联网,电子商务", "desc": "一个企业与员工间的情感交流平台", "FullName": "深圳礼舍科技有限公司", "id": 37308, "stage": "初创型(天使轮)"}
+{"ShortName": "苏打科技", "city": "北京", "industry": "移动互联网,O2O", "desc": "科技、时尚、极客，the Pulse of Next Mobility", "FullName": "苏打（北京）交通网络科技有限公司", "id": 101548, "stage": "成长型(A轮)"}
+{"ShortName": "泛微", "city": "上海", "industry": "移动互联网,企业服务", "desc": "协同管理软件行业领军企业 高端OA首选品牌", "FullName": "上海泛微网络科技股份有限公司", "id": 24995, "stage": "成熟型(不需要融资)"}
+{"ShortName": "4399", "city": "厦门", "industry": "移动互联网,游戏", "desc": "加入4399，与青春伙伴同行！", "FullName": "四三九九网络股份有限公司", "id": 9547, "stage": "成熟型(不需要融资)"}
+{"ShortName": "厘米脚印", "city": "北京", "industry": "移动互联网,企业服务", "desc": "由前豌豆荚创始团队成员创立，为企业提供互联网产品咨询、设计和开发等服务。", "FullName": "厘米脚印（北京）科技有限公司", "id": 3460, "stage": "初创型(不需要融资)"}
+{"ShortName": "投之家", "city": "深圳", "industry": "金融", "desc": "国内首家P2P垂直搜索引擎", "FullName": "深圳投之家金融信息服务有限公司", "id": 44248, "stage": "成长型(A轮)"}
+{"ShortName": "壹柒", "city": "成都", "industry": "移动互联网,教育", "desc": "Nice的伙伴、精英化的团队、做好玩的事儿", "FullName": "成都壹柒互动科技有限公司", "id": 79712, "stage": "成长型(A轮)"}
+{"ShortName": "黄金钱包", "city": "北京", "industry": "移动互联网,电子商务", "desc": "互联网金融黄金垂直蓝海，软银中国投资企业，欢迎优秀的伙伴加入，专业靠谱的团队一起做专业靠谱的事情！", "FullName": "北京盈衍网络科技有限公司", "id": 23875, "stage": "成长型(B轮)"}
+{"ShortName": "爱学贷", "city": "杭州", "industry": "金融", "desc": "爱财科技有限公司兹在为中国大陆高等院校在校大学生提供简单便捷、丰富安全的小额消费金融服务。", "FullName": "爱财科技有限公司", "id": 41984, "stage": "成熟型(C轮)"}
+{"ShortName": "广州梦映动漫网络科技有限公司", "city": "广州", "industry": "移动互联网,文化娱乐", "desc": "让中国没有难做的漫画家！", "FullName": "广州梦映动漫网络科技有限公司", "id": 128945, "stage": "成长型(A轮)"}
+{"ShortName": "梅卡曼德", "city": "北京", "industry": "企业服务,硬件", "desc": "致力于将智能赋予工业机器人", "FullName": "梅卡曼德（北京）机器人科技有限公司", "id": 150860, "stage": "初创型(天使轮)"}
+{"ShortName": "誉存科技", "city": "重庆", "industry": "金融", "desc": "互联网大数据服务公司，提供大数据+的服务", "FullName": "重庆誉存大数据科技有限公司", "id": 41553, "stage": "成长型(A轮)"}
+{"ShortName": "微通", "city": "东莞", "industry": "移动互联网,电子商务", "desc": "东莞最大的移动互联网运作团队，致力于帮助传统企业实现移动互联网转型升级！", "FullName": "东莞市微通文化传播有限公司", "id": 35849, "stage": "成长型(A轮)"}
+{"ShortName": "逐浪软件", "city": "南昌", "industry": "企业服务,数据服务", "desc": "江西排名第一的网站开发企业，旗下逐浪CMS和华夏互联是中国领先品牌，并在北京、上海、南昌设有全资。", "FullName": "江西逐浪软科技有限公司", "id": 25060, "stage": "成长型(不需要融资)"}
+{"ShortName": "中传脉谱", "city": "北京", "industry": "移动互联网,O2O", "desc": "泛文化名人版，IP孵化平台", "FullName": "中传脉谱（北京）信息科技有限公司", "id": 67448, "stage": "成长型(A轮)"}
+{"ShortName": "OKCoin", "city": "北京", "industry": "移动互联网,金融", "desc": "成立于2013年10月，全球领先区块链技术平台公司，旗下有OKCoin，OKLink两大产品", "FullName": "北京乐酷达网络科技有限公司", "id": 79922, "stage": "成长型(A轮)"}
+{"ShortName": "万表网", "city": "广州", "industry": "移动互联网,电子商务", "desc": "使命：为手表生态圈创造价值；愿景：成为受尊敬的企业；价值观： 厚道、专业、合作、高效、创新、进取", "FullName": "广州市万表科技股份有限公司", "id": 19471, "stage": "成长型(B轮)"}
+{"ShortName": "EC", "city": "深圳", "industry": "移动互联网,企业服务", "desc": "专注企业在线应用服务市场，做中国的Salesforce", "FullName": "深圳市六度人和科技有限公司", "id": 16609, "stage": "成熟型(C轮)"}
+{"ShortName": "氦氪", "city": "杭州", "industry": "移动互联网,硬件", "desc": "赋予硬件智慧与灵魂", "FullName": "杭州第九区科技有限公司", "id": 44019, "stage": "成长型(A轮)"}
+{"ShortName": "Vincross", "city": "北京", "industry": "移动互联网,硬件", "desc": "走进机器人时代", "FullName": "奇弩（北京）科技有限公司", "id": 74794, "stage": "成长型(A轮)"}
+{"ShortName": "懂你教育", "city": "广州", "industry": "移动互联网,教育", "desc": "让教育更扁平化、公平化", "FullName": "深圳懂你教育科技有限公司", "id": 93206, "stage": "初创型(天使轮)"}
+{"ShortName": "E-CAR", "city": "深圳", "industry": "移动互联网", "desc": "翼卡车联，就这么方便！", "FullName": "广东翼卡车联网服务有限公司", "id": 16883, "stage": "成长型(A轮)"}
+{"ShortName": "和创科技（红圈营销）", "city": "北京", "industry": "移动互联网,企业服务", "desc": "中国企业级移动互联网营销管理领域领导者", "FullName": "和创（北京）科技股份有限公司", "id": 50889, "stage": "上市公司"}
+{"ShortName": "量子金服", "city": "北京", "industry": "金融", "desc": "让世上没有难赚的钱", "FullName": "上海善宽金融信息服务有限公司", "id": 62216, "stage": "成长型(A轮)"}
+{"ShortName": "朗播网", "city": "北京", "industry": "教育", "desc": "年轻人在线学英语的地方", "FullName": "北京博智天下信息技术有限公司", "id": 16869, "stage": "成长型(A轮)"}
+{"ShortName": "V大夫", "city": "北京", "industry": "O2O", "desc": "移动医疗O2O平台", "FullName": "时互康联健康管理（北京）有限公司", "id": 7662, "stage": "成长型(B轮)"}
+{"ShortName": "车满满", "city": "北京", "industry": "移动互联网", "desc": "车满满，让物流更高效。", "FullName": "车满满（北京）信息技术有限公司", "id": 67576, "stage": "成长型(B轮)"}
+{"ShortName": "即刻", "city": "上海", "industry": "移动互联网", "desc": "你关心的，即刻告诉你", "FullName": "上海若友网络科技有限公司", "id": 58635, "stage": "成长型(B轮)"}
+{"ShortName": "网贷天眼", "city": "北京", "industry": "金融,数据服务", "desc": "有理想，有激情，有钱途，有妹子，管饭包吃，有动力", "FullName": "北京投友圈信息科技有限公司", "id": 41570, "stage": "成长型(A轮)"}
+{"ShortName": "象辑科技", "city": "北京", "industry": "移动互联网,数据服务", "desc": "直至人心的设计，不虚妄的技术，有为者的理想国", "FullName": "象辑知源（北京）科技有限公司", "id": 42557, "stage": "成长型(A轮)"}
+{"ShortName": "心游科技", "city": "珠海", "industry": "移动互联网,游戏", "desc": "创新工场旗下新三板首股，专注精品游戏研发及发行", "FullName": "珠海心游科技股份有限公司", "id": 3574, "stage": "上市公司"}
+{"ShortName": "捞月狗", "city": "上海", "industry": "移动互联网", "desc": "玩游戏，找朋友。---- 游戏玩家的微信。", "FullName": "上海竟跃网络科技有限公司", "id": 46792, "stage": "成长型(B轮)"}
+{"ShortName": "深圳八零赞电子商务有限公司", "city": "深圳", "industry": "移动互联网,电子商务", "desc": "轻生活，一个精致、暖心的个人护理品牌。", "FullName": "深圳八零赞电子商务有限公司", "id": 50587, "stage": "成长型(A轮)"}
+{"ShortName": "Bindo Labs", "city": "香港", "industry": "电子商务", "desc": "Cloud based new generation iPad POS System", "FullName": "边度网络科技（深圳）有限公司", "id": 61825, "stage": "初创型(天使轮)"}
+{"ShortName": "星云颜值！", "city": "北京", "industry": "移动互联网,社交网络", "desc": "顶级美女型男带你全球吃喝玩乐", "FullName": "北京星云梦科技有限公司", "id": 266, "stage": "成长型(A轮)"}
+{"ShortName": "斯凯智能", "city": "西安", "industry": "硬件", "desc": "高端智能硬件设备", "FullName": "西安斯凯智能科技有限公司", "id": 60840, "stage": "成长型(A轮)"}
+{"ShortName": "工程师爸爸", "city": "上海", "industry": "移动互联网,教育", "desc": "让成长更自由，打造儿童教育资源精选平台。", "FullName": "上海童锐网络科技有限公司", "id": 21512, "stage": "成长型(A轮)"}
+{"ShortName": "DAOCLOUD", "city": "上海", "industry": "企业服务,数据服务", "desc": "变革应用交付 推动持续创新", "FullName": "上海道客网络科技有限公司", "id": 41209, "stage": "成长型(A轮)"}
+{"ShortName": "奇步互动", "city": "北京", "industry": "移动互联网", "desc": "高速发展上升创业型公司，我们的宗旨勤于动脑，善用智慧，打造优秀的移动互联网产品，成就优质生活。", "FullName": "北京奇步互动技术有限公司", "id": 47287, "stage": "初创型(未融资)"}
+{"ShortName": "晨光文具互联网", "city": "上海", "industry": "移动互联网,生活服务", "desc": "世界级文具企业有一支打造最萌梦想的团队正在火热招募中", "FullName": "上海萌萃信息科技有限公司", "id": 84792, "stage": "上市公司"}
+{"ShortName": "尚德机构", "city": "深圳", "industry": "移动互联网,其他", "desc": "尚德机构自2001年3月成立，已成为中国最大的职业教育机构之一，致力于提高学员职场竞争力。", "FullName": "深圳市尚德机构", "id": 103179, "stage": "成熟型(C轮)"}
+{"ShortName": "小源科技", "city": "珠海", "industry": "移动互联网", "desc": "珠海市小源科技有限公司成立于2011年，是一家专注移动互联网领域的产品研发和运营的创业公司", "FullName": "珠海市小源科技有限公司", "id": 32979, "stage": "成长型(A轮)"}
+{"ShortName": "沃而乐", "city": "上海", "industry": "移动互联网,社交网络", "desc": "专注于打造一个陪伴、快乐的小星球。", "FullName": "上海沃而乐信息科技有限公司", "id": 21394, "stage": "成长型(A轮)"}
+{"ShortName": "智子云", "city": "上海", "industry": "移动互联网,数据服务", "desc": "上海智子信息科技有限公司是国内领先的大数据营销服务高科技公司，由复旦大学计算机博士专家团队领衔。", "FullName": "上海智子信息科技有限公司", "id": 26987, "stage": "成长型(B轮)"}
+{"ShortName": "指掌易", "city": "北京", "industry": "移动互联网", "desc": "专注于企业移动信息化及数据安全研发的公司。", "FullName": "北京指掌易科技有限公司", "id": 7001, "stage": "成长型(A轮)"}
+{"ShortName": "HeiPis 黑披士", "city": "北京", "industry": "移动互联网,教育", "desc": "HeiPis 专注影响街头文化，线下资源与线上产品同步构建街头生态。", "FullName": "北京黑披士网络科技有限公司", "id": 136864, "stage": "初创型(不需要融资)"}
+{"ShortName": "Dreamix", "city": "成都", "industry": "移动互联网", "desc": "团队靠谱，项目靠谱，气氛自由，欢迎一起玩耍", "FullName": "智慕时代科技（成都）有限公司", "id": 21748, "stage": "成长型(B轮)"}
+{"ShortName": "一满乐", "city": "深圳", "industry": "移动互联网", "desc": "顾客消费行为分析及基于大数据的自动化营销", "FullName": "深圳市一满乐科技有限公司", "id": 59896, "stage": "成长型(A轮)"}
+{"ShortName": "恒图科技（Fotor）", "city": "成都", "industry": "移动互联网", "desc": "期待优秀的你加入这个优秀的团队，我们共同打造世界一流的数字图像技术公司！", "FullName": "成都恒图科技有限责任公司", "id": 29706, "stage": "成长型(A轮)"}
+{"ShortName": "云上会", "city": "深圳", "industry": "O2O", "desc": "给家一道特色菜", "FullName": "深圳市云上会网络科技有限公司", "id": 106043, "stage": "成长型(A轮)"}
+{"ShortName": "永洪科技", "city": "北京", "industry": "移动互联网", "desc": "大数据小数据，一天实现可视化分析", "FullName": "北京永洪商智科技有限公司", "id": 28014, "stage": "成熟型(C轮)"}
+{"ShortName": "亿欧", "city": "北京", "industry": "移动互联网,O2O", "desc": "围绕科技和产业的融合，由四部分构成：亿欧网、视也、天窗、企服盒子。", "FullName": "北京亿欧网盟科技有限公司", "id": 27735, "stage": "成长型(B轮)"}
+{"ShortName": "万秀网", "city": "广州", "industry": "电子商务,旅游", "desc": "如果你够牛，就放马过来吧。", "FullName": "广州万秀网络科技有限公司", "id": 87837, "stage": "成长型(A轮)"}
+{"ShortName": "人人行(借贷宝)", "city": "北京", "industry": "移动互联网,金融", "desc": "九鼎控股旗下互联网金融业务板块，靠谱机会就等你来！", "FullName": "人人行科技有限公司", "id": 61921, "stage": "成长型(B轮)"}
+{"ShortName": "路路由", "city": "上海", "industry": "移动互联网,O2O", "desc": "为每一个有梦想的人打造实现梦想的舞台，给每一个员工提供一个充分发挥才能的空间。", "FullName": "上海路路由信息技术有限公司", "id": 49527, "stage": "成长型(A轮)"}
+{"ShortName": "翼课网", "city": "北京", "industry": "移动互联网 ,教育", "desc": "更专业的智能化同步教学平台", "FullName": "广州摩翼信息科技有限公司", "id": 5726, "stage": "成长型(B轮)"}
+{"ShortName": "广州尚动科技", "city": "广州", "industry": "电子商务", "desc": "成为具有全球影响力的电子商务公司", "FullName": "广州尚动计算机科技有限公司", "id": 10103, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "宝贝团科技", "city": "深圳", "industry": "电子商务,数据服务", "desc": "基于淘宝开放平台发展最快、最受商家欢迎的大牛ISV", "FullName": "宝贝团信息技术有限公司", "id": 57120, "stage": "成长型(A轮)"}
+{"ShortName": "闪银奇异", "city": "北京", "industry": "移动互联网,金融", "desc": "大数据信用评估、互联网金融", "FullName": "北京闪银奇异科技有限公司", "id": 29496, "stage": "成长型(B轮)"}
+{"ShortName": "有礼派", "city": "广州", "industry": "移动互联网,O2O", "desc": "有礼派—服务美妆门店的互联网平台！年轻有活力的创业团队就在有礼派！", "FullName": "深圳市有礼派网络科技有限公司", "id": 56920, "stage": "成长型(A轮)"}
+{"ShortName": "Joydream", "city": "深圳", "industry": "移动互联网", "desc": "寻找怀有共同梦想的事业合伙人", "FullName": "深圳市卓越创想科技有限公司", "id": 30448, "stage": "成长型(B轮)"}
+{"ShortName": "亿邦动力网", "city": "北京", "industry": "文化娱乐,电子商务", "desc": "电商新闻门户", "FullName": "北京亿商联动国际电子商务有限公司", "id": 373, "stage": "上市公司"}
+{"ShortName": "数来宝金服", "city": "成都", "industry": "O2O,金融", "desc": "国内领先的线上私人财富管理平台，通过数据分析，实现用户、私人理财师和理财方案的精准匹配。", "FullName": "四川返点网络科技有限公司", "id": 99892, "stage": "成长型(A轮)"}
+{"ShortName": "51信用卡管家", "city": "杭州", "industry": "金融,数据服务", "desc": "胡润2016中国新金融50强、福布斯中国互联网金融50强、杭州市互联网金融协会副会长", "FullName": "杭州恩牛网络技术有限公司", "id": 3864, "stage": "成熟型(C轮)"}
+{"ShortName": "首付游", "city": "上海", "industry": "移动互联网", "desc": "首付就出发", "FullName": "上海云屏网络科技有限公司", "id": 22897, "stage": "成长型(B轮)"}
+{"ShortName": "今日头条", "city": "北京", "industry": "移动互联网,数据服务", "desc": "我们不刷存在感，我们只追求卓越", "FullName": "北京字节跳动科技有限公司", "id": 62, "stage": "成熟型(C轮)"}
+{"ShortName": "她理财", "city": "北京", "industry": "电子商务,金融", "desc": "财女养成社区", "FullName": "北京新工场投资顾问有限公司", "id": 179, "stage": "成长型(A轮)"}
+{"ShortName": "答疑君", "city": "杭州", "industry": "移动互联网", "desc": "名校家教第一品牌", "FullName": "杭州微著网络有限公司", "id": 41103, "stage": "成长型(A轮)"}
+{"ShortName": "warm+", "city": "深圳", "industry": "移动互联网,O2O", "desc": "团队牛逼，免费三餐，工作氛围佳，发展空间大", "FullName": "深圳市我们投资发展有限公司", "id": 60394, "stage": "成长型(A轮)"}
+{"ShortName": "纸贵版权", "city": "西安", "industry": "文化娱乐,企业服务", "desc": "尊重原创权威，围截盗版侵权，疏堵兼施，从纸贵始。", "FullName": "西安纸贵互联网科技有限公司", "id": 147701, "stage": "初创型(天使轮)"}
+{"ShortName": "丽子美妆", "city": "杭州", "industry": "移动互联网,电子商务", "desc": "由麻省理工博士创办，专注于售卖化妆品一百年，提供具竞争力薪酬、多种人性化组合福利、与美女一起工作机会", "FullName": "杭州徐娜拉电子商务有限公司", "id": 8985, "stage": "成长型(A轮)"}
+{"ShortName": "115科技", "city": "东莞", "industry": "移动互联网,数据服务", "desc": "如果人生旅途方向一致，我愿为同行的你背负行囊。", "FullName": "广东一一五科技有限公司", "id": 28692, "stage": "成长型(B轮)"}
+{"ShortName": "迈微科技", "city": "上海", "industry": "移动互联网,游戏", "desc": "用电脑畅玩手游", "FullName": "上海迈微软件科技有限公司", "id": 81551, "stage": "成长型(A轮)"}
+{"ShortName": "邻动（北京）技术有限公司", "city": "北京", "industry": "移动互联网", "desc": "不是蓝牙，秒杀蓝牙。", "FullName": "邻动（北京）技术有限公司", "id": 140, "stage": "成长型(B轮)"}
+{"ShortName": "心潮", "city": "广州", "industry": "移动互联网,医疗健康", "desc": "心如潮汐，科技的态度是对世界的温度", "FullName": "广州心与潮信息科技有限公司", "id": 99364, "stage": "初创型(天使轮)"}
+{"ShortName": "妮素", "city": "杭州", "industry": "电子商务", "desc": "国内最大的日系跨境电商，以供应链为优势打造全平台电商新模式", "FullName": "浙江妮素网络科技有限公司", "id": 51290, "stage": "成熟型(C轮)"}
+{"ShortName": "Demo++", "city": "西安", "industry": "移动互联网", "desc": "平等 互爱 简单 高效 双休 带宠物上班 免费电影票 妹子多 包容各种恋", "FullName": "西安巨匠软开网络科技有限公司", "id": 90572, "stage": "初创型(天使轮)"}
+{"ShortName": "触手", "city": "上海", "industry": "移动互联网", "desc": "玩手游，开触手！", "FullName": "杭州开迅科技有限公司", "id": 23599, "stage": "成熟型(C轮)"}
+{"ShortName": "8868交易平台", "city": "广州", "industry": "移动互联网,电子商务", "desc": "不断创新、充满活力”是公司的企业文化。展望未来，聚好玩将继续保持高速发展的态势，不断吸收优秀人才，在", "FullName": "广州聚好玩信息科技有限公司", "id": 10463, "stage": "成长型(B轮)"}
+{"ShortName": "海琛国际", "city": "上海", "industry": "电子商务,生活服务", "desc": "海琛国际融合设计、物流、零售、电商产业，有自主品牌CONWOOD及五十年历史的国际品牌ECHOLAC", "FullName": "上海海琛国际贸易有限公司", "id": 43970, "stage": "成长型(不需要融资)"}
+{"ShortName": "豆粒儿电商", "city": "杭州", "industry": "移动互联网,电子商务", "desc": "国际站整站代运营领导者", "FullName": "杭州豆粒儿网络技术有限公司", "id": 75673, "stage": "初创型(未融资)"}
+{"ShortName": "心书", "city": "杭州", "industry": "移动互联网,O2O", "desc": "让每个人的心路都变成一本心书，打造互联网第一自助出版平台", "FullName": "杭州心书网络科技有限公司", "id": 34921, "stage": "初创型(天使轮)"}
+{"ShortName": "考拉FM", "city": "北京", "industry": "移动互联网", "desc": "个性化电台，听我不同！", "FullName": "众联智领科技（北京）有限公司", "id": 328, "stage": "成熟型(C轮)"}
+{"ShortName": "拉勾网", "city": "北京", "industry": "企业服务,招聘", "desc": "帮用户找到满意的工作", "FullName": "北京拉勾网络技术有限公司", "id": 147, "stage": "成熟型(C轮)"}
+{"ShortName": "微笑科技", "city": "北京", "industry": "移动互联网,游戏", "desc": "专注于精品二次元游戏，业界资深大佬，全速前进中，精英船员请加入！", "FullName": "北京微笑科技有限公司", "id": 88795, "stage": "成长型(A轮)"}
+{"ShortName": "有鱼金融科技", "city": "上海", "industry": "移动互联网,金融", "desc": "5年老牌互联网公司，有初创团队的狼性，又有雄厚的资金做为后盾保证，快点加入我们哦~", "FullName": "上海彩亿信息技术有限公司", "id": 1738, "stage": "成长型(B轮)"}
+{"ShortName": "贝多芬", "city": "深圳", "industry": "电子商务,O2O", "desc": "中金投资，BAT团队，国家队跨境电商排头兵。", "FullName": "深圳贝多芬网络科技有限公司", "id": 80309, "stage": "成长型(A轮)"}
+{"ShortName": "彩亿互联网金融", "city": "上海", "industry": "移动互联网,金融", "desc": "快速成长的金融互联网公司", "FullName": "上海彩亿互联网金融信息服务有限公司", "id": 113868, "stage": "成长型(A轮)"}
+{"ShortName": "墨橙", "city": "杭州", "industry": "游戏", "desc": "这是一家不正经的正经游戏研发公司！", "FullName": "杭州墨橙科技有限公司", "id": 110022, "stage": "成长型(A轮)"}
+{"ShortName": "跑跑友", "city": "武汉", "industry": "移动互联网,O2O", "desc": "成为全球校园一公里生态圈的建设者", "FullName": "武汉跑跑友科技有限公司", "id": 73606, "stage": "成长型(A轮)"}
+{"ShortName": "优云软件", "city": "杭州", "industry": "移动互联网,数据服务", "desc": "互联网敏捷运维创新品牌", "FullName": "北京广通信达软件股份有限公司杭州分公司", "id": 85040, "stage": "上市公司"}
+{"ShortName": "口袋兼职", "city": "广州", "industry": "移动互联网,招聘", "desc": "专注大学生校园职业机会", "FullName": "广州极豆网络科技有限公司", "id": 32886, "stage": "成长型(A轮)"}
+{"ShortName": "棒米科技", "city": "杭州", "industry": "移动互联网,硬件", "desc": "通过移动互联网提升人类健康水平", "FullName": "杭州棒米科技有限公司", "id": 73598, "stage": "成长型(A轮)"}
+{"ShortName": "心跳时空科技", "city": "北京", "industry": "移动互联网,文化娱乐", "desc": "野心勃勃，嗅觉敏锐，从不按套路出牌的团队，高能战斗氛围，美少女战士出任CEO", "FullName": "北京心跳时空科技有限公司", "id": 139750, "stage": "初创型(天使轮)"}
+{"ShortName": "小圈", "city": "上海", "industry": "移动互联网,社交网络", "desc": "我们拥有强大的创始人团队，我们渴求顶尖创业伙伴一起来挑战行业大牛。", "FullName": "上海万众互联信息技术有限公司", "id": 95490, "stage": "初创型(天使轮)"}
+{"ShortName": "TOMTOP", "city": "深圳", "industry": "电子商务", "desc": "专注跨境电商12年，是中国跨境电商先行者和领导者。", "FullName": "深圳市通拓科技有限公司", "id": 27228, "stage": "成熟型(C轮)"}
+{"ShortName": "墨迹天气", "city": "北京", "industry": "移动互联网,生活服务", "desc": "墨迹天气，一款免费天气信息查询软件", "FullName": "北京墨迹风云科技股份有限公司", "id": 121, "stage": "成熟型(C轮)"}
+{"ShortName": "公瑾", "city": "广州", "industry": "移动互联网", "desc": "实现客户管理、记账到申报的全流程无缝对接", "FullName": "北京公瑾科技有限公司", "id": 30162, "stage": "成长型(A轮)"}
+{"ShortName": "云天下数字传媒", "city": "武汉", "industry": "移动互联网,教育", "desc": "“云天下”—— 教育+出版+互联网发行领域的综合运营商。", "FullName": "湖北云天下数字传媒有限公司", "id": 38388, "stage": "成长型(A轮)"}
+{"ShortName": "嗨企货仓", "city": "杭州", "industry": "社交网络,广告营销", "desc": "你要的丰富生活都在这里", "FullName": "杭州盛世东方网络科技有限公司", "id": 41061, "stage": "成长型(A轮)"}
+{"ShortName": "劲牛", "city": "上海", "industry": "移动互联网,其他", "desc": "一群农业互联网的拓荒牛，让天下没有难种的地，让中国的农产品更安全", "FullName": "上海劲牛信息技术有限公司", "id": 82111, "stage": "初创型(不需要融资)"}
+{"ShortName": "全球说 talkmate", "city": "北京", "industry": "移动互联网,社交网络", "desc": "语言连接世界 fluent in friendship", "FullName": "北京酷语时代教育科技有限公司", "id": 61053, "stage": "成长型(A轮)"}
+{"ShortName": "银事达", "city": "成都", "industry": "移动互联网", "desc": "四川移动核心合作伙伴，支付宝、微信、滴滴出行高校合作伙伴，高新技术企业！", "FullName": "成都银事达信息技术有限公司", "id": 141442, "stage": "成长型(不需要融资)"}
+{"ShortName": "云商汇", "city": "深圳", "industry": "电子商务", "desc": "爱生活 爱农业 健康分享", "FullName": "深圳市云商汇电子商务有限公司", "id": 137830, "stage": "成长型(不需要融资)"}
+{"ShortName": "医信科技", "city": "深圳", "industry": "移动互联网,医疗健康", "desc": "让医疗有温度－为妈妈和宝宝创造最好的移动医疗服务平台", "FullName": "深圳市医信科技有限公司", "id": 38442, "stage": "成长型(B轮)"}
+{"ShortName": "原画人", "city": "深圳", "industry": "文化娱乐", "desc": "公益服务，共享共赢", "FullName": "深圳市原画人科技有限公司", "id": 14893, "stage": "初创型(天使轮)"}
+{"ShortName": "销售易", "city": "北京", "industry": "移动互联网,数据服务", "desc": "移动CRM领军企业", "FullName": "仁科互动（北京）信息科技有限公司", "id": 3950, "stage": "成熟型(C轮)"}
+{"ShortName": "美科科技-Microduino", "city": "北京", "industry": "硬件", "desc": "人人都是发明家", "FullName": "美科科技（北京）有限公司", "id": 63302, "stage": "初创型(天使轮)"}
+{"ShortName": "蚂蚁白领", "city": "北京", "industry": "移动互联网,金融", "desc": "蚂蚁白领是一家安全透明的互联网金融平台。创始团队来自华尔街和硅谷。", "FullName": "蚂蚁白领（北京）投资管理有限公司", "id": 49405, "stage": "成长型(A轮)"}
+{"ShortName": "微领控", "city": "郑州", "industry": "移动互联网", "desc": "走在科技的前沿，90后BOSS带领大家一起玩转新媒体", "FullName": "郑州微领控科技有限公司", "id": 120415, "stage": "成长型(不需要融资)"}
+{"ShortName": "in", "city": "杭州", "industry": "广告营销,移动互联网", "desc": "我的生活in记，每个生活瞬间都值得被记录", "FullName": "杭州九言科技股份有限公司", "id": 3770, "stage": "成长型(B轮)"}
+{"ShortName": "一度用车", "city": "北京", "industry": "移动互联网", "desc": "让出行更简单", "FullName": "北京一度用车信息科技有限公司", "id": 61044, "stage": "成长型(A轮)"}
+{"ShortName": "通甲优博", "city": "成都", "industry": "移动互联网,数据服务", "desc": "领先的计算机视觉公司", "FullName": "成都通甲优博科技有限责任公司", "id": 84985, "stage": "初创型(未融资)"}
+{"ShortName": "新诤信知识产权", "city": "上海", "industry": "企业服务", "desc": "以&quot;强化知识产权保护，促进知识产权运用”为指导理念，现已发展为国内规模最大的知识产权保护服务商之一。", "FullName": "上海新诤信知识产权服务股份有限公司", "id": 67116, "stage": "成长型(B轮)"}
+{"ShortName": "新影科技", "city": "上海", "industry": "移动互联网", "desc": "中央新影集团旗下科技公司", "FullName": "新影（上海）科技股份有限公司", "id": 20721, "stage": "初创型(不需要融资)"}
+{"ShortName": "酷划在线", "city": "北京", "industry": "移动互联网", "desc": "划屏解锁，用户获取返现，广告主做全屏广告展示", "FullName": "北京酷划在线网络技术有限公司", "id": 10723, "stage": "成长型(B轮)"}
+{"ShortName": "会小二网", "city": "北京", "industry": "移动互联网,O2O", "desc": "中国最知名、口碑最好的会议资源在线预订平台。", "FullName": "北京云动数字媒体技术有限公司", "id": 22666, "stage": "成长型(B轮)"}
+{"ShortName": "LOCKet", "city": "杭州", "industry": "移动互联网,信息安全", "desc": "专注于云端数据安全的技术团队，轻松愉快，只讲能力，没有规则！", "FullName": "杭州臻至科技有限公司", "id": 59463, "stage": "成长型(A轮)"}
+{"ShortName": "小研科技", "city": "北京", "industry": "教育,金融", "desc": "股票社区-快速发展中, 招聘懂行业的产品经理, 运营经理", "FullName": "北京小研网络科技有限公司", "id": 68658, "stage": "成长型(A轮)"}
+{"ShortName": "爱回扣—网购省钱第1站！", "city": "广州", "industry": "移动互联网,电子商务", "desc": "一个包容失败不容放弃的团队，一群立志做成一个伟大公司的年轻人，有梦想够优秀你就来！", "FullName": "广州富米科技有限公司", "id": 37990, "stage": "成长型(A轮)"}
+{"ShortName": "天联网络", "city": "南京", "industry": "移动互联网,电子商务", "desc": "国内领先的互联网及移动互联网产品推广与效果营销解决方案服务平台", "FullName": "上饶市天联网络科技有限公司", "id": 27722, "stage": "成长型(不需要融资)"}
+{"ShortName": "一下集团", "city": "北京", "industry": "移动互联网", "desc": "领先的移动视频技术与服务提供商", "FullName": "炫一下（北京）科技有限公司", "id": 1730, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "二维火", "city": "杭州", "industry": "移动互联网 ,O2O", "desc": "在移动互联网时代打造最具有价值的本地生活服务类产品", "FullName": "杭州迪火科技有限公司", "id": 22013, "stage": "成长型(B轮)"}
+{"ShortName": "云图TV", "city": "深圳", "industry": "移动互联网", "desc": "打造中国最好的手机电视直播软件", "FullName": "深圳新感易搜网络科技有限公司", "id": 26399, "stage": "成长型(A轮)"}
+{"ShortName": "云之讯", "city": "深圳", "industry": "移动互联网", "desc": "汇聚全球通讯资源，构建领先的通讯云平台，为客户提供专业、至臻的通讯产品及服务，让通讯更简单。", "FullName": "深圳市云之讯网络技术有限公司", "id": 29591, "stage": "成长型(A轮)"}
+{"ShortName": "大搜车", "city": "杭州", "industry": "移动互联网,O2O", "desc": "中国领先的二手车商服务平台，让天下车商没有难卖的车", "FullName": "杭州大搜车汽车服务有限公司", "id": 18655, "stage": "成熟型(C轮)"}
+{"ShortName": "数据堂", "city": "北京", "industry": "数据服务,分类信息", "desc": "发掘数据的价值，便利人们的生活，从未止步！", "FullName": "数据堂（北京）科技股份有限公司", "id": 29643, "stage": "成长型(B轮)"}
+{"ShortName": "青苹果健康", "city": "上海", "industry": "移动互联网,医疗健康", "desc": "专注于医疗行业的移动互联网创业团队。创始团队来自哈佛MBA，SAP, BAT等，", "FullName": "上海慷慷汇科技有限公司", "id": 4016, "stage": "成长型(B轮)"}
+{"ShortName": "亿方云科技", "city": "杭州", "industry": "移动互联网,数据服务", "desc": "硅谷技术团队，企业级服务风口，高潜力发展前景，优厚薪资福利，极客文化氛围", "FullName": "杭州亿方云网络科技有限公司", "id": 10593, "stage": "成长型(A轮)"}
+{"ShortName": "陪我", "city": "北京", "industry": "移动互联网,金融", "desc": "陪我在社交直播领域有业内领先的理念和技术实力。诱人的期权激励和薪资福利，老板nice，同事颜值高！", "FullName": "博瑞天下（北京)科技有限公司", "id": 62540, "stage": "成长型(A轮)"}
+{"ShortName": "花果金融", "city": "北京", "industry": "金融", "desc": "花果金融 让你的财富开花结果", "FullName": "北京花果信息技术有限公司", "id": 17507, "stage": "成长型(A轮)"}
+{"ShortName": "零用钱", "city": "北京", "industry": "移动互联网,广告营销", "desc": "年轻的有激情的创业团队，已经盈利，年收入千万级。", "FullName": "北京零用钱科技有限公司", "id": 25652, "stage": "初创型(不需要融资)"}
+{"ShortName": "卓动信息科技", "city": "广州", "industry": "游戏", "desc": "我们公司的创始人均是来自游戏行业的领军公司的核心成员，我们拥有技术、运营、市场、商务、研发等团队。", "FullName": "广州卓动信息科技有限公司", "id": 42632, "stage": "成长型(A轮)"}
+{"ShortName": "康创联盛", "city": "北京", "industry": "移动互联网,企业服务", "desc": "Discuz！团队原班人马", "FullName": "北京康创联盛科技有限公司", "id": 116065, "stage": "成长型(不需要融资)"}
+{"ShortName": "电商宝", "city": "杭州", "industry": "移动互联网,电子商务", "desc": "梦想与你，更加精彩！", "FullName": "杭州爱聚科技有限公司", "id": 54077, "stage": "成长型(A轮)"}
+{"ShortName": "威赛", "city": "成都", "industry": "移动互联网,文化娱乐", "desc": "最懂体育赛事的APP", "FullName": "成都威威赛网络科技有限公司", "id": 88355, "stage": "初创型(天使轮)"}
+{"ShortName": "微方程", "city": "北京", "industry": "移动互联网,企业服务", "desc": "一群有梦想的小伙伴，在为梦想践行中......", "FullName": "北京微方程科技有限公司", "id": 120941, "stage": "成长型(A轮)"}
+{"ShortName": "企业云科技", "city": "深圳", "industry": "移动互联网", "desc": "全球同步协作，让成功更近一步， 企业云构筑高远广阔的发展平台， 期待与您携手，和梦想一起腾飞！", "FullName": "深圳企业云科技股份有限公司", "id": 81698, "stage": "成长型(B轮)"}
+{"ShortName": "学会玩", "city": "杭州", "industry": "O2O,文化娱乐", "desc": "为玩客提供发起、参与和分享各类玩法的服务平台。", "FullName": "杭州学会玩网络技术有限公司", "id": 73424, "stage": "初创型(天使轮)"}
+{"ShortName": "环球黑卡", "city": "杭州", "industry": "移动互联网", "desc": "BAT团队、投资人追着跑、不打卡、地铁周边（怀揣梦想，拥抱世界，别被平凡淹没）", "FullName": "杭州冒险元素网络技术有限公司", "id": 14137, "stage": "成长型(B轮)"}
+{"ShortName": "极享科技", "city": "北京", "industry": "移动互联网,O2O", "desc": "颠覆传统平台模式，探索新商业模式", "FullName": "极享（北京）网络科技有限公司", "id": 75431, "stage": "成长型(A轮)"}
+{"ShortName": "爱福窝", "city": "上海", "industry": "电子商务", "desc": "我们对家装行业痛点作“针灸”！ 我们已创建新型居家移动服务平台！", "FullName": "上海爱福窝云技术有限公司", "id": 1313, "stage": "成长型(A轮)"}
+{"ShortName": "铂诺理财", "city": "北京", "industry": "金融", "desc": "李开复老师投资的第一家互联网科技金融公司", "FullName": "北京优势财富科技有限公司", "id": 67608, "stage": "成长型(A轮)"}
+{"ShortName": "启明星", "city": "深圳", "industry": "电子商务", "desc": "我们是一家跨境电商企业，致力于为客户提供高品质的海外生活用品。目前公司已完成B轮融资。", "FullName": "深圳市启明星电子商务有限公司", "id": 66099, "stage": "成长型(B轮)"}
+{"ShortName": "贝米钱包", "city": "上海", "industry": "金融", "desc": "可能是目前为止最好的理财方式", "FullName": "上海贝涛金融信息服务有限公司", "id": 56746, "stage": "成长型(A轮)"}
+{"ShortName": "石墨", "city": "北京", "industry": "移动互联网", "desc": "可多人实时协作的云端文档和表格", "FullName": "武汉初心科技有限公司", "id": 75863, "stage": "成长型(A轮)"}
+{"ShortName": "盛趣网络", "city": "成都", "industry": "移动互联网,电子商务", "desc": "兴盛长久，趣味始终", "FullName": "成都盛趣网络科技有限公司", "id": 56340, "stage": "成长型(不需要融资)"}
+{"ShortName": "小鲸科技", "city": "上海", "industry": "游戏", "desc": "务实 高效 专注", "FullName": "上海小鲸信息科技有限公司", "id": 81632, "stage": "初创型(天使轮)"}
+{"ShortName": "银库", "city": "北京", "industry": "教育,金融", "desc": "价值观:&quot;诚信、梦想、创新、共赢&quot;,请对号入座,不认同者勿扰.", "FullName": "北京银库信息服务有限公司", "id": 98007, "stage": "成长型(A轮)"}
+{"ShortName": "大梦科技", "city": "北京", "industry": "移动互联网,社交网络", "desc": "全世界最大的新能源汽车共享网络", "FullName": "北京大梦科技有限公司", "id": 33291, "stage": "成长型(A轮)"}
+{"ShortName": "薪人薪事", "city": "北京", "industry": "企业服务", "desc": "最好用的企业人力资源云平台，精英云集，扁平管理，大量期权，成长迅速！", "FullName": "企家有道网络技术（北京）有限公司", "id": 73184, "stage": "成长型(A轮)"}
+{"ShortName": "众马 · 云网站", "city": "南充", "industry": "企业服务", "desc": "专注于SaaS模式网站服务，寻找技术梦想者，学徒、实习生、程序猿三步走，怀揣技术梦想，勿负多彩青春！", "FullName": "南充市老虎云网络技术有限公司", "id": 124029, "stage": "初创型(天使轮)"}
+{"ShortName": "Sobrr", "city": "南京", "industry": "移动互联网,社交网络", "desc": "硅谷创新团队，来自加州伯克利大学，清华大学，微软，Linkedin，Twitter", "FullName": "清醒（北京）科技有限公司", "id": 49710, "stage": "初创型(天使轮)"}
+{"ShortName": "味库", "city": "北京", "industry": "生活服务", "desc": "生鲜半成品净菜平台", "FullName": "北京微酷客科技有限公司", "id": 16789, "stage": "成长型(A轮)"}
+{"ShortName": "Togezer", "city": "北京", "industry": "社交网络", "desc": "在一起，更好玩！", "FullName": "布里斯克（北京）科技有限公司", "id": 133348, "stage": "初创型(天使轮)"}
+{"ShortName": "e路同心", "city": "深圳", "industry": "金融", "desc": "基金控股 国企参股 全员持股", "FullName": "深圳市同心科创金融有限公司", "id": 45062, "stage": "成长型(A轮)"}
+{"ShortName": "易帆互动", "city": "深圳", "industry": "移动互联网,游戏", "desc": "手机游戏研发，为做出最好的游戏而努力", "FullName": "深圳易帆互动科技有限公司", "id": 27585, "stage": "成长型(不需要融资)"}
+{"ShortName": "点我达", "city": "杭州", "industry": "O2O", "desc": "新兴业态的宠儿，全新“即时物流”模式的倡导者和典型代表", "FullName": "点我达网络科技有限公司", "id": 8169, "stage": "成熟型(C轮)"}
+{"ShortName": "蓝斯特科技", "city": "杭州", "industry": "企业服务,硬件", "desc": "AR眼镜，AR算法，AR增强现实行业方案及平台", "FullName": "杭州蓝斯特科技有限公司", "id": 100207, "stage": "成长型(A轮)"}
+{"ShortName": "智齿科技", "city": "北京", "industry": "移动互联网,企业服务", "desc": "智齿使命：以互联网技术驱动客服行业变革；成就企业与用户的极致沟通体验；构建更为良性的客户服务新生态。", "FullName": "北京智齿博创科技有限公司", "id": 125449, "stage": "成长型(A轮)"}
+{"ShortName": "同道大叔", "city": "深圳", "industry": "电子商务,移动互联网", "desc": "办公环境开放，团队氛围轻松，扁平化管理，年底奖金。", "FullName": "深圳市同道大叔文化传播有限公司", "id": 123267, "stage": "成长型(A轮)"}
+{"ShortName": "风车金融", "city": "深圳", "industry": "移动互联网", "desc": "因相同而吸引，因相异而成长，我们欣赏每一个精彩的生命！", "FullName": "深圳前海风车金融服务有限公司", "id": 90914, "stage": "初创型(天使轮)"}
+{"ShortName": "广州丰石科技", "city": "广州", "industry": "移动互联网,数据服务", "desc": "广州瀚信兄弟公司。提供精准的大数据服务。团队汇集瀚信、苹果、汇丰软件、移动、爱立信、华为的优秀人才。", "FullName": "广州丰石科技有限公司", "id": 126216, "stage": "成长型(A轮)"}
+{"ShortName": "进门财经", "city": "深圳", "industry": "移动互联网,金融", "desc": "专注于金融领域的直播平台，股票代码：838764", "FullName": "深圳进门财经科技股份有限公司", "id": 15153, "stage": "成长型(A轮)"}
+{"ShortName": "番茄来了", "city": "成都", "industry": "电子商务,旅游", "desc": "提升旅游商家幸福感！", "FullName": "成都番茄来了科技有限公司", "id": 38605, "stage": "成长型(B轮)"}
+{"ShortName": "杭州云书网络科技有限公司", "city": "杭州", "industry": "移动互联网,教育", "desc": "初创型互联网公司，和一群理念超前、执行高效，八核多线程的人一起共事，永远是世间最美妙的事情。", "FullName": "杭州云书网络科技有限公司", "id": 85243, "stage": "成长型(A轮)"}
+{"ShortName": "logicmonitor", "city": "成都", "industry": "移动互联网", "desc": "靠谱的创业团队不仅和你谈理想，还谈高薪和期权！！", "FullName": "美国云控科技有限公司成都代表处", "id": 25384, "stage": "成长型(B轮)"}
+{"ShortName": "成都小多科技有限公司", "city": "成都", "industry": "企业服务,数据服务", "desc": "致力于人工智能，智能客服机器人方向；团队成员来自于百度，腾讯等企业，毕业于各大名校。", "FullName": "成都小多科技有限公司", "id": 85491, "stage": "成长型(A轮)"}
+{"ShortName": "unistacks", "city": "上海", "industry": "企业服务,金融", "desc": "面向高端金融客户提供专业的云计算、大数据、微服务以及运维一体化服务", "FullName": "上海联栈信息科技有限公司", "id": 87979, "stage": "成长型(A轮)"}
+{"ShortName": "橙光游戏", "city": "北京", "industry": "游戏", "desc": "文字游戏社区，让世界看到你的想象力！", "FullName": "北京六趣网络科技有限公司", "id": 24489, "stage": "成长型(B轮)"}
+{"ShortName": "北京真的网络", "city": "北京", "industry": "移动互联网,电子商务", "desc": "国内首家个性化优选奢品服务平台，及彩绘定制、奢品鉴定、闲置交易、奢侈品金融等全方位一站式专属服务。", "FullName": "北京真的网络科技有限公司", "id": 65595, "stage": "初创型(天使轮)"}
+{"ShortName": "西软股份", "city": "西安", "industry": "移动互联网,电子商务", "desc": "融合管理与IT,贯通理论与实践；架起沟通桥梁，促进自主创新。", "FullName": "西软软件股份有限公司", "id": 86178, "stage": "成长型(B轮)"}
+{"ShortName": "北京神州微融金融信息服务有限公司", "city": "北京", "industry": "金融", "desc": "顶级征信大数据平台，带薪年假、员工关怀、国内外旅、快速发展、为员工提供广阔晋升机会与发展", "FullName": "北京神州微融金融信息服务有限公司", "id": 106399, "stage": "成长型(A轮)"}
+{"ShortName": "门铺集", "city": "成都", "industry": "移动互联网", "desc": "加入我们将会是你这辈子做过的最好的决定之一。Choose well。", "FullName": "成都门铺集科技有限公司", "id": 42245, "stage": "初创型(天使轮)"}
+{"ShortName": "中电博亚", "city": "北京", "industry": "电子商务,游戏", "desc": "杉果游戏，致力于创造中国最好的数字互动娱乐平台。", "FullName": "北京中电博亚科技有限公司", "id": 20091, "stage": "成长型(A轮)"}
+{"ShortName": "Avazu Holding", "city": "上海", "industry": "移动互联网,广告营销", "desc": "海外先锋广告平台、移动工具APP、游戏平台研发商", "FullName": "上海麦致信息技术有限公司", "id": 5120, "stage": "上市公司"}
+{"ShortName": "果壳网", "city": "北京", "industry": "移动互联网,社交网络", "desc": "泛科学本土第一品牌，以及在线教育平台", "FullName": "北京果壳互动信息技术有限公司", "id": 11209, "stage": "成熟型(C轮)"}
+{"ShortName": "中以创新中心", "city": "上海", "industry": "企业服务,金融", "desc": "中以创新中心是上海张江高科技园区和美国雷哈韦投资合作成立的为中以两国科技初创企业提供孵化服务的机构。", "FullName": "雷哈韦（上海）众创空间管理有限公司", "id": 104971, "stage": "成长型(不需要融资)"}
+{"ShortName": "米络科技（KK直播）", "city": "杭州", "industry": "移动互联网", "desc": "致力于为全球用户提供最好的移动互联网直播互动平台", "FullName": "杭州米络科技有限公司", "id": 9891, "stage": "成长型(B轮)"}
+{"ShortName": "宝蓝财富-八条鱼", "city": "天津", "industry": "移动互联网,电子商务", "desc": "能力比学历更重要，期待您的加入！", "FullName": "宝蓝财富（天津）科技有限公司", "id": 41268, "stage": "成长型(A轮)"}
+{"ShortName": "Klook 客路旅行", "city": "深圳", "industry": "移动互联网,旅游", "desc": "出境自由行创业公司，打造个性化目的地活动的探索与预订平台。", "FullName": "深圳市客路网络科技有限公司", "id": 28121, "stage": "成长型(A轮)"}
+{"ShortName": "墨齐", "city": "深圳", "industry": "移动互联网,教育", "desc": "顶尖创新产品+皮克斯硅谷文化+一群黑客与画家 = 移动时代的乐高", "FullName": "深圳墨齐致知网络科技有限公司", "id": 194, "stage": "成长型(A轮)"}
+{"ShortName": "易招标", "city": "上海", "industry": "企业服务", "desc": "易招标-让B2B采购更简单", "FullName": "上海汇招信息技术有限公司", "id": 44900, "stage": "成长型(A轮)"}
+{"ShortName": "哎吖科技", "city": "深圳", "industry": "移动互联网,社交网络", "desc": "正在打造一个年轻人的社交平台，创始团队来自快播移动端，欢迎年轻人加入=^.^=", "FullName": "深圳市哎吖科技有限公司", "id": 70686, "stage": "初创型(天使轮)"}
+{"ShortName": "找冻品网", "city": "成都", "industry": "移动互联网,电子商务", "desc": "冷冻食品B2B电商平台", "FullName": "成都信领科技有限公司", "id": 78635, "stage": "成长型(A轮)"}
+{"ShortName": "中大凯旋", "city": "广州", "industry": "电子商务", "desc": "国内电子政务、公共服务、电子商务知名IT企业，高精尖技术团队，愿与您一起共赢！", "FullName": "广州中大凯旋电子科技有限公司", "id": 24348, "stage": "成长型(不需要融资)"}
+{"ShortName": "晶泰科技", "city": "深圳", "industry": "企业服务,医疗健康", "desc": "量子物理，云端制药。领跑药物研发的智能化升级", "FullName": "深圳晶泰科技有限公司", "id": 76066, "stage": "成长型(A轮)"}
+{"ShortName": "数码视讯", "city": "北京", "industry": "硬件,文化娱乐", "desc": "三网融合龙头企业", "FullName": "北京数码视讯科技股份有限公司", "id": 51710, "stage": "上市公司"}
+{"ShortName": "蘑菇财富", "city": "深圳", "industry": "移动互联网,金融", "desc": "蘑菇，专注模拟炒股游戏化云服务", "FullName": "深圳市蘑菇财富技术有限公司", "id": 33955, "stage": "成长型(A轮)"}
+{"ShortName": "华尔街见闻", "city": "上海", "industry": "金融,移动互联网", "desc": "华尔街见闻是中国领先的金融资讯提供商。我们影响有影响力的人。", "FullName": "上海阿牛信息科技有限公司", "id": 5674, "stage": "成长型(B轮)"}
+{"ShortName": "3W咖啡", "city": "深圳", "industry": "移动互联网,招聘", "desc": "这就是互联网的圈子", "FullName": "深圳市三大不六源兴科技有限公司", "id": 27333, "stage": "成长型(A轮)"}
+{"ShortName": "伯瑞英语ABC360", "city": "杭州", "industry": "教育", "desc": "English for All. abc360伯瑞英语立志成为“国内性价比最高的英语教育培训机构”", "FullName": "杭州旦悦科技有限公司", "id": 10483, "stage": "成长型(B轮)"}
+{"ShortName": "大钱信息", "city": "上海", "industry": "移动互联网", "desc": "专业、专注、生活更美好", "FullName": "上海大钱信息技术有限公司", "id": 29019, "stage": "成长型(B轮)"}
+{"ShortName": "特购社进口食品", "city": "北京", "industry": "移动互联网,电子商务", "desc": "汇集业界精英，全新电商模式，接触全球美食，同享创业历程", "FullName": "天天百分百（北京）商贸有限公司", "id": 28864, "stage": "成长型(A轮)"}
+{"ShortName": "百朋科技", "city": "广州", "industry": "移动互联网,企业服务", "desc": "移动互联网转型专家，由来自爱立信、中移动等企业专家提供提供整体的信息化解决方案", "FullName": "广州百朋信息科技有限公司", "id": 53846, "stage": "初创型(未融资)"}
+{"ShortName": "蝶和科技（中国）有限公司", "city": "北京", "industry": "医疗健康", "desc": "DIH蝶和科技是全球领先的智慧医疗系统及解决方案提供商、国内智能药房全线产品及智能康复产品产品先行者", "FullName": "北京蝶和医疗科技有限公司", "id": 36577, "stage": "成长型(A轮)"}
+{"ShortName": "机智云", "city": "广州", "industry": "移动互联网,硬件", "desc": "只为智能硬件而生的云", "FullName": "广州机智云物联网科技有限公司", "id": 6921, "stage": "成长型(B轮)"}
+{"ShortName": "小肚皮App", "city": "北京", "industry": "移动互联网", "desc": "【小肚皮】APP，00后最受欢迎的社交养成平台", "FullName": "北京九识佳科技有限公司", "id": 41030, "stage": "成长型(A轮)"}
+{"ShortName": "飞享数据", "city": "杭州", "industry": "移动互联网,数据服务", "desc": "最后1km的互联网视频交付服务提供商", "FullName": "杭州飞享数据技术有限公司", "id": 50874, "stage": "成长型(A轮)"}
+{"ShortName": "KEYS", "city": "上海", "industry": "移动互联网,生活服务", "desc": "今晚睡哪儿？精选今晚最潮住宿!还有管家服务!", "FullName": "上海惜时信息技术有限公司", "id": 55504, "stage": "成长型(B轮)"}
+{"ShortName": "咸鱼游戏", "city": "深圳", "industry": "游戏", "desc": "咸鱼游戏将秉承“让世界充满欢笑”的游戏发行理念，致力成为一家全球领先的新型移动精品游戏发行公司。", "FullName": "深圳市星河互动科技有限公司", "id": 21381, "stage": "成长型(B轮)"}
+{"ShortName": "数美", "city": "北京", "industry": "企业服务,数据服务", "desc": "奇虎360旗下大数据公司，大数据服务领导者", "FullName": "北京数美时代科技有限公司", "id": 82991, "stage": "成长型(不需要融资)"}
+{"ShortName": "股票雷达", "city": "北京", "industry": "金融,数据服务", "desc": "国内最大的社会化投资和财经大数据平台", "FullName": "北京聚信创盈科技有限公司", "id": 177, "stage": "成长型(B轮)"}
+{"ShortName": "鱿鱼旅行", "city": "深圳", "industry": "移动互联网,旅游", "desc": "鱿鱼旅行，大学生旅游领航者！", "FullName": "鱿鱼旅行（深圳）国际旅行社有限公司", "id": 45890, "stage": "初创型(天使轮)"}
+{"ShortName": "多准大数据", "city": "杭州", "industry": "数据服务,广告营销", "desc": "大数据可视化分析平台，我们由一群阿里腾讯的技术骨灰组成，我们求贤若渴，期待你的加入~", "FullName": "杭州多准数据技术有限公司", "id": 34132, "stage": "成长型(A轮)"}
+{"ShortName": "浪淘金", "city": "北京", "industry": "广告营销", "desc": "她社区是国内最大的纯女性社区APP，@201610-6500万用户，320万日活，月活1300万。", "FullName": "浪淘金（北京）科技有限责任公司", "id": 19921, "stage": "成长型(A轮)"}
+{"ShortName": "蒜泥科技", "city": "西安", "industry": "移动互联网,硬件", "desc": "改变从这里开始！欢迎各种黏人的小妖精一起造！", "FullName": "西安蒜泥电子科技有限责任公司", "id": 45653, "stage": "成长型(A轮)"}
+{"ShortName": "数码港", "city": "北京", "industry": "电子商务", "desc": "公司推崇讲诚信，重品质，鼓励创新，相互协作", "FullName": "北京数码港电子商务有限公司", "id": 106572, "stage": "成长型(B轮)"}
+{"ShortName": "小牛计划", "city": "北京", "industry": "移动互联网,金融", "desc": "跟BAT和平安招商银行的大牛们一起探索互联网+金融的化学变化吧！", "FullName": "北京好奇心科技有限公司", "id": 87330, "stage": "成长型(A轮)"}
+{"ShortName": "悦动", "city": "深圳", "industry": "移动互联网 ,社交网络", "desc": "原迅雷副总裁带队的国内一流创业团队！", "FullName": "深圳市悦动天下科技有限公司", "id": 9795, "stage": "成长型(B轮)"}
+{"ShortName": "凯奇谷", "city": "北京", "industry": "移动互联网,游戏", "desc": "平均八年游戏从业经验的精英团队；拥有数款成功手游经验；做最好的游戏是我们的梦想！员工福利天堂！", "FullName": "北京凯奇谷信息技术股份有限公司", "id": 4178, "stage": "上市公司"}
+{"ShortName": "海螺邦.原谷网络", "city": "杭州", "industry": "移动互联网,广告营销", "desc": "海螺邦是线上创意与传播资源一站式对接平台，服务设计师、程序员、自媒体人等各类自由职业者。", "FullName": "杭州原谷网络科技有限公司", "id": 95138, "stage": "初创型(天使轮)"}
+{"ShortName": "文轩在线", "city": "成都", "industry": "电子商务", "desc": "文轩网：您网上的新华书店！", "FullName": "四川文轩在线电子商务有限公司", "id": 54974, "stage": "上市公司"}
+{"ShortName": "SegmentFault", "city": "杭州", "industry": "移动互联网,社交网络", "desc": "中国领先的开发者社区及开发者服务平台！", "FullName": "杭州堆栈科技有限公司", "id": 1764, "stage": "成长型(A轮)"}
+{"ShortName": "在行&分答", "city": "北京", "industry": "移动互联网,教育", "desc": "果壳（Guokr）旗下产品。2016年上半年互联网最佳产品。A+轮", "FullName": "北京我最在行信息技术有限公司", "id": 133084, "stage": "成长型(A轮)"}
+{"ShortName": "必要商城", "city": "北京", "industry": "电子商务", "desc": "公司地点在北京-朝阳-呼家楼，注册在珠海。", "FullName": "珠海必要科技有限公司", "id": 21474, "stage": "成长型(不需要融资)"}
+{"ShortName": "小鹿乱撞*坏男孩", "city": "北京", "industry": "移动互联网", "desc": "坏男孩是一个以帮男生追女生的产品，旗下有在线技能教育、IP、生活模式消费、媒体和秀场直播。", "FullName": "北京魅动力教育咨询有限公司", "id": 16213, "stage": "成长型(B轮)"}
+{"ShortName": "百草味", "city": "杭州", "industry": "移动互联网,电子商务", "desc": "致力于打造互联网休闲零食第一平台", "FullName": "杭州郝姆斯食品有限公司", "id": 79985, "stage": "上市公司"}
+{"ShortName": "雪球", "city": "北京", "industry": "社交网络,金融", "desc": "雪球致力于以社区为基础打造下一代金融互联网产品", "FullName": "雪球（北京）技术开发有限公司", "id": 4602, "stage": "成熟型(C轮)"}
+{"ShortName": "微盟", "city": "上海", "industry": "移动互联网,电子商务", "desc": "人性化的管理， 年轻充满活力的团队， 广阔的发展前景", "FullName": "上海晖硕信息科技有限公司", "id": 14229, "stage": "成熟型(C轮)"}
+{"ShortName": "凡普金科", "city": "北京", "industry": "金融", "desc": "诚信金融 惠及你我", "FullName": "凡普金科企业发展（上海）有限公司", "id": 2422, "stage": "成长型(A轮)"}
+{"ShortName": "亮亮视野", "city": "北京", "industry": "移动互联网", "desc": "一家专注研发智能眼镜的创新科技公司", "FullName": "北京亮亮视野科技有限公司", "id": 56857, "stage": "成长型(B轮)"}
+{"ShortName": "17TRACK全球物流查询平台", "city": "深圳", "industry": "移动互联网,电子商务", "desc": "为全球跨境贸易行业提供全方位的平台服务！", "FullName": "深圳市帝盟网络科技有限公司", "id": 41144, "stage": "成长型(A轮)"}
+{"ShortName": "知微科技", "city": "广州", "industry": "企业服务,数据服务", "desc": "我们拥有年轻活力的研发团队，工作氛围轻松平等，期待你们的加入！", "FullName": "广州市知微科技有限公司", "id": 24689, "stage": "成长型(A轮)"}
+{"ShortName": "老查留学", "city": "北京", "industry": "移动互联网,教育", "desc": "老查留学，让申请成为一门科学", "FullName": "北京出盛世咨询服务有限公司", "id": 40548, "stage": "成长型(A轮)"}
+{"ShortName": "喜鹿信息科技（上海）有限公司", "city": "上海", "industry": "移动互联网", "desc": "技术孵化梦想、绩效提成、午休、免费活动室", "FullName": "喜鹿信息科技（上海）有限公司", "id": 118373, "stage": "初创型(不需要融资)"}
+{"ShortName": "大鱼科技", "city": "杭州", "industry": "移动互联网,金融", "desc": "一站式优质移动保险服务平台，持续为人们生活带来改变！请关注我们的App：海保", "FullName": "杭州大鱼网络科技有限公司", "id": 97944, "stage": "成长型(A轮)"}
+{"ShortName": "名医传世", "city": "广州", "industry": "移动互联网", "desc": "全球首个医院培训整体解决方案", "FullName": "广东医群科技有限公司", "id": 49346, "stage": "成长型(B轮)"}
+{"ShortName": "明源云", "city": "深圳", "industry": "移动互联网,企业服务", "desc": "地产生态链互联网+服务领航者", "FullName": "深圳市明源云客电子商务有限公司", "id": 5580, "stage": "上市公司"}
+{"ShortName": "SERAPHIC", "city": "上海", "industry": "移动互联网,文化娱乐", "desc": "智能电视软件行业的先行者", "FullName": "视若飞信息科技（上海）有限公司", "id": 1141, "stage": "成长型(A轮)"}
+{"ShortName": "熊猫金库", "city": "北京", "industry": "移动互联网,金融", "desc": "做互联网金融颜值最高的产品 | 收获の不止是财富(。・`ω&acute;・)", "FullName": "北京熊猫盛世网络科技有限公司", "id": 113259, "stage": "成长型(不需要融资)"}
+{"ShortName": "DMC 迪姆云", "city": "广州", "industry": "移动互联网,电子商务", "desc": "通过互联网向会员企业提供室内设计选材流程管理的云软件，是由设计选材驱动材料销售的交易渠道", "FullName": "广州迪姆云网络科技有限公司", "id": 55053, "stage": "成长型(A轮)"}
+{"ShortName": "自如网", "city": "北京", "industry": "移动互联网,O2O", "desc": "加入自如，让世界变得不一样~", "FullName": "北京自如友家资产管理有限公司", "id": 44091, "stage": "成熟型(不需要融资)"}
+{"ShortName": "合时代", "city": "深圳", "industry": "金融", "desc": "规范、安全、高速发展的P2P网贷平台，致力于成为全民投资理财首选的大型金融超市。", "FullName": "深圳合时代金融服务有限公司", "id": 36560, "stage": "成熟型(C轮)"}
+{"ShortName": "懒财网", "city": "北京", "industry": "金融", "desc": "懒财网，再懒也能理好财。", "FullName": "北京懒财信息科技有限公司", "id": 26194, "stage": "成长型(B轮)"}
+{"ShortName": "蜂融网络", "city": "杭州", "industry": "移动互联网,金融", "desc": "让信用变现", "FullName": "杭州蜂融网络科技有限公司", "id": 136800, "stage": "初创型(天使轮)"}
+{"ShortName": "晶赞科技Zamplus", "city": "上海", "industry": "数据服务,文化娱乐", "desc": "数据创造新价值！", "FullName": "上海晶赞科技发展有限公司", "id": 22321, "stage": "成熟型(C轮)"}
+{"ShortName": "索菲亚家居", "city": "广州", "industry": "硬件", "desc": "定制衣柜行业内首家上市公司", "FullName": "索菲亚家居股份有限公司", "id": 64666, "stage": "上市公司"}
+{"ShortName": "yunba.io云巴", "city": "深圳", "industry": "移动互联网", "desc": "执行力很强的创业团队", "FullName": "深圳市微智云科技有限公司", "id": 10839, "stage": "成长型(A轮)"}
+{"ShortName": "初唐科技", "city": "成都", "industry": "移动互联网", "desc": "公司股票代码：837926 房地产移动营销第一股。", "FullName": "成都初唐网络科技股份有限公司", "id": 20251, "stage": "上市公司"}
+{"ShortName": "大丰收农资商城（五谷网络）", "city": "深圳", "industry": "电子商务,O2O", "desc": "国内领先的农业供应链互联网服务平台", "FullName": "深圳市五谷网络科技有限公司", "id": 19541, "stage": "成长型(A轮)"}
+{"ShortName": "UCloud", "city": "上海", "industry": "数据服务,企业服务", "desc": "国内顶尖的IaaS（基础云计算）服务商", "FullName": "上海优刻得信息科技有限公司", "id": 165, "stage": "成熟型(C轮)"}
+{"ShortName": "爱乐奇", "city": "上海", "industry": "移动互联网", "desc": "关注于互联网少儿教育行业，自主研发产品", "FullName": "上海钦文信息科技有限公司", "id": 26505, "stage": "成熟型(C轮)"}
+{"ShortName": "厚本金融", "city": "北京", "industry": "金融", "desc": "厚本金融，尊重每个人的未来！", "FullName": "上海厚本金融信息服务有限公司", "id": 47956, "stage": "成长型(A轮)"}
+{"ShortName": "北森云计算", "city": "北京", "industry": "企业服务,数据服务", "desc": "中国最大的人才管理软件云服务供应商：北京北森云计算股份有限公司", "FullName": "北京北森云计算股份有限公司", "id": 47323, "stage": "上市公司"}
+{"ShortName": "融道科技", "city": "西安", "industry": "移动互联网,电子商务", "desc": "简单，友好，高效的团队。", "FullName": "西安融道信息科技有限公司", "id": 533, "stage": "初创型(天使轮)"}
+{"ShortName": "减约", "city": "北京", "industry": "移动互联网,医疗健康", "desc": "一站式专业减脂解决方案提供商！", "FullName": "北京减脂时代科技有限公司", "id": 34200, "stage": "成长型(A轮)"}
+{"ShortName": "亲宝宝", "city": "杭州", "industry": "移动互联网,社交网络", "desc": "陪伴宝宝一起成长", "FullName": "杭州点望科技有限公司", "id": 35559, "stage": "成长型(B轮)"}
+{"ShortName": "Sandbox3 创合社区", "city": "上海", "industry": "移动互联网,社交网络", "desc": "打造属于创业者的O2O联合办公社区", "FullName": "上海展想创合企业管理有限公司", "id": 82240, "stage": "初创型(未融资)"}
+{"ShortName": "嘀嗒拼车", "city": "北京", "industry": "移动互联网,O2O", "desc": "嘀嗒拼车遵循“用户第一、唯快不破”的决策与行为准则", "FullName": "拼途（北京）信息技术有限公司", "id": 141955, "stage": "成熟型(C轮)"}
+{"ShortName": "唯智信息", "city": "上海", "industry": "移动互联网,其他", "desc": "物流信息化的领导者", "FullName": "唯智信息技术（上海）有限公司", "id": 83170, "stage": "成长型(不需要融资)"}
+{"ShortName": "广州缘创信息科技有限公司", "city": "广州", "industry": "移动互联网,硬件", "desc": "致力于移动互联网解决方案服务专家！", "FullName": "广州缘创信息科技有限公司", "id": 29816, "stage": "初创型(不需要融资)"}
+{"ShortName": "米果小站", "city": "杭州", "industry": "移动互联网", "desc": "你的米果，我的米果，大家的米果，消费创造价值。", "FullName": "浙江米果网络股份有限公司", "id": 103051, "stage": "初创型(天使轮)"}
+{"ShortName": "亿车科技", "city": "深圳", "industry": "移动互联网,数据服务", "desc": "我们以互联网的远见，重新定义停车场的未来！", "FullName": "深圳市前海亿车科技有限公司", "id": 7232, "stage": "成长型(A轮)"}
+{"ShortName": "商快软件", "city": "杭州", "industry": "移动互联网,电子商务", "desc": "为不同行业定制打造移动端技术解决方案", "FullName": "杭州商快软件有限公司", "id": 80247, "stage": "成长型(A轮)"}
+{"ShortName": "DataEye", "city": "深圳", "industry": "移动互联网,游戏", "desc": "领军的泛娱乐领域大数据分析与挖掘服务商", "FullName": "深圳市慧动创想科技有限公司", "id": 29301, "stage": "成长型(B轮)"}
+{"ShortName": "安天", "city": "哈尔滨", "industry": "信息安全", "desc": "网络安全创新企业，针对恶意代码、APT等安全威胁提供先进检测能力", "FullName": "哈尔滨安天科技股份有限公司", "id": 38414, "stage": "成长型(B轮)"}
+{"ShortName": "三七互娱", "city": "广州", "industry": "游戏", "desc": "玩心创造世界", "FullName": "三七互娱（上海）科技有限公司", "id": 658, "stage": "上市公司"}
+{"ShortName": "鸟哥笔记", "city": "上海", "industry": "移动互联网", "desc": "专注移动互联网干货知识分享", "FullName": "上海鸟哥笔记网络科技有限公司", "id": 98231, "stage": "成长型(A轮)"}
+{"ShortName": "好唱", "city": "重庆", "industry": "移动互联网", "desc": "口碑实力俱佳的全民音乐创作平台，背靠资金雄厚的娱乐集团产业群，关注用户利益更关注员工福利。运营三年多", "FullName": "重庆米虫科技有限公司", "id": 72503, "stage": "成长型(不需要融资)"}
+{"ShortName": "盈富斯", "city": "深圳", "industry": "电子商务", "desc": "盈富斯是一家美国电商公司，由顶级风投的资金做后备力量，有充满拼搏精神的创业队伍，欢迎你的加入！", "FullName": "深圳盈富斯商业有限公司", "id": 71182, "stage": "成长型(A轮)"}
+{"ShortName": "保众网", "city": "北京", "industry": "移动互联网,金融", "desc": "一群来自BAT的80、90后，希望通过互联网、大数据、云计算，改变原有传统保险业态的新互联网保险平台", "FullName": "世纪保众（北京）网络科技有限公司", "id": 95134, "stage": "成长型(A轮)"}
+{"ShortName": "棠棣科技", "city": "上海", "industry": "金融", "desc": "兄弟联芳，谓之棠棣竞秀。", "FullName": "上海棠棣信息科技有限公司", "id": 67396, "stage": "上市公司"}
+{"ShortName": "华栖云", "city": "成都", "industry": "移动互联网,企业服务", "desc": "阿里巴巴与索贝数码合资成立，提供媒体云服务的公司", "FullName": "成都华栖云科技有限公司", "id": 137070, "stage": "初创型(未融资)"}
+{"ShortName": "智互联", "city": "深圳", "industry": "电子商务", "desc": "产业互联网领导企业", "FullName": "智互联（深圳）科技有限公司", "id": 106483, "stage": "成长型(不需要融资)"}
+{"ShortName": "福至久久", "city": "北京", "industry": "移动互联网,游戏", "desc": "玩游戏，送彩票，中大奖", "FullName": "北京福至久久软件科技股份有限公司", "id": 47460, "stage": "成长型(A轮)"}
+{"ShortName": "思华科技", "city": "上海", "industry": "移动互联网", "desc": "专业的云计算产品及互动媒体平台产品及服务提供商", "FullName": "上海思华科技股份有限公司", "id": 26467, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "暧魅科技", "city": "广州", "industry": "游戏,文化娱乐", "desc": "我们就是可以“玩”起来的直播！", "FullName": "广州暧魅网络科技有限公司", "id": 143030, "stage": "成长型(不需要融资)"}
+{"ShortName": "学分在线", "city": "北京", "industry": "教育", "desc": "创一线品牌，做最受人尊敬的服务。", "FullName": "学分在线（北京）国际数据科技有限公司", "id": 67903, "stage": "成长型(A轮)"}
+{"ShortName": "桃树数据", "city": "杭州", "industry": "数据服务", "desc": "加入桃树，你将不仅拥有眼前的成就，还有诗和远方。", "FullName": "杭州桃树科技有限公司", "id": 133891, "stage": "成长型(A轮)"}
+{"ShortName": "英语流利说", "city": "上海", "industry": "移动互联网,教育", "desc": "英语流利说”是一款好玩又有效的英语口语学习应用，让你“忍不住开口说英语”，帮你真正摆脱“哑巴英语”！", "FullName": "上海流利说信息技术有限公司", "id": 3422, "stage": "成长型(B轮)"}
+{"ShortName": "喜马拉雅", "city": "上海", "industry": "移动互联网,文化娱乐", "desc": "喜马拉雅FM——中国领军的音频分享平台，超过3亿用户，估值超过40亿人民币！", "FullName": "上海证大喜马拉雅网络科技有限公司", "id": 1373, "stage": "成熟型(C轮)"}
+{"ShortName": "杭州趣编", "city": "杭州", "industry": "移动互联网,文化娱乐", "desc": "五险一金，双休，福利无止境，领导团队牛哄哄，玩咖多", "FullName": "杭州趣编网络科技有限公司", "id": 113449, "stage": "成长型(A轮)"}
+{"ShortName": "杭州吾诺瀚卓网络科技有限公司", "city": "杭州", "industry": "移动互联网,企业服务", "desc": "国内唯一一家专注于企业第二代高精端品牌官方网站全站式服务的公司。", "FullName": "杭州吾诺瀚卓网络科技有限公司", "id": 94941, "stage": "成长型(不需要融资)"}
+{"ShortName": "第三石科技", "city": "北京", "industry": "移动互联网,电子商务", "desc": "新锐的全球移动电商平台", "FullName": "北京第三石科技发展有限公司", "id": 22139, "stage": "成长型(B轮)"}
+{"ShortName": "钛铂新媒体", "city": "深圳", "industry": "广告营销", "desc": "深圳钛铂新媒体营销股份有限公司成立于2011年，于2016年8月正式登陆新三板专注于新媒体营销传播", "FullName": "深圳钛铂新媒体营销股份有限公司", "id": 746, "stage": "上市公司"}
+{"ShortName": "网利宝", "city": "北京", "industry": "移动互联网,金融", "desc": "网利金融致力于成为专属于您的互联网私人银行。", "FullName": "北京网利科技有限公司", "id": 14819, "stage": "成长型(B轮)"}
+{"ShortName": "收藏天下", "city": "北京", "industry": "电子商务,广告营销", "desc": "收藏天下（北京）网络有限公司诚邀你的加入", "FullName": "收藏天下（北京）网络有限公司", "id": 25526, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "艾德思奇adSage", "city": "北京", "industry": "移动互联网,广告营销", "desc": "创新力&middot;执行力", "FullName": "北京艾德思奇科技有限公司", "id": 16249, "stage": "成长型(B轮)"}
+{"ShortName": "信行 小鲸", "city": "上海", "industry": "移动互联网,电子商务", "desc": "言必信 行必果，创业4年，专注移动电商领域", "FullName": "上海信行软件有限公司", "id": 38304, "stage": "初创型(天使轮)"}
+{"ShortName": "一元云购", "city": "深圳", "industry": "电子商务", "desc": "年销售额超百亿新型互助购物平台，发展迅速，上市操作中。年薪涨幅国内领先，福利丰富优渥。", "FullName": "深圳市一元云购网络科技有限公司", "id": 2250, "stage": "成长型(不需要融资)"}
+{"ShortName": "引力互动", "city": "武汉", "industry": "移动互联网,游戏", "desc": "主播的广告服务平台，为每一个有影响力的人输送价值。", "FullName": "引力互动科技（武汉）有限公司", "id": 30469, "stage": "初创型(天使轮)"}
+{"ShortName": "方付通", "city": "上海", "industry": "移动互联网,金融", "desc": "互联网金融O2O、移动支付背景公司", "FullName": "上海方付通商务服务有限公司", "id": 66311, "stage": "成熟型(不需要融资)"}
+{"ShortName": "灵机文化", "city": "广州", "industry": "移动互联网,电子商务", "desc": "弘扬中华传统文化，让生活更美好！", "FullName": "广东灵机文化传播有限公司", "id": 1175, "stage": "成长型(不需要融资)"}
+{"ShortName": "Oracleen", "city": "北京", "industry": "移动互联网,硬件", "desc": "OraCleen专注于打造口腔护理用品与互联网结合全新消费模式", "FullName": "爱芽（北京）科技有限公司", "id": 37525, "stage": "成长型(A轮)"}
+{"ShortName": "随地付", "city": "杭州", "industry": "金融", "desc": "互联网金融信息服务", "FullName": "杭州随地付网络技术有限公司", "id": 27232, "stage": "成长型(B轮)"}
+{"ShortName": "新悦蓝图", "city": "深圳", "industry": "移动互联网,硬件", "desc": "让科技平易近人，让每个人都能享受到科技带来的便捷和美好。", "FullName": "深圳市新悦蓝图网络科技有限公司", "id": 79935, "stage": "成长型(A轮)"}
+{"ShortName": "微巴", "city": "杭州", "industry": "移动互联网", "desc": "国内首批也是最大的微信第三方应用专业开发商， 拥有自己的技术团队，具备自主开发计算机软件的能力和技", "FullName": "杭州微巴信息技术有限公司", "id": 28114, "stage": "上市公司"}
+{"ShortName": "广东智源", "city": "广州", "industry": "移动互联网,企业服务", "desc": "专注于公共卫生、公安、环保、农业等领域的整体解决方案。自主研发云计算、大数据、物联网等技术的行业应用", "FullName": "广东智源信息技术有限公司", "id": 53634, "stage": "成长型(不需要融资)"}
+{"ShortName": "美峰数码", "city": "上海", "industry": "游戏", "desc": "老牌手游公司，靠谱项目和丰厚的待遇。", "FullName": "上海美峰数码科技有限公司", "id": 59468, "stage": "上市公司"}
+{"ShortName": "卓术信息", "city": "广州", "industry": "移动互联网", "desc": "一家年轻但极富竞争力的互联网金融公司，致力于提供消费票据识别管理、精准金融产品导购服务。", "FullName": "广州卓术信息科技有限公司", "id": 44000, "stage": "成长型(A轮)"}
+{"ShortName": "Camera360", "city": "成都", "industry": "移动互联网", "desc": "如果你是移动互联网的极客、攻城狮、怪才、鬼才、我们统统要。赶紧把你的识别特征发送给我！", "FullName": "成都品果科技有限公司", "id": 3524, "stage": "成长型(B轮)"}
+{"ShortName": "斑马旅游", "city": "上海", "industry": "电子商务,旅游", "desc": "专注品质出境游", "FullName": "北京恒大旅游有限公司", "id": 129451, "stage": "初创型(天使轮)"}
+{"ShortName": "友金所", "city": "深圳", "industry": "金融", "desc": "公司愿景：创建国内领先的安全、便捷、可信的投融资服务平台，成为中国最具影响力的互联网金融服务公司之一", "FullName": "深圳前海用友力合金融服务有限公司", "id": 44982, "stage": "成熟型(不需要融资)"}
+{"ShortName": "商米科技", "city": "上海", "industry": "O2O", "desc": "商业生态圈智能解决方案引领者", "FullName": "上海商米科技有限公司", "id": 126467, "stage": "成长型(B轮)"}
+{"ShortName": "袋鼠云", "city": "杭州", "industry": "数据服务", "desc": "一家由多名前阿里巴巴资深技术人员创立的公司，专注于企业云和大数据服务，用技术改变商业。", "FullName": "杭州玳数科技有限公司", "id": 114335, "stage": "成长型(A轮)"}
+{"ShortName": "唐桥科技Techbridge", "city": "杭州", "industry": "移动互联网", "desc": "业界领先的互动音视频技术", "FullName": "唐桥科技（杭州）有限公司", "id": 60608, "stage": "成长型(B轮)"}
+{"ShortName": "donson", "city": "深圳", "industry": "移动互联网", "desc": "donson东信专注于移动互联网的研究和产品研发，提供品牌传播顾问和整合营销服务。", "FullName": "东莞市东信网络技术有限公司", "id": 4172, "stage": "成熟型(C轮)"}
+{"ShortName": "Q房网", "city": "北京", "industry": "O2O", "desc": "中国领先的房地产互联网平台。", "FullName": "深圳市云房网络科技有限公司", "id": 4900, "stage": "成长型(A轮)"}
+{"ShortName": "升霸网络科技", "city": "上海", "industry": "移动互联网", "desc": "不仅是优惠，更是一种生活态度！", "FullName": "上海升霸网络科技有限公司", "id": 117393, "stage": "成长型(A轮)"}
+{"ShortName": "七麦科技", "city": "北京", "industry": "移动互联网", "desc": "用数据创造价值，打造国内第一的移动广告服务专家平台。", "FullName": "七麦科技", "id": 90314, "stage": "上市公司"}
+{"ShortName": "一花科技", "city": "深圳", "industry": "游戏", "desc": "每个参与者都是公司的合伙人，做能为每个参与者提供成长空间和物质收获的公司。", "FullName": "深圳市一花科技有限公司", "id": 938, "stage": "初创型(不需要融资)"}
+{"ShortName": "易露营", "city": "杭州", "industry": "电子商务", "desc": "易露营，让露营如此简单！", "FullName": "杭州易路营电子商务有限公司", "id": 46066, "stage": "成长型(A轮)"}
+{"ShortName": "多彩饰家", "city": "北京", "industry": "生活服务", "desc": "中国020家居服务商，家装后市场第一品牌", "FullName": "多彩饰家（北京）品牌管理有限公司", "id": 42726, "stage": "成长型(B轮)"}
+{"ShortName": "牛班", "city": "上海", "industry": "移动互联网,文化娱乐", "desc": "中国第一个O2O音乐教育企业。", "FullName": "上海纽班文化发展有限公司", "id": 59697, "stage": "成长型(A轮)"}
+{"ShortName": "乐见科技", "city": "杭州", "industry": "移动互联网,社交网络", "desc": "来自BAT的精英团队，正在打造革命性的盗梦空间，已获得多轮投资。", "FullName": "杭州乐见科技有限公司", "id": 91654, "stage": "成长型(A轮)"}
+{"ShortName": "斑马旅游", "city": "上海", "industry": "电子商务,旅游", "desc": "专注品质出境游", "FullName": "上海歌晨信息技术有限公司", "id": 94027, "stage": "初创型(天使轮)"}
+{"ShortName": "金翼致远", "city": "成都", "industry": "移动互联网", "desc": "金翼致远（www.kingyon.com）专业移动互联网服务提供商，为各行业客户提供完整的解决方案", "FullName": "成都金翼致远科技有限公司", "id": 52101, "stage": "初创型(不需要融资)"}
+{"ShortName": "Liking健身", "city": "上海", "industry": "移动互联网,O2O", "desc": "全国首家互联网智能健身房", "FullName": "上海乐快信息技术有限公司", "id": 39582, "stage": "成长型(B轮)"}
+{"ShortName": "卖家云", "city": "北京", "industry": "电子商务", "desc": "玩转saas云管理，做简单好用的企业产品", "FullName": "北京卖家云信息技术企业（有限合伙)", "id": 10205, "stage": "成长型(A轮)"}
+{"ShortName": "触宝科技", "city": "上海", "industry": "移动互联网,数据服务", "desc": "触宝是一个充满活力和创造力的年轻团队，公司文化轻松开明", "FullName": "上海触乐信息科技有限公司", "id": 7030, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "叮咚小区", "city": "上海", "industry": "O2O", "desc": "有家的地方就有叮咚小区", "FullName": "上海壹佰米网络科技有限公司", "id": 67860, "stage": "成长型(A轮)"}
+{"ShortName": "量子云", "city": "北京", "industry": "移动互联网", "desc": "Make it real", "FullName": "量子云未来（北京）信息科技有限公司", "id": 26406, "stage": "成长型(B轮)"}
+{"ShortName": "驻云", "city": "上海", "industry": "移动互联网,企业服务", "desc": "颜值超高的美少女鼓励师、阳光帅气的技术欧巴、带薪年假、年度旅游、节日福利、丰厚奖金、健身、下午茶！", "FullName": "上海驻云信息科技有限公司", "id": 22809, "stage": "成长型(B轮)"}
+{"ShortName": "云莱坞", "city": "北京", "industry": "O2O,文化娱乐", "desc": "互联网+娱乐工业4.0", "FullName": "北京云莱坞文化传媒有限公司", "id": 66541, "stage": "成长型(A轮)"}
+{"ShortName": "果敢时代", "city": "北京", "industry": "移动互联网,电子商务", "desc": "移动社交电商平台", "FullName": "北京果敢时代科技有限公司", "id": 39637, "stage": "成长型(B轮)"}
+{"ShortName": "51.com", "city": "上海", "industry": "社交网络,游戏", "desc": "用心投入，真诚客观", "FullName": "升东网路科技发展（上海）有限公司", "id": 14501, "stage": "成熟型(C轮)"}
+{"ShortName": "以太资本", "city": "北京", "industry": "金融", "desc": "全程陪伴的融资专家，专注为TMT早期创业公司提供从商业故事梳理到资金入账的一站式、全流程融资服务。", "FullName": "艾普拉斯投资顾问（北京）有限公司", "id": 14745, "stage": "成长型(B轮)"}
+{"ShortName": "水稻汽车", "city": "北京", "industry": "O2O,电子商务", "desc": "致力于打造平价放心的超级4S店网络，成为新一代一站式汽车生活基地", "FullName": "北京稻成科技有限公司", "id": 75487, "stage": "成长型(A轮)"}
+{"ShortName": "北京超卓科技有限公司", "city": "北京", "industry": "移动互联网", "desc": "只要你够优秀，这里有足够的空间", "FullName": "北京超卓科技有限公司", "id": 62428, "stage": "成长型(A轮)"}
+{"ShortName": "壁虎车险", "city": "北京", "industry": "电子商务,O2O", "desc": "国内第一家互联网车险SAAS系统服务商！服务全国十万家保险代理商、4S店、综合修理厂的车险业务！", "FullName": "北京易天正诚信息技术有限公司", "id": 40835, "stage": "成长型(A轮)"}
+{"ShortName": "巴别鸟", "city": "上海", "industry": "移动互联网,教育", "desc": "云存储、文稿内容协同——让沟通更简单", "FullName": "上海画擎信息科技有限公司", "id": 15077, "stage": "成长型(A轮)"}
+{"ShortName": "房星科技", "city": "昆明", "industry": "移动互联网,O2O", "desc": "移动互联网+房地产+雄厚的线下资源+进取的团队=极其罕见的财务自由机会", "FullName": "云南房星科技有限公司", "id": 73692, "stage": "成长型(不需要融资)"}
+{"ShortName": "善诊", "city": "上海", "industry": "移动互联网,医疗健康", "desc": "父母健康找善诊，让家更幸福", "FullName": "上海维跃信息科技有限公司", "id": 62815, "stage": "成长型(A轮)"}
+{"ShortName": "考米爱车", "city": "北京", "industry": "移动互联网,O2O", "desc": "好快保！蓝山机油！有钱！任性！妹子多！福利好！老板好！办公环境开放！赏罚分明！空间大！", "FullName": "考米爱车（北京）电子商务有限公司", "id": 53046, "stage": "成长型(不需要融资)"}
+{"ShortName": "夹子文化", "city": "深圳", "industry": "游戏,文化娱乐", "desc": "一群有态度的年轻人，致力打造正能量媒体 (&acute;・ω・)ﾉ", "FullName": "深圳夹子网络影视文化传播有限公司", "id": 131940, "stage": "初创型(天使轮)"}
+{"ShortName": "五二科技", "city": "北京", "industry": "移动互联网,金融", "desc": "五二科技是一家面向全国在校大学生的生活服务电商平台。", "FullName": "五二（北京）科技有限公司", "id": 103050, "stage": "成长型(B轮)"}
+{"ShortName": "爱投资管", "city": "上海", "industry": "移动互联网,金融", "desc": "爱投金融集团成立于2011年，是一家拥有多种金融牌照、能够提供综合性金融服务的互联网金融集团。", "FullName": "上海爱投资产管理有限公司", "id": 115813, "stage": "初创型(未融资)"}
+{"ShortName": "IvyMobi", "city": "北京", "industry": "移动互联网,企业服务", "desc": "产品信息营销管理平台，多家世界五百强企业的选择。", "FullName": "北京品冠天成科技有限公司", "id": 2634, "stage": "成长型(不需要融资)"}
+{"ShortName": "君融贷", "city": "北京", "industry": "金融", "desc": "放心更走心！", "FullName": "君融贷（北京）信息技术服务有限公司", "id": 59119, "stage": "成长型(A轮)"}
+{"ShortName": "汇桔网", "city": "广州", "industry": "企业服务,O2O", "desc": "创新创业 上汇桔网", "FullName": "广州博鳌纵横网络科技有限公司", "id": 4206, "stage": "成熟型(C轮)"}
+{"ShortName": "网道科技", "city": "成都", "industry": "移动互联网", "desc": "全方位IT应用专业解决方案提供商", "FullName": "成都网道科技有限公司", "id": 26338, "stage": "初创型(不需要融资)"}
+{"ShortName": "订货宝", "city": "成都", "industry": "电子商务", "desc": "公司集软件研发、运营为一体，核心产品“订货宝”业内领先，客户包括宝洁、两面针等，已获A轮千万级投资", "FullName": "成都阿商信息技术有限公司", "id": 67390, "stage": "成长型(A轮)"}
+{"ShortName": "夜夜", "city": "广州", "industry": "移动互联网,文化娱乐", "desc": "Live the Night", "FullName": "红限科技（深圳）有限公司", "id": 84228, "stage": "初创型(天使轮)"}
+{"ShortName": "广州聚脉互联网服务有限公司", "city": "广州", "industry": "企业服务", "desc": "立足服装服饰行业，以推动行业变革、陪伴用户成长为使命。", "FullName": "广州聚脉互联网服务有限公司", "id": 119156, "stage": "成长型(A轮)"}
+{"ShortName": "优必选科技", "city": "深圳", "industry": "移动互联网,硬件", "desc": "领导nice 氛围好 福利好 美女多 机器人", "FullName": "深圳市优必选科技有限公司", "id": 145486, "stage": "成长型(B轮)"}
+{"ShortName": "浙江数秦科技", "city": "杭州", "industry": "移动互联网,信息安全", "desc": "中国全方位电子数据证明体系的领军者", "FullName": "浙江数秦科技有限公司", "id": 94457, "stage": "初创型(天使轮)"}
+{"ShortName": "MAKA", "city": "广州", "industry": "社交网络,移动互联网", "desc": "MAKA 简单、强大的HTML 5线上创作工具，2015拉勾最佳产品团队", "FullName": "深圳格莱珉文化传播有限公司广州分公司", "id": 22450, "stage": "成长型(A轮)"}
+{"ShortName": "晨光文具", "city": "上海", "industry": "电子商务,文化娱乐", "desc": "晨光，以激发灵感的力量，帮助每个人实现创意的梦想！", "FullName": "上海晨光文具股份有限公司", "id": 23482, "stage": "上市公司"}
+{"ShortName": "明源云服务", "city": "深圳", "industry": "移动互联网", "desc": "行业老大，地产百强近八成使用明源SAAS/互联网平台", "FullName": "深圳市明源云服务电子商务有限公司", "id": 102319, "stage": "上市公司"}
+{"ShortName": "人才易", "city": "北京", "industry": "移动互联网,企业服务", "desc": "源自硅谷的人才管理工具", "FullName": "北京人才易科技有限公司", "id": 83882, "stage": "初创型(天使轮)"}
+{"ShortName": "慕溪北欧旅游", "city": "广州", "industry": "旅游", "desc": "北欧定制旅游与自由行平台，中国最有影响力的北欧旅游品牌", "FullName": "广州慕溪商务服务有限公司", "id": 56978, "stage": "初创型(不需要融资)"}
+{"ShortName": "善游网络", "city": "广州", "industry": "游戏", "desc": "打造最好的微信活动定制工具", "FullName": "广州善游网络科技有限公司", "id": 51944, "stage": "初创型(未融资)"}
+{"ShortName": "柠檬智慧", "city": "深圳", "industry": "移动互联网,O2O", "desc": "打造国内顶级“互联网＋”咨询平台", "FullName": "深圳市柠檬智慧互联网咨询有限公司", "id": 74793, "stage": "初创型(不需要融资)"}
+{"ShortName": "假面科技", "city": "上海", "industry": "移动互联网,社交网络", "desc": "我们不自夸是家伟大的公司，但能承诺你高于行业水平的薪酬，不设限的发展空间，上手就是百万级用户的产品", "FullName": "上海假面信息科技有限公司", "id": 25068, "stage": "成长型(A轮)"}
+{"ShortName": "汇融", "city": "大连", "industry": "金融", "desc": "产业互联网&amp;产业金融&middot;风控&middot;大数据分析", "FullName": "大连汇融信息技术有限公司", "id": 33450, "stage": "初创型(天使轮)"}
+{"ShortName": "Mesplus", "city": "上海", "industry": "移动互联网,广告营销", "desc": "高能发展广告公司！和聪明人一起高效玩耍！", "FullName": "上海迈微广告有限公司", "id": 70185, "stage": "初创型(不需要融资)"}
+{"ShortName": "美芽", "city": "厦门", "industry": "移动互联网", "desc": "美芽，看视频 学化妆 淘妆品", "FullName": "厦门梦马网络科技有限公司", "id": 29736, "stage": "成长型(不需要融资)"}
+{"ShortName": "优悠乐", "city": "杭州", "industry": "O2O,分类信息", "desc": "优悠乐养老、养生网，选择后半生的幸福驿站!", "FullName": "杭州优瑞创网络科技有限公司", "id": 96279, "stage": "初创型(未融资)"}
+{"ShortName": "野狗", "city": "北京", "industry": "移动互联网", "desc": "致力于提供全球领先实时通信云服务", "FullName": "野狗科技（北京）有限公司", "id": 55391, "stage": "成长型(A轮)"}
+{"ShortName": "一家民宿", "city": "北京", "industry": "移动互联网", "desc": "五道口附近，五险一金餐补水果零食！知名风投投资，有期权！", "FullName": "北京一游网络科技有限公司", "id": 54952, "stage": "成长型(A轮)"}
+{"ShortName": "四川微盟", "city": "成都", "industry": "移动互联网,广告营销", "desc": "做一家伟大的互联网公司。", "FullName": "四川萌店信息科技有限公司", "id": 123696, "stage": "成熟型(C轮)"}
+{"ShortName": "广州齐昌网络科技有限公司", "city": "广州", "industry": "企业服务", "desc": "不负时代与技术", "FullName": "广州齐昌网络科技有限公司", "id": 63817, "stage": "初创型(未融资)"}
+{"ShortName": "爱上租", "city": "杭州", "industry": "移动互联网,O2O", "desc": "我们的愿景:做中国最大的公寓运营商", "FullName": "杭州爱上租科技有限公司", "id": 84722, "stage": "成长型(A轮)"}
+{"ShortName": "芋米", "city": "深圳", "industry": "教育,旅游", "desc": "用有趣的方式为孩子提供最极致的游学体验；用科学的方式为家长提供最放心的游学服务", "FullName": "深圳游学之星文化传播有限公司", "id": 97443, "stage": "成长型(A轮)"}
+{"ShortName": "金融界.爱投顾", "city": "北京", "industry": "社交网络,金融", "desc": "股市投资神器", "FullName": "北京爱投顾网络技术有限公司", "id": 62516, "stage": "上市公司"}
+{"ShortName": "ENJOY", "city": "北京", "industry": "移动互联网,社交网络", "desc": "Keep Calm And Eat On", "FullName": "北京严肃科技有限公司", "id": 5754, "stage": "成熟型(C轮)"}
+{"ShortName": "达观数据", "city": "上海", "industry": "移动互联网", "desc": "达观数据是中国知名数据技术服务企业，致力于用人工智能和机器学习技术为各大企业提供服务", "FullName": "达而观信息科技（上海）有限公司", "id": 97882, "stage": "初创型(天使轮)"}
+{"ShortName": "学乐", "city": "杭州", "industry": "教育", "desc": "全国最大的云教学平台。提高教学生产力 （让教简单、让学快乐）", "FullName": "杭州培博科技有限公司", "id": 34705, "stage": "成熟型(C轮)"}
+{"ShortName": "图灵机器人", "city": "北京", "industry": "移动互联网", "desc": "在这里，读懂人工智能", "FullName": "北京光年无限科技有限公司", "id": 23004, "stage": "成长型(B轮)"}
+{"ShortName": "微播易", "city": "北京", "industry": "广告营销", "desc": "社会化媒体精准广告平台，爱社媒，爱工作，爱生活，我们一起！", "FullName": "北京微播易科技股份有限公司", "id": 13639, "stage": "成熟型(C轮)"}
+{"ShortName": "一面网络", "city": "深圳", "industry": "移动互联网,数据服务", "desc": "我们是数据科学家！一面相信，我们的生活将被数据改变 !", "FullName": "深圳市一面网络技术有限公司", "id": 35565, "stage": "初创型(天使轮)"}
+{"ShortName": "大焱科技", "city": "深圳", "industry": "移动互联网,O2O", "desc": "【业问】创始团队皆来自腾讯，我们在做知识分享领域的Uber！详情访问：yewen365.com", "FullName": "深圳市大焱科技有限公司", "id": 75819, "stage": "初创型(天使轮)"}
+{"ShortName": "客来乐", "city": "北京", "industry": "O2O", "desc": "客来乐致力于为传统实体商业提供全方位的O2O落地解决方案", "FullName": "北京卡富通盈科技有限公司", "id": 38454, "stage": "成长型(B轮)"}
+{"ShortName": "东方瑞云", "city": "北京", "industry": "移动互联网,医疗健康", "desc": "自主研发，民族品牌，专业定制，精诚服务，为中国肿瘤治疗事业贡献力量！", "FullName": "北京东方瑞云科技有限公司", "id": 72444, "stage": "成长型(A轮)"}
+{"ShortName": "巨杉数据库", "city": "广州", "industry": "数据服务", "desc": "完全自主研发的大数据NewSQL数据库，新一代大数据技术先锋，企业用户超过百家", "FullName": "广州巨杉软件开发有限公司", "id": 7695, "stage": "成长型(B轮)"}
+{"ShortName": "圈子账本", "city": "北京", "industry": "移动互联网,社交网络", "desc": "和有趣的人，做有趣的事儿", "FullName": "北京趣发芽科技有限公司", "id": 74308, "stage": "成长型(A轮)"}
+{"ShortName": "天下中文", "city": "上海", "industry": "移动互联网,教育", "desc": "公司主要从事汉语网络课程研发和平台建构，致力于为海内外汉语学习者创造更便捷更高效的的学习体验。", "FullName": "上海唐化网络技术有限公司", "id": 92046, "stage": "初创型(天使轮)"}
+{"ShortName": "彪洋科技", "city": "北京", "industry": "移动互联网,广告营销", "desc": "我们是数字营销以及客户关系管理领域成长最快的服务商之一,期待您的加盟。", "FullName": "彪洋科技（北京）有限公司", "id": 66872, "stage": "成长型(不需要融资)"}
+{"ShortName": "雨果科技", "city": "上海", "industry": "移动互联网,企业服务", "desc": "快乐的工作", "FullName": "上海雨果信息科技有限公司", "id": 30294, "stage": "初创型(天使轮)"}
+{"ShortName": "星环科技", "city": "上海", "industry": "数据服务", "desc": "国内落地案例最多的一站式Hadoop平台", "FullName": "星环信息科技（上海）有限公司", "id": 27962, "stage": "成长型(B轮)"}
+{"ShortName": "普奥云信息", "city": "北京", "industry": "数据服务", "desc": "专注于工业领域的物联网企业", "FullName": "普奥云信息科技（北京）有限公司", "id": 91666, "stage": "成长型(A轮)"}
+{"ShortName": "尚恩科技", "city": "广州天河", "industry": "数据服务,硬件", "desc": "尚恩是国内唯一提供地方志信息系统全解决方案的高新企业。我们是一个创新、奋斗的团队，欢迎同样的你加入！", "FullName": "广州尚恩科技股份有限公司", "id": 111907, "stage": "上市公司"}
+{"ShortName": "爱股票", "city": "北京", "industry": "金融,移动互联网", "desc": "领导nice、氛围融洽、美女、帅锅一堆、提供横纵向发展空间、年节福利待遇好、弹性工作制", "FullName": "北京亿客财富信息技术服务有限公司", "id": 134210, "stage": "成长型(B轮)"}
+{"ShortName": "投户外", "city": "南京", "industry": "移动互联网,广告营销", "desc": "公司的愿景是解决目标市场存在的供需信息不对称、不透明的问题，优化户外广告行业。", "FullName": "南京埃德媒互联网科技有限公司", "id": 114150, "stage": "初创型(天使轮)"}
+{"ShortName": "租我家", "city": "深圳", "industry": "移动互联网,其他", "desc": "一站式房屋租赁平台", "FullName": "深圳市租我家科技有限公司", "id": 115020, "stage": "成长型(A轮)"}
+{"ShortName": "爱客CRM", "city": "上海", "industry": "移动互联网", "desc": "汇集一群bat高端人才的团队，过硬的技术，轻松的工作氛围！期待有梦想你加入！", "FullName": "上海微问家信息技术有限公司", "id": 50417, "stage": "成长型(A轮)"}
+{"ShortName": "小狗在家", "city": "上海", "industry": "移动互联网,O2O", "desc": "小狗在家，像你一样爱TA", "FullName": "上海胖球信息科技有限公司", "id": 101010, "stage": "成长型(A轮)"}
+{"ShortName": "贴心小护", "city": "深圳", "industry": "医疗健康,移动互联网", "desc": "只为极致就医体验!", "FullName": "深圳市安欣科技有限公司", "id": 112856, "stage": "初创型(天使轮)"}
+{"ShortName": "红毯", "city": "深圳", "industry": "移动互联网,社交网络", "desc": "红毯生活——体验无界限", "FullName": "红毯科技文化（深圳）有限公司", "id": 101011, "stage": "初创型(天使轮)"}
+{"ShortName": "藤家", "city": "珠海", "industry": "移动互联网,游戏", "desc": "我社正在开发的产品比较中二，脑洞略大，来组队吧骚年( &acute; ▽ ` )ﾉ", "FullName": "珠海藤家信息技术有限公司", "id": 96853, "stage": "初创型(天使轮)"}
+{"ShortName": "BBD", "city": "成都", "industry": "电子商务,数据服务", "desc": "全球大数据金融风险管理专家", "FullName": "成都数联铭品科技有限公司", "id": 42711, "stage": "成长型(不需要融资)"}
+{"ShortName": "侨交会", "city": "深圳", "industry": "移动互联网,分类信息", "desc": "深圳市前海侨交会跨境电商有限公司", "FullName": "深圳市侨商智库研究院", "id": 117515, "stage": "成长型(不需要融资)"}
+{"ShortName": "玖富技术中心", "city": "北京", "industry": "金融", "desc": "移动互联网金融综合服务平台", "FullName": "北京玖富联银科技有限公司", "id": 136978, "stage": "成长型(A轮)"}
+{"ShortName": "数澜科技", "city": "杭州", "industry": "企业服务,数据服务", "desc": "打造新型的商业形态，数据驱动业务发展。", "FullName": "杭州数澜科技有限公司", "id": 142528, "stage": "初创型(天使轮)"}
+{"ShortName": "CloudIn云英", "city": "北京", "industry": "移动互联网,企业服务", "desc": "技术的力量成就更好的云计算，我们希望为更多的企业创造更大的价值，我们愿与您一同绽放光彩", "FullName": "北京创云传奇科技有限公司", "id": 103288, "stage": "成长型(A轮)"}
+{"ShortName": "金工场", "city": "深圳", "industry": "移动互联网,电子商务", "desc": "专注于定向增发的一站式互联网综合服务和撮合交易平台", "FullName": "深圳前海金工场金融信息服务有限公司", "id": 92726, "stage": "初创型(天使轮)"}
+{"ShortName": "光合联萌", "city": "上海", "industry": "移动互联网,金融", "desc": "创新，新能源，互联网金融，东方日升（300118）全资子公司，", "FullName": "光漾联萌互联网金融信息服务（上海）有限公司", "id": 95054, "stage": "初创型(不需要融资)"}
+{"ShortName": "自在科技", "city": "北京", "industry": "移动互联网,硬件", "desc": "做最好的智能防丢寻物平台，自在工作，也可以认真享乐~", "FullName": "北京自在科技有限责任公司", "id": 294, "stage": "成长型(B轮)"}
+{"ShortName": "筷子科技", "city": "广州", "industry": "数据服务,广告营销", "desc": "国内第一家AI程序化创意平台", "FullName": "广州筷子信息科技有限公司", "id": 666, "stage": "成长型(A轮)"}
+{"ShortName": "BodyPlus", "city": "深圳", "industry": "移动互联网,医疗健康", "desc": "五天八小时，五险一金，薪资优厚，绩效奖金，年终分红，团队聚餐，带薪年假，工作氛围活跃，发展空间无限。", "FullName": "博迪加科技（北京）有限公司", "id": 57335, "stage": "成长型(A轮)"}
+{"ShortName": "捷通华声", "city": "北京", "industry": "移动互联网,数据服务", "desc": "致力打造中国乃至世界上最大、最全的人工智能技术云服务平台！", "FullName": "北京捷通华声科技股份有限公司", "id": 356, "stage": "成长型(不需要融资)"}
+{"ShortName": "神州智联", "city": "北京", "industry": "移动互联网,教育", "desc": "加入国内校友APP应用NO.1的团队，有梦想一起来实现吧！", "FullName": "北京神州智联科技有限公司", "id": 794, "stage": "成长型(B轮)"}
+{"ShortName": "富途证券", "city": "深圳", "industry": "移动互联网,金融", "desc": "富途控股旗下公司：富途证券、富途网络", "FullName": "富途网络科技（深圳）有限公司", "id": 9253, "stage": "成长型(B轮)"}
+{"ShortName": "九章云极科技", "city": "北京", "industry": "数据服务", "desc": "海归初创企业，大数据分布式平台敏捷开发，geek文化，寻找聪明的你一起发展！", "FullName": "北京九章云极科技有限公司", "id": 18497, "stage": "成长型(A轮)"}
+{"ShortName": "云印技术", "city": "深圳", "industry": "O2O", "desc": "新一代的O2O互联网创业公司，专注于以互联网思维管理和运营个性化印刷包装，以互联网的方式重构传统印刷", "FullName": "云印技术（深圳）有限公司", "id": 2294, "stage": "成长型(A轮)"}
+{"ShortName": "oTMS", "city": "上海", "industry": "移动互联网", "desc": "引领互联运输之道", "FullName": "上海先烁信息科技有限公司", "id": 50104, "stage": "成长型(B轮)"}
+{"ShortName": "长量基金", "city": "上海", "industry": "金融", "desc": "服务创造价值", "FullName": "上海长量基金销售投资顾问有限公司", "id": 30634, "stage": "初创型(未融资)"}
+{"ShortName": "又一车", "city": "上海", "industry": "O2O", "desc": "全国第一中高档二手车O2O交易平台", "FullName": "上海麦拉汽车服务有限公司", "id": 35543, "stage": "成长型(A轮)"}
+{"ShortName": "抹茶美妆", "city": "成都", "industry": "移动互联网,电子商务", "desc": "中国最大、最活跃、最专业的美妆社区电商", "FullName": "成都云遥互动科技有限公司", "id": 20589, "stage": "成长型(B轮)"}
+{"ShortName": "时速云", "city": "北京", "industry": "企业服务,数据服务", "desc": "来自IBM等顶级团队打造的新一代Docker容器云平台", "FullName": "北京云思畅想科技有限公司", "id": 54359, "stage": "成长型(A轮)"}
+{"ShortName": "TCL通讯科技（成都）有限公司", "city": "成都", "industry": "移动互联网,硬件", "desc": "TCL通讯是TCL集团和阿尔卡特集团的合资公司！", "FullName": "TCL通讯科技（成都）有限公司", "id": 43275, "stage": "上市公司"}
+{"ShortName": "指尖城市", "city": "深圳", "industry": "移动互联网", "desc": "深圳最具影响力的移动互联网平台", "FullName": "深圳市指尖城市网络科技有限公司", "id": 26814, "stage": "初创型(天使轮)"}
+{"ShortName": "Dreamtimes", "city": "合肥", "industry": "电子商务", "desc": "Dreamtimes 是一个富有激情、勇于创新的团队，欢迎有志于推动中国化妆品网购发展事业的人才加入", "FullName": "安徽中怡网络科技有限公司", "id": 43359, "stage": "初创型(未融资)"}
+{"ShortName": "友宝", "city": "深圳南山", "industry": "O2O,移动互联网", "desc": "互联网技术+零售业态", "FullName": "深圳友宝科斯科技有限公司", "id": 110293, "stage": "成熟型(C轮)"}
+{"ShortName": "Voyageone", "city": "上海", "industry": "电子商务", "desc": "跨境电商领导者，有12年美国电商经验，服务于多个国际知名品牌。公司格局高，氛围好，处加速发展期。", "FullName": "上海沃易智电子商务有限公司", "id": 90537, "stage": "成长型(不需要融资)"}
+{"ShortName": "九公子", "city": "广州", "industry": "电子商务", "desc": "你有能力我有实力！", "FullName": "淄博云雅贸易有限公司", "id": 111276, "stage": "初创型(不需要融资)"}
+{"ShortName": "雷音科技", "city": "广州", "industry": "移动互联网,游戏", "desc": "我们是一家网易系创业公司，核心团队平均在网易7年，旗下产品PPPoker是明星级的海外垂直社区", "FullName": "广州雷音网络科技有限公司", "id": 56211, "stage": "成长型(A轮)"}
+{"ShortName": "质心教育", "city": "北京", "industry": "移动互联网,教育", "desc": "先集中突破竞赛细分市场，专注在线教育，目标成为优秀的教育内容提供商和师生互动交流平台", "FullName": "北京质心教育科技有限公司", "id": 71434, "stage": "初创型(天使轮)"}
+{"ShortName": "豫米传媒", "city": "深圳", "industry": "移动互联网,广告营销", "desc": "融合共赢，我们这里没有员工，只有合作伙伴！", "FullName": "深圳市豫米网络传媒有限公司", "id": 52951, "stage": "成长型(A轮)"}
+{"ShortName": "有数金服", "city": "杭州", "industry": "金融,数据服务", "desc": "让我们携手一起在互联网+大数据潮流中乘风破浪！来吧，等的就是你！", "FullName": "杭州有数金融信息服务有限公司", "id": 75025, "stage": "成长型(A轮)"}
+{"ShortName": "明月眼镜", "city": "上海", "industry": "O2O,医疗健康", "desc": "发起面向全球的眼视光全产业的互联网化改造运动", "FullName": "上海明月眼镜有限公司", "id": 79924, "stage": "成熟型(不需要融资)"}
+{"ShortName": "火翼游戏", "city": "北京", "industry": "游戏", "desc": "精英团队，专注海外手游市场，资金充裕，志存高远，诚邀加盟", "FullName": "北京火翼科技有限公司", "id": 68142, "stage": "成长型(A轮)"}
+{"ShortName": "丰趣海淘", "city": "上海", "industry": "电子商务", "desc": "顺丰直营、只卖正品、顶尖物流、打造一流跨境电商", "FullName": "上海牵趣网络科技有限公司", "id": 79323, "stage": "成长型(B轮)"}
+{"ShortName": "浪潮企业云深圳研发中心", "city": "深圳", "industry": "移动互联网,企业服务", "desc": "成长机会：国内成长最快速的ERP公司 无敌保障：拥有三家上市公司的IT巨头 高手如云：跟高手过招一年", "FullName": "浪潮通用软件有限公司深圳研发中心", "id": 53711, "stage": "上市公司"}
+{"ShortName": "飞驰镁物", "city": "北京", "industry": "移动互联网,数据服务", "desc": "一帮子极客的车联网公司，致力于打造次世代的汽车联网服务使能者，实现汽车与互联网的跨界融合", "FullName": "飞驰镁物（北京）科技有限公司", "id": 47865, "stage": "成长型(A轮)"}
+{"ShortName": "优汽", "city": "北京", "industry": "移动互联网,电子商务", "desc": "汽车后市场交易服务平台", "FullName": "北京新汽联科技有限公司", "id": 84453, "stage": "成长型(A轮)"}
+{"ShortName": "冰川网络", "city": "深圳", "industry": "游戏", "desc": "一直相信，只有优秀的人才能吸引优秀的人才", "FullName": "深圳冰川网络股份有限公司", "id": 44314, "stage": "上市公司"}
+{"ShortName": "今日捷财", "city": "上海", "industry": "金融", "desc": "今日捷财成就70、80后的自由梦想！", "FullName": "上海捷财金融信息服务有限公司", "id": 26132, "stage": "成长型(A轮)"}
+{"ShortName": "福米金融", "city": "上海", "industry": "移动互联网,金融", "desc": "福米理念： 人人都是形象代言人，人人都是风险管理官，人人都是产品推销员，人人都是理财消费者。", "FullName": "福米互联网金融信息服务（上海）有限公司", "id": 67062, "stage": "初创型(天使轮)"}
+{"ShortName": "网信集团", "city": "北京", "industry": "金融", "desc": "网信，连接人与金融", "FullName": "网信金融有限公司", "id": 6898, "stage": "成长型(B轮)"}
+{"ShortName": "网营科技", "city": "杭州", "industry": "电子商务", "desc": "中国领先的电子商务服务商", "FullName": "杭州网营科技股份有限公司", "id": 40823, "stage": "上市公司"}
+{"ShortName": "Little Freddie", "city": "深圳", "industry": "电子商务,广告营销", "desc": "Real food for real people.", "FullName": "阳光麦田贸易（深圳）有限公司", "id": 81322, "stage": "成长型(A轮)"}
+{"ShortName": "归墟电子", "city": "上海", "industry": "移动互联网,其他", "desc": "薪资福利好，待遇优厚 + 年底多薪 + 团队出游，和智能机器人一起燥起来吧", "FullName": "上海归墟电子科技有限公司", "id": 89414, "stage": "成长型(A轮)"}
+{"ShortName": "聚享科技", "city": "武汉", "industry": "企业服务,O2O", "desc": "蚂蚁创业MAYICY.CN，为创业而生。", "FullName": "武汉聚享互创科技有限公司", "id": 36557, "stage": "初创型(未融资)"}
+{"ShortName": "点融网", "city": "上海", "industry": "金融", "desc": "互联网理财 上点融", "FullName": "上海点荣金融信息服务有限责任公司", "id": 23177, "stage": "成熟型(C轮)"}
+{"ShortName": "逗拍", "city": "深圳", "industry": "移动互联网,文化娱乐", "desc": "大头视频制作神器", "FullName": "深圳市大头兄弟文化传播有限公司", "id": 24510, "stage": "成长型(A轮)"}
+{"ShortName": "恒镁科技", "city": "杭州", "industry": "移动互联网", "desc": "恒镁科技是领先的互联网金融综合服务提供商。", "FullName": "杭州恒镁电子科技有限公司", "id": 26029, "stage": "成长型(不需要融资)"}
+{"ShortName": "未来应用", "city": "北京", "industry": "移动互联网,广告营销", "desc": "前端工程师为之虎躯一震", "FullName": "未来应用", "id": 87590, "stage": "初创型(天使轮)"}
+{"ShortName": "华强电子网", "city": "深圳", "industry": "移动互联网 ,电子商务", "desc": "帮你做大生意，做世界电子产业的中国枢纽，为员工搭建实现梦想的舞台", "FullName": "深圳华强电子交易网络有限公司", "id": 6946, "stage": "上市公司"}
+{"ShortName": "ITbegin云编程", "city": "杭州", "industry": "移动互联网,教育", "desc": "云编程第一神器！", "FullName": "杭州华恩教育科技有限公司", "id": 77015, "stage": "初创型(天使轮)"}
+{"ShortName": "GOLA科技", "city": "北京", "industry": "移动互联网,社交网络", "desc": "网聚帅女孩的潮流互动平台", "FullName": "北京库拉科技有限公司", "id": 61654, "stage": "初创型(天使轮)"}
+{"ShortName": "重庆易宠科技有限公司", "city": "重庆", "industry": "电子商务", "desc": "做宠物领域的平台级企业，为每个养宠家庭提供我们的商品和服务。", "FullName": "重庆易宠科技有限公司", "id": 14567, "stage": "成熟型(C轮)"}
+{"ShortName": "青藤云安全", "city": "北京", "industry": "数据服务", "desc": "千亿互联网企业安全市场的领先团队之一", "FullName": "北京升鑫网络科技有限公司", "id": 35630, "stage": "成长型(A轮)"}
+{"ShortName": "易路", "city": "上海", "industry": "移动互联网,企业服务", "desc": "移动互联网＋改变传统业务模式", "FullName": "上海易路软件有限公司", "id": 35796, "stage": "成长型(A轮)"}
+{"ShortName": "橙子科技", "city": "杭州", "industry": "移动互联网,电子商务", "desc": "全透明一站式海外购物服务平台", "FullName": "杭州橙子信息科技有限公司", "id": 69731, "stage": "成长型(A轮)"}
+{"ShortName": "达西科技", "city": "杭州", "industry": "电子商务", "desc": "本公司定位于电子商务领域，为商家提供电子商务整体解决方案。", "FullName": "杭州达西科技有限公司", "id": 54525, "stage": "成长型(不需要融资)"}
+{"ShortName": "名宠社", "city": "成都", "industry": "企业服务,分类信息", "desc": "良心、耐心、沉稳、远见、创新、艺术、科技、未来", "FullName": "成都宠物购科技有限公司", "id": 141706, "stage": "初创型(天使轮)"}
+{"ShortName": "杭州至美", "city": "杭州", "industry": "电子商务", "desc": "互利共赢，至善至美", "FullName": "杭州至美营销策划有限公司", "id": 85130, "stage": "成长型(不需要融资)"}
+{"ShortName": "Beta财富", "city": "上海", "industry": "金融", "desc": "为互联网金融和财富管理保驾护航", "FullName": "上海贝耳塔信息技术有限公司", "id": 53808, "stage": "成长型(B轮)"}
+{"ShortName": "90KM", "city": "上海", "industry": "游戏", "desc": "用心做好游戏！", "FullName": "玖万里网络科技（上海）有限公司", "id": 103132, "stage": "成长型(A轮)"}
+{"ShortName": "深圳市泰久信息系统股份有限公司", "city": "深圳", "industry": "移动互联网,金融", "desc": "成为移动O2O技术服务领域的领军企业", "FullName": "深圳市泰久信息系统有限公司", "id": 2850, "stage": "成熟型(C轮)"}
+{"ShortName": "甜菜金融", "city": "北京", "industry": "金融", "desc": "打造领先的综合性金融信息服务平台", "FullName": "天风天财（武汉）金融信息服务有限公司", "id": 43183, "stage": "成长型(不需要融资)"}
+{"ShortName": "节操精选", "city": "北京", "industry": "移动互联网", "desc": "国内领先的新生代娱乐社区", "FullName": "北京爱声声科技有限公司", "id": 399, "stage": "成长型(B轮)"}
+{"ShortName": "心联网", "city": "北京", "industry": "移动互联网", "desc": "让你成为更好的自己", "FullName": "北京心联网科技有限公司", "id": 45485, "stage": "成长型(A轮)"}
+{"ShortName": "淘粉吧", "city": "杭州", "industry": "移动互联网,电子商务", "desc": "新三板上市公司，国内第一超高返利导购平台", "FullName": "杭州淘粉吧网络技术股份有限公司", "id": 49369, "stage": "上市公司"}
+{"ShortName": "十匠", "city": "南京", "industry": "企业服务,金融", "desc": "崇尚工匠精神，创造行业价值。", "FullName": "南京十匠电子商务有限公司", "id": 106138, "stage": "初创型(未融资)"}
+{"ShortName": "贝瑞和康", "city": "北京", "industry": "医疗健康", "desc": "基因检测行业的领导者，东直门、三元桥、望京西有班车,明年年初会搬家到昌平生命园", "FullName": "北京贝瑞和康生物技术股份有限公司", "id": 55137, "stage": "成长型(B轮)"}
+{"ShortName": "服务性机器人", "city": "上海", "industry": "移动互联网,硬件", "desc": "创业团队的酸甜苦辣只有懂得欣赏创业者的伯乐才会觉得是一种享受。", "FullName": "上海机奇智能科技有限公司", "id": 106406, "stage": "成长型(A轮)"}
+{"ShortName": "杏仁医生", "city": "上海", "industry": "移动互联网,O2O", "desc": "中国最领先的医疗O2O企业，澳洲医生与互联网大牛联合创业，2亿融资。只为改变中国医疗！", "FullName": "爱海企业管理咨询（上海）有限公司", "id": 1291, "stage": "成长型(B轮)"}
+{"ShortName": "言之有物科技", "city": "北京", "industry": "移动互联网,电子商务", "desc": "聚焦时尚生活消费的媒体化电商平台，创始团队来自网易、有道、Google、豌豆荚、腾讯等", "FullName": "北京言之有物科技有限公司", "id": 129801, "stage": "成长型(A轮)"}
+{"ShortName": "万一", "city": "杭州", "industry": "移动互联网", "desc": "Be good，do right！", "FullName": "杭州万一科技有限公司", "id": 48400, "stage": "初创型(天使轮)"}
+{"ShortName": "希品科技", "city": "深圳", "industry": "移动互联网,数据服务", "desc": "我们是一个创业公司，致力于农产品电商平台和供应链领域", "FullName": "深圳希品科技有限公司", "id": 36315, "stage": "成长型(A轮)"}
+{"ShortName": "摩登天空", "city": "北京", "industry": "移动互联网", "desc": "摩登天空创立于1997年12月27日，中国最具规模和文化影响力的音乐公司，同时也是两岸三地最大。实力", "FullName": "北京正在映画互联网科技有限公司", "id": 70777, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "极视角", "city": "深圳", "industry": "移动互联网,数据服务", "desc": "极视角将让摄像头拥有人类视觉认识功能——理解、分析所看到的一切。人工智能，已经到来， 正在发生", "FullName": "深圳极视角科技有限公司", "id": 80054, "stage": "成长型(A轮)"}
+{"ShortName": "渡鸦科技", "city": "北京", "industry": "移动互联网,数据服务", "desc": "重新定义人与移动设备的交互方式", "FullName": "北京瑞酷创新科技有限公司", "id": 8279, "stage": "成长型(A轮)"}
+{"ShortName": "赢了网", "city": "上海", "industry": "电子商务", "desc": "“互联网+法律“ “腾讯战略投资”", "FullName": "上海法和信息科技有限公司", "id": 31696, "stage": "成长型(B轮)"}
+{"ShortName": "灵喵机器人", "city": "深圳", "industry": "硬件,其他", "desc": "让机器人自由“奔跑”！", "FullName": "深圳灵喵机器人技术有限公司", "id": 130736, "stage": "初创型(天使轮)"}
+{"ShortName": "趣读趣写", "city": "北京", "industry": "移动互联网", "desc": "免费读好书，轻松告别乏味时光，享受极致阅读体验", "FullName": "北京趣读趣写科技发展有限公司", "id": 65858, "stage": "初创型(天使轮)"}
+{"ShortName": "极客海淘", "city": "北京", "industry": "电子商务,广告营销", "desc": "享受生活，传播理念，专注打造品质生活的购物分享社区。", "FullName": "北京即刻生活信息技术有限公司", "id": 16981, "stage": "初创型(天使轮)"}
+{"ShortName": "上海煜航数字科技有限公司", "city": "上海", "industry": "游戏,文化娱乐", "desc": "上海煜航数字科技有限公司是专注于虚拟现实行业解决方案的高科技公司。", "FullName": "上海煜航数字科技有限公司", "id": 103193, "stage": "初创型(不需要融资)"}
+{"ShortName": "皇包车", "city": "北京", "industry": "移动互联网,O2O", "desc": "完善的薪资体系，外企的办公环境，广阔的晋升平台", "FullName": "北京纯粹旅行有限公司", "id": 84656, "stage": "成长型(B轮)"}
+{"ShortName": "七月在线", "city": "北京", "industry": "移动互联网", "desc": "专注数据领域的在线教育", "FullName": "北京七月在线科技有限公司", "id": 76553, "stage": "初创型(天使轮)"}
+{"ShortName": "和众世纪", "city": "深圳", "industry": "电子商务,O2O", "desc": "和天下众生，创世纪梦想", "FullName": "深圳和众世纪营销策划有限公司", "id": 91618, "stage": "成长型(不需要融资)"}
+{"ShortName": "西会科技", "city": "北京", "industry": "移动互联网", "desc": "数据驱动销售", "FullName": "北京西会科技有限公司", "id": 93083, "stage": "成长型(A轮)"}
+{"ShortName": "百词斩", "city": "成都", "industry": "移动互联网,教育", "desc": "有趣有爱做教育，打造英语大杀器", "FullName": "成都超有爱科技有限公司", "id": 7522, "stage": "成长型(B轮)"}
+{"ShortName": "半糖", "city": "北京", "industry": "移动互联网,电子商务", "desc": "商品决策指南 - 发现值得买的好东西。双休13薪，五险一金。", "FullName": "北京九州云动科技有限公司", "id": 34573, "stage": "成长型(B轮)"}
+{"ShortName": "家家顺房产网", "city": "深圳", "industry": "移动互联网,生活服务", "desc": "“打造一流人居生活服务E2E电商平台”", "FullName": "深圳市家家顺网络科技有限公司", "id": 29866, "stage": "初创型(未融资)"}
+{"ShortName": "酷云互动", "city": "北京", "industry": "数据服务,广告营销", "desc": "酷云互动是中国最大的家庭互联网平台服务商", "FullName": "北京酷云互动科技有限公司", "id": 16417, "stage": "成长型(B轮)"}
+{"ShortName": "容易网", "city": "上海", "industry": "电子商务,O2O", "desc": "国内领先的线下零售业全渠道平台服务提供商,于2016年1月15日正式挂牌登陆新三板.", "FullName": "上海容易网电子商务有限公司", "id": 19241, "stage": "上市公司"}
+{"ShortName": "鸿坤控股集团-亿润投资集团", "city": "北京", "industry": "金融", "desc": "立足新起点，开创新局面，心有多大，舞台就有多大，因为有你们的加入，企业会更加强大~！", "FullName": "鸿坤集团 北京亿润财富科技服务有限公司", "id": 55867, "stage": "成熟型(不需要融资)"}
+{"ShortName": "小牛装修", "city": "深圳", "industry": "电子商务", "desc": "快鸽按揭，个人贷款电商服务平台，让您更快获得贷款。", "FullName": "深圳市温馨港湾网络技术有限公司", "id": 20217, "stage": "初创型(未融资)"}
+{"ShortName": "CQASO", "city": "上海", "industry": "移动互联网,企业服务", "desc": "中国最专业的大数据运营平台，为移动开发运营人员提供最快，最全面的数据，让世界看到你的app。", "FullName": "闯奇信息科技上海有限公司", "id": 53705, "stage": "成长型(A轮)"}
+{"ShortName": "Glow", "city": "上海", "industry": "移动互联网,医疗健康", "desc": "Paypal 创始人 Max Levchin 最新的一次创业", "FullName": "恒羿网络科技（上海）有限公司", "id": 9455, "stage": "成长型(B轮)"}
+{"ShortName": "堆糖", "city": "上海", "industry": "移动互联网,生活服务", "desc": "美好生活研究所", "FullName": "堆糖信息科技（上海）有限公司", "id": 1335, "stage": "成长型(B轮)"}
+{"ShortName": "货车帮", "city": "成都", "industry": "移动互联网,电子商务", "desc": "中国公路物流信息化领跑者", "FullName": "成都运力科技有限公司", "id": 19365, "stage": "成长型(A轮)"}
+{"ShortName": "杏树林", "city": "北京", "industry": "移动互联网,医疗健康", "desc": "Fast Company 2015年医疗健康类最具创新力企业全球第一", "FullName": "杏树林信息技术（北京）有限公司", "id": 3954, "stage": "成熟型(C轮)"}
+{"ShortName": "Maxent", "city": "上海", "industry": "移动互联网,数据服务", "desc": "基于大数据和机器学习的反欺诈Saas服务商", "FullName": "上海行邑信息科技有限公司", "id": 52905, "stage": "成长型(A轮)"}
+{"ShortName": "网利宝", "city": "北京", "industry": "O2O,金融", "desc": "安全投资，你我同在", "FullName": "北京网利科技有限公司", "id": 7626, "stage": "成长型(B轮)"}
+{"ShortName": "咕咚", "city": "成都", "industry": "移动互联网", "desc": "要运动,用咕咚", "FullName": "成都乐动信息技术有限公司", "id": 492, "stage": "成熟型(C轮)"}
+{"ShortName": "兜行", "city": "北京", "industry": "移动互联网,数据服务", "desc": "专注于企业移动应用，互联网开发方式", "FullName": "北京八斗网络技术有限公司", "id": 21519, "stage": "成长型(A轮)"}
+{"ShortName": "VeeR", "city": "北京", "industry": "社交网络,文化娱乐", "desc": "低调务实征战全球市场，可能是最靠谱的VR创业公司！", "FullName": "北京为快科技有限公司", "id": 137847, "stage": "初创型(天使轮)"}
+{"ShortName": "摩森特", "city": "北京", "industry": "移动互联网,电子商务", "desc": "我们期待有激情、有梦想，爱生活的小伙伴加入！摩森特在等您！！！有志向的小伙伴快来快来！", "FullName": "摩森特（北京）科技有限公司", "id": 60152, "stage": "成长型(不需要融资)"}
+{"ShortName": "云盾", "city": "上海", "industry": "移动互联网,数据服务", "desc": "来了，你就是朋友，无大公司中的勾心斗角，有话你就讲", "FullName": "上海云盾信息技术有限公司", "id": 23694, "stage": "成长型(A轮)"}
+{"ShortName": "度假派", "city": "广州", "industry": "旅游", "desc": "精选休闲度假生活服务平台。", "FullName": "广州悠途信息技术有限公司", "id": 27523, "stage": "初创型(未融资)"}
+{"ShortName": "数聚变", "city": "北京", "industry": "数据服务,分类信息", "desc": "来一起建设数据共产主义吧！", "FullName": "数聚变(北京)科技有限公司", "id": 105500, "stage": "初创型(天使轮)"}
+{"ShortName": "微匹科技", "city": "深圳", "industry": "企业服务", "desc": "帮助中小企业成长", "FullName": "深圳市微匹科技有限公司", "id": 39740, "stage": "初创型(不需要融资)"}
+{"ShortName": "再惠", "city": "上海", "industry": "移动互联网,企业服务", "desc": "用大数据和机器学习改变顾商交互", "FullName": "再惠（上海）网络科技有限公司", "id": 86312, "stage": "成长型(A轮)"}
+{"ShortName": "十一平米", "city": "武汉", "industry": "移动互联网,O2O", "desc": "打造互联网养车新模式，构建线上线下服务能力，专注服务品质的提升，让用车生活变简单！", "FullName": "武汉十一平米科技有限责任公司", "id": 72288, "stage": "成长型(A轮)"}
+{"ShortName": "生意宝", "city": "杭州", "industry": "电子商务", "desc": "知名上市B2B电子商务公司，市值150亿。旗下生意宝、中国化工网、中国纺织网、中国医药网四大平台。", "FullName": "浙江网盛生意宝股份有限公司", "id": 22414, "stage": "上市公司"}
+{"ShortName": "嗖嗖快跑", "city": "北京", "industry": "O2O", "desc": "“嗖嗖身边”打造高品质生活服务平台", "FullName": "北京嗖嗖快跑科技有限公司", "id": 108753, "stage": "成长型(A轮)"}
+{"ShortName": "湖南文沥", "city": "长沙", "industry": "数据服务,金融", "desc": "数据为本，科技铸金", "FullName": "湖南文沥征信数据服务有限公司", "id": 145966, "stage": "初创型(不需要融资)"}
+{"ShortName": "互利科技", "city": "北京", "industry": "企业服务,数据服务", "desc": "主要成员：美国Amazon工程师、惠普市场高管；获顶级VC天使投资。企业级机器数据实时分析与管理平台", "FullName": "北京互利科技有限公司", "id": 102159, "stage": "初创型(天使轮)"}
+{"ShortName": "正好网络科技", "city": "郑州", "industry": "移动互联网,电子商务", "desc": "新时代的逗逼梦想实践者", "FullName": "郑州正好网络科技有限公司", "id": 121439, "stage": "初创型(不需要融资)"}
+{"ShortName": "大气候科技", "city": "广州", "industry": "移动互联网,硬件", "desc": "建立人与地的连接", "FullName": "广州大气候农业科技有限公司", "id": 117901, "stage": "初创型(天使轮)"}
+{"ShortName": "见康云", "city": "深圳", "industry": "移动互联网,医疗健康", "desc": "引领智能健康未来", "FullName": "深圳市见康云科技有限公司", "id": 83909, "stage": "成长型(不需要融资)"}
+{"ShortName": "大脉科技", "city": "广州", "industry": "移动互联网", "desc": "T字形、互补、文化认同", "FullName": "广州大脉信息科技有限公司", "id": 83132, "stage": "初创型(未融资)"}
+{"ShortName": "玛瑙湾", "city": "杭州", "industry": "移动互联网,金融", "desc": "打造中国老百姓一站式综合理财平台", "FullName": "杭州玛瑙湾科技有限公司", "id": 84693, "stage": "初创型(天使轮)"}
+{"ShortName": "米趣科技", "city": "杭州", "industry": "移动互联网", "desc": "一米阳光，因趣而生", "FullName": "杭州米趣网络科技有限公司", "id": 27378, "stage": "成长型(B轮)"}
+{"ShortName": "卡宝宝", "city": "广州", "industry": "移动互联网,金融", "desc": "833906，新三板上市企业，股权激励，周末双休，五险一金", "FullName": "广州卡宝宝互联网金融信息服务股份有限公司", "id": 81576, "stage": "上市公司"}
+{"ShortName": "有赞", "city": "杭州", "industry": "企业服务,电子商务", "desc": "移动零售服务商", "FullName": "杭州有赞科技有限公司", "id": 7461, "stage": "成长型(B轮)"}
+{"ShortName": "小满科技", "city": "深圳", "industry": "企业服务,数据服务", "desc": "小满科技是一家专注企业服务的互联网公司，通过云计算和大数据为中小企业提供SaaS服务", "FullName": "深圳市小满科技有限公司", "id": 5834, "stage": "成长型(B轮)"}
+{"ShortName": "慕课网", "city": "北京", "industry": "移动互联网,教育", "desc": "中国最大的IT技能学习平台，只学有用的！", "FullName": "北京慕课科技中心", "id": 6040, "stage": "成长型(不需要融资)"}
+{"ShortName": "小恩爱", "city": "深圳", "industry": "社交网络", "desc": "小恩爱是目前全球用户最多的情侣私密应用，一家设计与技术并重的创业公司，在这儿每个人都创造了非凡的价值", "FullName": "深圳市梦之舵信息技术有限公司", "id": 2066, "stage": "成长型(A轮)"}
+{"ShortName": "海鼎", "city": "上海", "industry": "企业服务", "desc": "成为中国领先、客户首选的零售与流通整体解决方案服务商", "FullName": "上海海鼎信息工程股份有限公司", "id": 7988, "stage": "初创型(未融资)"}
+{"ShortName": "分享科技", "city": "成都", "industry": "移动互联网", "desc": "一起创造，共同分享", "FullName": "成都微分享科技有限公司", "id": 48369, "stage": "成长型(不需要融资)"}
+{"ShortName": "汇美影像", "city": "深圳", "industry": "生活服务", "desc": "影像行业领导品牌，上市公司，完成天使轮，传统资源结合移动互联网O2O平台，前景被多家资本看好。", "FullName": "深圳市汇美影像文化股份有限公司", "id": 17821, "stage": "成长型(A轮)"}
+{"ShortName": "厦门易灵网络 ELING", "city": "厦门", "industry": "移动互联网,游戏", "desc": "游戏海外发行，专注的互联网轻公司", "FullName": "厦门易灵网络科技有限公司", "id": 27964, "stage": "初创型(未融资)"}
+{"ShortName": "小鹿美美", "city": "上海", "industry": "移动互联网,电子商务", "desc": "未来的市场在哪里？技术的出路在哪里？加入我们，我们带你寻找答案！", "FullName": "上海己美网络科技有限公司", "id": 51914, "stage": "成长型(A轮)"}
+{"ShortName": "有乐淘", "city": "广州", "industry": "移动互联网,电子商务", "desc": "通过互联网模式，公司致力于开创海外物流转运的专业平台，涉及美国、英国、澳洲等国家。", "FullName": "广州驿淘网络科技有限公司", "id": 156844, "stage": "初创型(天使轮)"}
+{"ShortName": "众禄金融", "city": "深圳", "industry": "移动互联网,金融", "desc": "高速发展中的互联网金融企业（股票代码：834540）", "FullName": "深圳众禄金融控股股份有限公司", "id": 50285, "stage": "上市公司"}
+{"ShortName": "科斯拉", "city": "深圳", "industry": "移动互联网", "desc": "制作技术为基础，项目组运作为保障；策划创意为先行，塑造品牌精神符号；视觉设计为核心，以实现品牌价值为", "FullName": "深圳市科斯拉科技有限公司", "id": 24161, "stage": "初创型(未融资)"}
+{"ShortName": "Sobug安全众测平台", "city": "深圳", "industry": "企业服务,信息安全", "desc": "国内最新兴的安全测试众包类创业公司，扁平化管理，优秀员工给期权。", "FullName": "深圳百密信安科技有限公司", "id": 34246, "stage": "成长型(A轮)"}
+{"ShortName": "河马牙医", "city": "上海", "industry": "医疗健康", "desc": "口腔健康的移动平台。满足360度全方位的口腔健康需求。", "FullName": "上海康牙网络科技有限公司", "id": 58204, "stage": "初创型(天使轮)"}
+{"ShortName": "优锘科技(uinnova)", "city": "北京", "industry": "移动互联网,企业服务", "desc": "帮助人类更好地认知和管理新世界", "FullName": "北京优锘科技有限公司", "id": 6873, "stage": "初创型(未融资)"}
+{"ShortName": "新娱兄弟网络", "city": "北京", "industry": "游戏", "desc": "成立于2007年的一家人员规模达到100多人的页游手游研发发行运营一体的公司", "FullName": "北京新娱兄弟网络科技有限公司", "id": 31780, "stage": "成熟型(C轮)"}
+{"ShortName": "路路行旅游", "city": "上海", "industry": "电子商务,旅游", "desc": "为遇见世界", "FullName": "路路行（上海）商务咨询有限公司", "id": 687, "stage": "成长型(A轮)"}
+{"ShortName": "Gridsum 国双", "city": "北京", "industry": "数据服务", "desc": "带你一起开启大数据之旅！", "FullName": "北京国双科技有限公司", "id": 3038, "stage": "上市公司"}
+{"ShortName": "万兴科技", "city": "深圳", "industry": "移动互联网,硬件", "desc": "智慧家庭，幸福生活！", "FullName": "深圳市万兴信息科技股份有限公司", "id": 1720, "stage": "成长型(B轮)"}
+{"ShortName": "前海明磊融创", "city": "苏州", "industry": "移动互联网,金融", "desc": "专注汽车金融，科技改变世界。", "FullName": "深圳前海明磊融创科技有限公司苏州分公司", "id": 120865, "stage": "成熟型(C轮)"}
+{"ShortName": "源本生鲜", "city": "成都", "industry": "电子商务,O2O", "desc": "打造基于大数据与社会共治的食品安全新格局", "FullName": "成都顺点科技有限公司", "id": 78385, "stage": "成长型(B轮)"}
+{"ShortName": "造风", "city": "杭州", "industry": "移动互联网", "desc": "最年轻CEO，最酷的青春", "FullName": "杭州造风电子商务有限公司", "id": 53018, "stage": "成长型(A轮)"}
+{"ShortName": "迅龙创威", "city": "深圳", "industry": "游戏", "desc": "专注精品手游的研发和发行，做中国的Supercell公司", "FullName": "深圳市迅龙创威网络技术有限公司", "id": 53957, "stage": "成长型(A轮)"}
+{"ShortName": "随手科技", "city": "深圳", "industry": "移动互联网,金融", "desc": "科技金融行业领头羊，2.6亿用户寻找敲钟小伙伴", "FullName": "深圳市随手科技有限公司", "id": 13809, "stage": "成长型(B轮)"}
+{"ShortName": "图普科技（深度学习图像识别云）", "city": "广州", "industry": "移动互联网,数据服务", "desc": "我们是一群魔术师，用人工智能的魔棒指挥亿万数据，让机器睁开眼睛看世界", "FullName": "广州图普网络科技有限公司", "id": 34420, "stage": "成长型(A轮)"}
+{"ShortName": "云数海量", "city": "成都", "industry": "移动互联网,电子商务", "desc": "为用户提供一站式活动报名查询平台", "FullName": "成都云数海量信息科技有限公司", "id": 3114, "stage": "成长型(A轮)"}
+{"ShortName": "三代人科技", "city": "深圳", "industry": "移动互联网,医疗健康", "desc": "来吧，互联网 预防接种欢迎你！深圳三代人科技欢迎你！", "FullName": "深圳三代人科技有限公司", "id": 113576, "stage": "成长型(不需要融资)"}
+{"ShortName": "A.C.P Media", "city": "上海", "industry": "文化娱乐,移动互联网", "desc": "创意 自由 有趣 发展空间大", "FullName": "上海嘉强文化传媒有限公司", "id": 144971, "stage": "初创型(不需要融资)"}
+{"ShortName": "缔趣家", "city": "成都", "industry": "移动互联网", "desc": "“轻装点，慢改造”，用认真而有趣的态度装点生活，缔造家中的趣味与美好。", "FullName": "成都缔趣科技有限公司", "id": 141548, "stage": "初创型(天使轮)"}
+{"ShortName": "SmartX", "city": "北京", "industry": "数据服务", "desc": "让 IT 变得简单", "FullName": "北京志凌海纳科技有限公司", "id": 42680, "stage": "成长型(A轮)"}
+{"ShortName": "杭州有盾网络科技有限公司", "city": "杭州", "industry": "移动互联网,数据服务", "desc": "有盾，致力于成为最专业的第三方大数据风控服务商。", "FullName": "杭州有盾网络科技有限公司", "id": 100364, "stage": "初创型(天使轮)"}
+{"ShortName": "全城逛街", "city": "上海", "industry": "移动互联网,O2O", "desc": "以移动互联网改变线下零售业，让热爱逛街的女性以天猫价购买心仪的线下实体专柜货！", "FullName": "上海鑫邑信息科技有限公司", "id": 97781, "stage": "成长型(A轮)"}
+{"ShortName": "易企秀", "city": "北京", "industry": "移动互联网", "desc": "移动场景自营销管家", "FullName": "北京中网易企秀科技有限公司", "id": 93527, "stage": "成长型(B轮)"}
+{"ShortName": "齿轮易创", "city": "北京", "industry": "企业服务,移动互联网", "desc": "一站式软件开发服务平台", "FullName": "北京齿轮易创科技有限公司", "id": 138641, "stage": "初创型(天使轮)"}
+{"ShortName": "3W", "city": "北京", "industry": "移动互联网,电子商务", "desc": "专注于服务创业者，做中国最牛的创业服务平台！", "FullName": "北京三大不六科技有限公司", "id": 6262, "stage": "成长型(A轮)"}
+{"ShortName": "六壬网安", "city": "福州", "industry": "移动互联网,信息安全", "desc": "领先的网络安全、数据安全、应用安全整体解决方案供应商", "FullName": "福建六壬网安股份有限公司", "id": 99931, "stage": "成长型(B轮)"}
+{"ShortName": "传信", "city": "深圳", "industry": "移动互联网", "desc": "激情、和谐、梦想、人性", "FullName": "杭州传信网络科技有限公司", "id": 37183, "stage": "成长型(B轮)"}
+{"ShortName": "程序员客栈", "city": "杭州", "industry": "企业服务,其他", "desc": "程序员的经纪人", "FullName": "杭州势然网络科技有限公司", "id": 86350, "stage": "初创型(不需要融资)"}
+{"ShortName": "金扳手", "city": "上海", "industry": "移动互联网,O2O", "desc": "均瑶集团是以实业投资为主的现代服务业企业集团。", "FullName": "上海金扳手信息科技股份有限公司", "id": 69799, "stage": "成长型(不需要融资)"}
+{"ShortName": "大头秀", "city": "北京", "industry": "移动互联网,社交网络", "desc": "大头秀，变身热门短视频中的主角 已获得紫牛资本投资", "FullName": "北京江山如画网路科技有限责任公司", "id": 102022, "stage": "初创型(天使轮)"}
+{"ShortName": "黑格科技", "city": "广州", "industry": "移动互联网,硬件", "desc": "将未来科技融入生活", "FullName": "广州黑格智能科技有限公司", "id": 92138, "stage": "成长型(B轮)"}
+{"ShortName": "新东方教育行业研究院", "city": "北京", "industry": "移动互联网,教育", "desc": "为每个家庭提供最适合的教育产品", "FullName": "北京点石经纬科技有限公司", "id": 18165, "stage": "成长型(B轮)"}
+{"ShortName": "品味全城", "city": "上海", "industry": "移动互联网,生活服务", "desc": "一站式“轻奢消费”服务及俱乐部平台", "FullName": "品来（上海）文化传播有限公司", "id": 75375, "stage": "初创型(天使轮)"}
+{"ShortName": "爱活动（社群电商APP）", "city": "北京", "industry": "移动互联网,O2O", "desc": "最具潜力的时尚约玩社群电商平台", "FullName": "爱活动（北京）国际文化传媒有限公司", "id": 9963, "stage": "成长型(A轮)"}
+{"ShortName": "天眼通直播", "city": "北京", "industry": "移动互联网,文化娱乐", "desc": "青年文化视频直播平台，为你开眼看到别样世界", "FullName": "北京天眼通网络科技有限公司", "id": 132695, "stage": "初创型(天使轮)"}
+{"ShortName": "全民共赢", "city": "北京", "industry": "移动互联网,电子商务", "desc": "让社群赚钱更容易", "FullName": "北京全民共赢网络科技有限公司", "id": 121798, "stage": "初创型(天使轮)"}
+{"ShortName": "星宇联合", "city": "北京", "industry": "移动互联网,游戏", "desc": "国内知名MMORPG类产品研发团队", "FullName": "星宇联合（北京）科技有限公司", "id": 95163, "stage": "初创型(不需要融资)"}
+{"ShortName": "石器量投", "city": "北京", "industry": "金融", "desc": "YOTOVR媒体/石器量投工作室", "FullName": "北京石器量投科技有限公司", "id": 64413, "stage": "初创型(天使轮)"}
+{"ShortName": "Makeblock", "city": "深圳", "industry": "硬件", "desc": "“智”造万物，“玩”成工作.", "FullName": "深圳市创客工场科技有限公司", "id": 17617, "stage": "成长型(A轮)"}
+{"ShortName": "芝麻科技", "city": "南京", "industry": "O2O,数据服务", "desc": "Measure real experience.Drive real business.", "FullName": "南京芝麻信息科技有限公司", "id": 2996, "stage": "成长型(A轮)"}
+{"ShortName": "北京无双科技", "city": "北京", "industry": "数据服务", "desc": "互联网广告精准营销领域，采用广告大数据技术应用为核心技术，为广告主有效提升投放效果。", "FullName": "北京无双科技有限公司", "id": 10441, "stage": "上市公司"}
+{"ShortName": "易维帮助台", "city": "成都", "industry": "移动互联网,企业服务", "desc": "一个你来了就不想走的团队！！！", "FullName": "成都英孚凯尔信息技术有限公司", "id": 17125, "stage": "初创型(天使轮)"}
+{"ShortName": "第一车网", "city": "北京", "industry": "移动互联网,电子商务", "desc": "覆盖全国的二手车信息网站和稳定的汽车数据供应商。", "FullName": "北京爱车科技有限公司", "id": 3024, "stage": "成长型(B轮)"}
+{"ShortName": "重庆鸿巨网络科技有限公司", "city": "重庆", "industry": "移动互联网,电子商务", "desc": "重庆电子商务示范企业、国内领先的情趣用品垂直电商！", "FullName": "重庆鸿巨网络科技有限公司", "id": 35338, "stage": "成长型(不需要融资)"}
+{"ShortName": "天脉", "city": "北京", "industry": "数据服务", "desc": "天脉是目前全球唯一的专注于电视搜索的公司，致力于索引全球电视，构建“电视上的Google”。", "FullName": "天脉聚源（北京）传媒科技有限公司", "id": 18701, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "客如云", "city": "北京", "industry": "移动互联网,O2O", "desc": "客如云，智能云餐厅。倾力打造智能化，云化本地服务业！", "FullName": "客如云科技（北京）股份有限公司", "id": 7551, "stage": "成长型(B轮)"}
+{"ShortName": "蚂蚁HR", "city": "上海", "industry": "企业服务", "desc": "中小企业云端人力资源部", "FullName": "上海蚁众企业管理咨询有限公司", "id": 145257, "stage": "成长型(A轮)"}
+{"ShortName": "不亦乐乎", "city": "深圳", "industry": "移动互联网", "desc": "做原创、好玩的移动社交产品", "FullName": "深圳市不亦乐乎科技有限公司", "id": 1724, "stage": "初创型(天使轮)"}
+{"ShortName": "中武科技", "city": "武汉", "industry": "移动互联网,O2O", "desc": "一群年轻人组成的创业公司，加入我们吧。", "FullName": "武汉中武科技有限公司", "id": 52301, "stage": "初创型(天使轮)"}
+{"ShortName": "坚果云", "city": "上海", "industry": "企业服务,数据服务", "desc": "最优秀的企业云存储服务提供商，由IBM研究院精英打造", "FullName": "上海亦存网络科技有限公司", "id": 55021, "stage": "成长型(不需要融资)"}
+{"ShortName": "天下房仓", "city": "深圳", "industry": "企业服务,旅游", "desc": "专注于提供旅游行业互联互通系统解决方案的云服务平台", "FullName": "深圳市天下房仓科技有限公司", "id": 25703, "stage": "成长型(B轮)"}
+{"ShortName": "高毅资产", "city": "深圳", "industry": "金融,其他", "desc": "全国领先的平台型私募基金公司", "FullName": "上海高毅资产管理合伙企业（有限合伙）", "id": 59934, "stage": "成长型(不需要融资)"}
+{"ShortName": "瀚思HanSight", "city": "北京", "industry": "企业服务,数据服务", "desc": "数据驱动安全", "FullName": "北京瀚思安信科技有限公司", "id": 9735, "stage": "成长型(A轮)"}
+{"ShortName": "融贝网", "city": "北京", "industry": "金融", "desc": "新型互联网金融平台，期待加盟", "FullName": "融泰浩元（北京）网络科技有限公司", "id": 6422, "stage": "成长型(A轮)"}
+{"ShortName": "埃米信息", "city": "青岛", "industry": "移动互联网,硬件", "desc": "一个高大上的创新型互联网公司", "FullName": "青岛埃米信息技术有限公司", "id": 51122, "stage": "初创型(未融资)"}
+{"ShortName": "二更", "city": "杭州", "industry": "数据服务,移动互联网", "desc": "每晚二更，发现身边不一样的美", "FullName": "杭州二更网络科技有限公司", "id": 118703, "stage": "成长型(A轮)"}
+{"ShortName": "铜掌柜", "city": "杭州", "industry": "移动互联网,金融", "desc": "企业文化：共好文化", "FullName": "杭州铜米互联网金融服务有限公司", "id": 76944, "stage": "成长型(A轮)"}
+{"ShortName": "怒蛙网络", "city": "杭州", "industry": "广告营销,社交网络", "desc": "高端营销推广平台", "FullName": "杭州怒蛙网络有限公司", "id": 148687, "stage": "成长型(不需要融资)"}
+{"ShortName": "马拉马拉", "city": "北京", "industry": "移动互联网,医疗健康", "desc": "你，就是专业跑者", "FullName": "聪投（北京）信息技术有限公司", "id": 98908, "stage": "成长型(A轮)"}
+{"ShortName": "3W集团", "city": "北京", "industry": "移动互联网,企业服务", "desc": "3W，和优秀的人一起成长，让工作和生活一样美好！", "FullName": "北京3W孵化器管理有限公司", "id": 114386, "stage": "成长型(A轮)"}
+{"ShortName": "极限元", "city": "北京", "industry": "硬件,企业服务", "desc": "极致科技，无限未来，让人工智能改变我们的世界！", "FullName": "极限元（北京）智能科技股份有限公司", "id": 147426, "stage": "初创型(天使轮)"}
+{"ShortName": "掌途", "city": "厦门", "industry": "移动互联网,旅游", "desc": "靠谱的团队+幽默的Boss+项目前景好+扁平化的管理，掌控全局，运途在握", "FullName": "厦门掌途信息科技有限公司", "id": 70563, "stage": "初创型(天使轮)"}
+{"ShortName": "小赢理财", "city": "深圳", "industry": "金融", "desc": "有保险的互联网金融平台｜来自平安、BAT、麦肯锡的明星团队阵容", "FullName": "深圳市赢众通金融信息服务股份有限公司", "id": 24587, "stage": "成长型(A轮)"}
+{"ShortName": "上海润客投资控股有限公司", "city": "上海", "industry": "移动互联网,金融", "desc": "我们需要志同道合的你，一起骄傲地闯下去！", "FullName": "上海润客投资控股有限公司", "id": 87477, "stage": "成长型(A轮)"}
+{"ShortName": "Ape Crafts", "city": "北京", "industry": "移动互联网,硬件", "desc": "邀你一起变牛逼的移动互联网公司", "FullName": "北京西米科技有限公司", "id": 106845, "stage": "初创型(天使轮)"}
+{"ShortName": "茶优爱科技", "city": "北京", "industry": "移动互联网,其他", "desc": "两屏一云，智能车机系统", "FullName": "北京茶优爱智能互联科技有限公司", "id": 81676, "stage": "初创型(天使轮)"}
+{"ShortName": "Wecut", "city": "广州", "industry": "移动互联网,社交网络", "desc": "这一次，加入有活力的90后靠谱创业团队当合伙人", "FullName": "广州微咔世纪信息科技有限公司", "id": 47413, "stage": "成长型(A轮)"}
+{"ShortName": "九极", "city": "广州", "industry": "电子商务,医疗健康", "desc": "上市公司香雪的全资子公司，资金和研发实力雄厚。双休、五险一金、餐补、办公环境优美，福利齐全，平台大。", "FullName": "广东九极生物科技有限公司", "id": 97099, "stage": "成长型(不需要融资)"}
+{"ShortName": "海绵保", "city": "北京", "industry": "移动互联网,电子商务", "desc": "与你一起定义保险", "FullName": "北京海绵保科技有限公司", "id": 104229, "stage": "成长型(A轮)"}
+{"ShortName": "易居中国-创新研发中心", "city": "上海", "industry": "移动互联网,电子商务", "desc": "易居中国旗下创新研发中心，期待您的加入！", "FullName": "上海克而瑞软件技术有限公司", "id": 121222, "stage": "上市公司"}
+{"ShortName": "小饭桌", "city": "北京", "industry": "移动互联网,O2O", "desc": "小饭桌创业课堂是国内最大的优质创业者社群，也是最真诚的创投服务平台。", "FullName": "小饭桌", "id": 52426, "stage": "成长型(A轮)"}
+{"ShortName": "名厨", "city": "北京", "industry": "移动互联网,广告营销", "desc": "最好的厨师都在这里", "FullName": "北京早耕田国际广告有限公司", "id": 24186, "stage": "初创型(不需要融资)"}
+{"ShortName": "生物谷", "city": "上海", "industry": "电子商务,医疗健康", "desc": "我们引领生物行业的未来", "FullName": "上海北岸信息技术有限公司", "id": 7204, "stage": "成长型(A轮)"}
+{"ShortName": "普林科技", "city": "北京", "industry": "数据服务", "desc": "普林科技通过大数据建模分析技术，帮助客户唤醒沉睡数据价值，实现对内效率提升，对外数据价值运营。", "FullName": "北京至信普林科技有限公司", "id": 54374, "stage": "成长型(A轮)"}
+{"ShortName": "1001号", "city": "南京", "industry": "移动互联网,电子商务", "desc": "国内领先的综合云制造平台，2016年国家工信部 TOP10“互联网+”新锐项目", "FullName": "南京壹千零壹号自动化科技有限公司", "id": 46192, "stage": "成长型(A轮)"}
+{"ShortName": "多拍科技", "city": "深圳", "industry": "移动互联网,社交网络", "desc": "专注移动互联网视频领域", "FullName": "深圳多拍科技有限公司", "id": 7372, "stage": "初创型(天使轮)"}
+{"ShortName": "青柏信息", "city": "深圳", "industry": "移动互联网", "desc": "成长型公司，发展平台良好，环境优越，五天七小时，五险一金各种福利，只要你行，欢迎来“荐”！", "FullName": "深圳市青柏信息科技有限公司", "id": 32687, "stage": "成长型(A轮)"}
+{"ShortName": "贯通云网 GT", "city": "北京", "industry": "O2O,数据服务", "desc": "致力于改变快递行业规则的O2O公司", "FullName": "贯通云网（北京）信息技术有限公司", "id": 23341, "stage": "成长型(B轮)"}
+{"ShortName": "Gshopper", "city": "上海", "industry": "移动互联网,电子商务", "desc": "Shop Beyond Borders", "FullName": "上海载和网络科技有限公司", "id": 14981, "stage": "成熟型(C轮)"}
+{"ShortName": "青墨科技", "city": "上海", "industry": "移动互联网", "desc": "鸟哥笔记官方线上推广服务（旗下包含媒体平台、广告公司、自有产品）", "FullName": "上海青墨网络科技有限公司", "id": 43214, "stage": "成长型(不需要融资)"}
+{"ShortName": "排队网", "city": "深圳", "industry": "移动互联网,O2O", "desc": "有餐饮商家，就有排队网", "FullName": "深圳排队网络技术有限公司", "id": 14107, "stage": "成长型(不需要融资)"}
+{"ShortName": "DecentFoXStudio", "city": "北京", "industry": "移动互联网,电子商务", "desc": "一群生命在于折腾的 85、90 后", "FullName": "北京甲乙禄咨询服务有限公司", "id": 65219, "stage": "初创型(不需要融资)"}
+{"ShortName": "巅峰科技", "city": "深圳", "industry": "移动互联网", "desc": "中国顶尖电商平台综合服务商", "FullName": "深圳市巅峰科技有限公司", "id": 58636, "stage": "成长型(不需要融资)"}
+{"ShortName": "传世未来", "city": "北京", "industry": "移动互联网", "desc": "未来不可知 才会诱着人向前 ExtantFuture", "FullName": "传世未来（北京）信息科技有限公司", "id": 46220, "stage": "成长型(A轮)"}
+{"ShortName": "优信集团", "city": "北京", "industry": "电子商务", "desc": "优信集团是全国领先的二手车在线交易服务提供商", "FullName": "优信拍（北京）信息科技有限公司", "id": 4530, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "陕西罗文网络科技有限公司", "city": "西安", "industry": "O2O", "desc": "全国最大、实力最强的三四县城市本地生活服务平台", "FullName": "杨凌罗文网络科技有限公司", "id": 814, "stage": "初创型(未融资)"}
+{"ShortName": "湖畔网络", "city": "杭州", "industry": "电子商务,企业服务", "desc": "用互联网服务推动企业创新", "FullName": "杭州湖畔网络技术有限公司", "id": 28126, "stage": "成长型(A轮)"}
+{"ShortName": "约约贷", "city": "郑州", "industry": "电子商务,金融", "desc": "约约贷是属于每个年轻人的信用零钱包", "FullName": "深圳市五二信息科技有限公司", "id": 37932, "stage": "成长型(A轮)"}
+{"ShortName": "吃饭儿", "city": "北京", "industry": "电子商务,企业服务", "desc": "弹性工作，年轻伙伴，各大公司大咖作为你的同伴，不是享受的平台，是发展的平台！", "FullName": "北京饭通天下科技发展有限公司", "id": 19873, "stage": "成长型(B轮)"}
+{"ShortName": "网盟电商", "city": "杭州", "industry": "移动互联网,电子商务", "desc": "我们的愿景：创跨世纪企业、成为全球最专业建材电子商务服务提供商、成为全球最具幸福感企业。", "FullName": "浙江网盟电子商务有限公司", "id": 76913, "stage": "初创型(未融资)"}
+{"ShortName": "小猪在线", "city": "成都", "industry": "移动互联网,O2O", "desc": "外面妖艳贱货公司有的我们都有、氛围吊炸天 | 没时间解释了，快上车~~~来国内最好的互联网农业公司", "FullName": "成都小猪在线网络科技有限公司", "id": 109306, "stage": "初创型(天使轮)"}
+{"ShortName": "酒仙网", "city": "北京", "industry": "电子商务", "desc": "酒仙网，互联网酒类第一，班车、职能13薪、技术15薪！居住证！新三板！一样的加班，不一样的精彩！", "FullName": "酒仙网电子商务股份有限公司", "id": 29946, "stage": "上市公司"}
+{"ShortName": "娃娃营", "city": "成都", "industry": "教育,生活服务", "desc": "服务中国好学校", "FullName": "成都娃娃营教育科技有限公司", "id": 90864, "stage": "成长型(A轮)"}
+{"ShortName": "叮叮", "city": "长沙", "industry": "移动互联网,电子商务", "desc": "专业的目的地旅游平台与服务提供商", "FullName": "湖南叮叮信息技术有限公司", "id": 86037, "stage": "初创型(天使轮)"}
+{"ShortName": "邦鼓思科技", "city": "上海", "industry": "移动互联网,硬件", "desc": "全海归团队创业，机器人 物联网领域，欧式管理，千万融资", "FullName": "邦鼓思电子科技（上海）有限公司", "id": 113155, "stage": "初创型(天使轮)"}
+{"ShortName": "光源资本", "city": "上海", "industry": "企业服务,金融", "desc": "中国新锐TMT精英型精品投行+天使基金", "FullName": "上海光挚源投资管理有限公司", "id": 83927, "stage": "成长型(A轮)"}
+{"ShortName": "爱闪拍（上海）科技有限公司", "city": "上海", "industry": "企业服务,广告营销", "desc": "亚洲领先的图像及动态影像辨识技术！", "FullName": "爱闪拍（上海）科技有限公司", "id": 27681, "stage": "成长型(A轮)"}
+{"ShortName": "财尚圈", "city": "广州", "industry": "金融", "desc": "智慧理财助手", "FullName": "广州财尚圈互联网金融信息服务有限公司", "id": 24982, "stage": "初创型(天使轮)"}
+{"ShortName": "为安法律金融", "city": "上海", "industry": "O2O,金融", "desc": "是A股上市公司中路股份（600818）领投的国内首家以诉讼融资服务为核心的互联网法律金融平台。", "FullName": "上海为安互联网金融信息服务有限公司", "id": 102174, "stage": "成长型(A轮)"}
+{"ShortName": "浙江聚有财", "city": "杭州", "industry": "金融", "desc": "汇聚你我，财有未来", "FullName": "浙江聚有财金融服务外包有限公司", "id": 43906, "stage": "初创型(未融资)"}
+{"ShortName": "天梯卓越", "city": "苏州", "industry": "其他", "desc": "助推出版的社区化生态，引领】【云出版】潮流。", "FullName": "苏州天梯卓越传媒有限公司", "id": 91325, "stage": "成长型(A轮)"}
+{"ShortName": "远传技术", "city": "杭州", "industry": "移动互联网", "desc": "创造美好的客户体验", "FullName": "浙江远传信息技术股份有限公司", "id": 29069, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "学霸君", "city": "上海", "industry": "移动互联网,教育", "desc": "我们致力于让科技的光彩赋予工具崭新的生命！", "FullName": "上海谦问万答吧云计算科技有限公司", "id": 1499, "stage": "成熟型(C轮)"}
+{"ShortName": "连咖啡", "city": "上海", "industry": "移动互联网,O2O", "desc": "一伙儿数次创业成功的跨界能人，构建了一家意想不到的互联网咖啡公司", "FullName": "上海连享商务咨询有限公司", "id": 30794, "stage": "成长型(B轮)"}
+{"ShortName": "外勤365", "city": "南京", "industry": "移动互联网,企业服务", "desc": "我们用移动互联网改变管理软件行业", "FullName": "南京掌控网络科技有限公司", "id": 14867, "stage": "成长型(B轮)"}
+{"ShortName": "麦图科技", "city": "上海", "industry": "数据服务", "desc": "可视化智慧分析，打造DT时代最佳数据平台", "FullName": "上海麦图信息科技有限公司", "id": 51235, "stage": "成长型(A轮)"}
+{"ShortName": "福昕软件", "city": "北京", "industry": "移动互联网", "desc": "六险一金，双休，弹性工作，带薪年假，交通补贴，餐补，年终奖金，节日福利，年度体检、旅游，下午茶", "FullName": "福建福昕软件开发股份有限公司北京分公司", "id": 35043, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "中兴软创", "city": "南京", "industry": "移动互联网", "desc": "中兴软创构筑以客户为中心的“产品化软件+专业服务”的商业模式，成为卓越的软件和服务提供商", "FullName": "中兴软创科技股份有限公司", "id": 22766, "stage": "上市公司"}
+{"ShortName": "轻+", "city": "珠海", "industry": "移动互联网,生活服务", "desc": "「轻+」App，轻生活，悦自己！", "FullName": "珠海三益堂科技有限公司", "id": 8099, "stage": "成长型(B轮)"}
+{"ShortName": "蚂蜂窝", "city": "北京", "industry": "移动互联网,旅游", "desc": "中国领先的自由行服务平台", "FullName": "北京蚂蜂窝网络科技有限公司", "id": 109, "stage": "成熟型(C轮)"}
+{"ShortName": "折800网", "city": "成都", "industry": "移动互联网,电子商务", "desc": "指引全国超过上亿用户在网购以及本地吃喝玩乐等消费领域，实现着“花最少的钱过更好的日子”的消费体验！", "FullName": "成都团博百众科技有限公司", "id": 31494, "stage": "成熟型(C轮)"}
+{"ShortName": "上海安能物流有限公司", "city": "上海", "industry": "其他", "desc": "选择安能，成就梦想！", "FullName": "上海安能聚创供应链管理有限公司", "id": 53654, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "山西易通天下", "city": "太原", "industry": "电子商务,O2O", "desc": "为爱好者服务", "FullName": "山西易通天下网络科技有限公司", "id": 53872, "stage": "成长型(A轮)"}
+{"ShortName": "识代运筹", "city": "西安", "industry": "数据服务", "desc": "识代运筹，西北大数据行业的领航者", "FullName": "陕西识代运筹信息科技有限公司", "id": 60817, "stage": "成熟型(C轮)"}
+{"ShortName": "易米软件", "city": "成都", "industry": "移动互联网,O2O", "desc": "舍得与共赢！", "FullName": "成都易米网络科技有限公司", "id": 135428, "stage": "初创型(不需要融资)"}
+{"ShortName": "新浪家居/抢工长", "city": "北京", "industry": "O2O,生活服务", "desc": "改变人们购房、装修、居住的生活方式。", "FullName": "北京迈腾风顺科技有限公司", "id": 152542, "stage": "上市公司"}
+{"ShortName": "蚂蚁短租", "city": "北京", "industry": "移动互联网,旅游", "desc": "蚂蚁短租，全家出游住宿新选择～", "FullName": "易云游网络技术(北京)有限公司", "id": 443, "stage": "成熟型(C轮)"}
+{"ShortName": "极验验证", "city": "武汉", "industry": "信息安全,数据服务", "desc": "全球首家行为式验证安全技术服务提供商，彻底颠覆传统验证码技术，给各大网站带去全新的验证体验。", "FullName": "武汉极意网络科技有限公司", "id": 7682, "stage": "成长型(B轮)"}
+{"ShortName": "丁盯", "city": "北京", "industry": "硬件", "desc": "智能门锁第一品牌", "FullName": "云丁网络技术（北京）有限公司", "id": 32867, "stage": "成长型(B轮)"}
+{"ShortName": "立方网", "city": "北京", "industry": "移动互联网,社交网络", "desc": "立方网，给记忆一个落脚的地方。让我们跟着各年轻有为的领导，为我们的记忆寻找一个落脚的地方！", "FullName": "北京立方网信息技术有限公司", "id": 91869, "stage": "成长型(B轮)"}
+{"ShortName": "行心科技", "city": "广州", "industry": "移动互联网", "desc": "以信息化工具帮助医院、养老院、口腔诊所、中医、美容等医疗健康机构提高其形象、销售、管理、服务等能力", "FullName": "广州市行心信息科技有限公司", "id": 76268, "stage": "成熟型(C轮)"}
+{"ShortName": "校管家", "city": "深圳", "industry": "移动互联网,教育", "desc": "做K12校外教育培训新兴市场的互联网+信息化服务商第一品牌。", "FullName": "深圳市校管家教育科技有限公司", "id": 70635, "stage": "成长型(A轮)"}
+{"ShortName": "晓通网络", "city": "北京", "industry": "硬件", "desc": "加入晓通 让梦不再是想", "FullName": "北京晓通网络科技有限公司", "id": 74296, "stage": "成熟型(不需要融资)"}
+{"ShortName": "财略金融科技", "city": "广州", "industry": "金融", "desc": "你有能力，我有空间——财略金融科技需要你！", "FullName": "广州财略金融信息科技有限公司", "id": 35507, "stage": "成长型(A轮)"}
+{"ShortName": "淡蓝网Blued", "city": "北京", "industry": "移动互联网,社交网络", "desc": "做同志社交典范，为同性之爱发声", "FullName": "北京蓝城兄弟文化传媒有限公司", "id": 27749, "stage": "成熟型(C轮)"}
+{"ShortName": "求是同创", "city": "杭州", "industry": "移动互联网,医疗健康", "desc": "互联网+医疗、浙大系、技术牛人、薪资福利优厚", "FullName": "杭州求是同创网络科技有限公司", "id": 91954, "stage": "成长型(A轮)"}
+{"ShortName": "简途旅行", "city": "成都", "industry": "移动互联网,旅游", "desc": "我们用交通重新定义旅行", "FullName": "成都氢行动力网络科技有限公司", "id": 66852, "stage": "成长型(A轮)"}
+{"ShortName": "多多理财", "city": "杭州", "industry": "移动互联网,金融", "desc": "国企背景，稳步前行平台，您的贴心理财管家", "FullName": "浙江多多互联网金融信息服务有限公司", "id": 85143, "stage": "成长型(A轮)"}
+{"ShortName": "K2DATA", "city": "北京", "industry": "数据服务", "desc": "机器大数据首选平台，理解机器，掌握世界", "FullName": "昆仑智汇数据科技（北京）有限公司", "id": 68507, "stage": "成长型(B轮)"}
+{"ShortName": "图灵科技", "city": "广州", "industry": "数据服务,广告营销", "desc": "国内第一家按效果收费的大数据营销公司", "FullName": "广州图灵科技有限公司", "id": 102620, "stage": "初创型(天使轮)"}
+{"ShortName": "优维科技", "city": "广州", "industry": "移动互联网,企业服务", "desc": "成为ITOM的市场领导者", "FullName": "优维科技（深圳）有限公司", "id": 105373, "stage": "成长型(A轮)"}
+{"ShortName": "GrowingIO", "city": "北京", "industry": "企业服务,数据服务", "desc": "创新秒级数据采集和分析解决方案，为产品快速迭代提供实时决策支持，致力于成为数据分析领域最靠谱服务商。", "FullName": "北京易数科技有限公司", "id": 77962, "stage": "成长型(A轮)"}
+{"ShortName": "云学堂", "city": "苏州", "industry": "企业服务,移动互联网", "desc": "构建企业人才服务生态圈", "FullName": "江苏云学堂网络科技有限公司", "id": 99121, "stage": "成长型(B轮)"}
+{"ShortName": "彩亿投资", "city": "上海", "industry": "移动互联网,金融", "desc": "快速成长的互联网公司", "FullName": "上海彩亿投资咨询有限公司", "id": 103074, "stage": "成长型(A轮)"}
+{"ShortName": "99广场舞", "city": "北京", "industry": "移动互联网", "desc": "99广场舞的品牌理念是“人人都是舞蹈家”，期望帮助全民广场舞爱好者提升舞蹈表演能力，快速提高水平。", "FullName": "北京久久互动文化传媒有限公司", "id": 116793, "stage": "成长型(A轮)"}
+{"ShortName": "薄荷", "city": "上海", "industry": "移动互联网,电子商务", "desc": "Change the world Make the money", "FullName": "上海薄荷信息科技有限公司", "id": 1860, "stage": "成长型(B轮)"}
+{"ShortName": "三好网", "city": "北京", "industry": "移动互联网,教育", "desc": "中小学超级在线一对一直播互动教育平台", "FullName": "北京三好互动教育科技有限公司", "id": 36996, "stage": "成长型(A轮)"}
+{"ShortName": "尚妆网", "city": "杭州", "industry": "电子商务", "desc": "正品无须代言", "FullName": "杭州云若网络科技有限公司", "id": 38190, "stage": "成长型(B轮)"}
+{"ShortName": "慧川智能 (Hunch.AI)", "city": "杭州", "industry": "移动互联网", "desc": "用人工智能提升生活质量", "FullName": "杭州慧川智能科技有限公司", "id": 149246, "stage": "成长型(A轮)"}
+{"ShortName": "青岛赢信慧通", "city": "青岛", "industry": "教育,移动互联网", "desc": "大赢在信，慧通天下", "FullName": "青岛赢信慧通电子商务有限公司", "id": 108272, "stage": "成长型(不需要融资)"}
+{"ShortName": "4PX", "city": "深圳", "industry": "移动互联网,电子商务", "desc": "阿里巴巴在跨境电商、物流服务领域投资的唯一 一家企业。", "FullName": "深圳市递四方信息科技有限公司", "id": 5972, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "第一电动网", "city": "北京", "industry": "移动互联网", "desc": "新能源汽车媒体的领航者", "FullName": "北京智电未来信息科技有限公司", "id": 129781, "stage": "成长型(A轮)"}
+{"ShortName": "nonda 能塔智能", "city": "上海", "industry": "移动互联网,硬件", "desc": "人人都买的起的智能硬件", "FullName": "上海能塔智能科技有限公司", "id": 59470, "stage": "成长型(A轮)"}
+{"ShortName": "极熵数据", "city": "上海", "industry": "移动互联网,数据服务", "desc": "物极而反，熵极有序。极熵数据专注于工商业数据的软硬件一体化开发，用数据和算法带来下一次工业革命。", "FullName": "上海极熵数据科技有限公司", "id": 88274, "stage": "初创型(未融资)"}
+{"ShortName": "融卡科技", "city": "深圳", "industry": "移动互联网", "desc": "全国第一的专注于移动支付和金融安全的数据安全服务商", "FullName": "苏州融卡智能科技有限公司", "id": 17239, "stage": "成熟型(C轮)"}
+{"ShortName": "拼多多", "city": "上海", "industry": "电子商务,移动互联网", "desc": "拼多多，多实惠，多乐趣", "FullName": "杭州微米网络科技有限公司", "id": 107784, "stage": "成长型(B轮)"}
+{"ShortName": "1药网", "city": "武汉", "industry": "移动互联网,电子商务", "desc": "由原1号店创始人于刚和刘峻岭创立，中国网上药店的领导企业，是目前国内规模最大、销量最高的电商售药平台", "FullName": "耀方信息技术（上海）有限公司", "id": 83043, "stage": "成熟型(D轮及以上)"}
+{"ShortName": "奢易拍", "city": "北京", "industry": "电子商务", "desc": "奢侈品买卖首选", "FullName": "北京奢易拍商贸有限公司", "id": 136114, "stage": "初创型(不需要融资)"}
+{"ShortName": "TCG", "city": "上海", "industry": "移动互联网,广告营销", "desc": "We Make A Difference", "FullName": "趣点企业管理咨询（上海）有限公司", "id": 112958, "stage": "初创型(不需要融资)"}
+{"ShortName": "兰途科技", "city": "成都", "industry": "移动互联网", "desc": "为全国高校师生提供完整移动信息服务解决方案", "FullName": "成都兰途网络科技有限公司", "id": 44956, "stage": "初创型(不需要融资)"}

@@ -40,7 +40,7 @@ public class ExtractCandidateJobUtil {
 	 */
 	public List<Job> getCandidatedJob(int userId) {
 		LocalDate today = LocalDate.now();
-		String key = String.format(DATE_CANDIDATE_PREFIX, userId, today.toString());
+		String key = String.format(DATE_CANDIDATE_PREFIX, today.toString());
 		List<Job> jobs;
 		if (JobConstant.USE_REDIS_CACHE_RECOMMEND && RedisUtil.existsKey(key)) {
 			jobs = JSON.parseArray(RedisUtil.getString(key), Job.class);

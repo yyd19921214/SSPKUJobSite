@@ -25,10 +25,10 @@ public class UserInfoServiceTest extends BaseControllerTest {
 	@BeforeClass
 	public static void setupUser() {
 		user = new UserInfoWithBLOBs();
-		user.setUsername("yang");
+		user.setUsername("lixin");
 		user.setPhone("12356789");
 		user.setEmail("547428014@qq.com");
-		user.setPasswd("11223344");
+		user.setPasswd("5677");
 	}
 
 	public void setUserService(UserInfoService userService) {
