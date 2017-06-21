@@ -119,12 +119,12 @@ public class JobService implements IJobService {
 
 	private List<LuceneSearchJob> getLuceneJob(String text) {
 		List<LuceneSearchJob> searchList = null;
-		if (JobConstant.USE_CACHE && RedisUtil.existsKey(text)) {
+		if (JobConstant.USE_REDIS_CACHE_SEARCH && RedisUtil.existsKey(text)) {
 			searchList = JSONObject.parseArray(RedisUtil.getString(text), LuceneSearchJob.class);
 		} else {
 			try {
 				searchList = LuceneUtil.getSearchJob(text, LuceneUtil.JOB_SEARCHINDEX);
-				if (JobConstant.USE_CACHE)
+				if (JobConstant.USE_REDIS_CACHE_SEARCH)
 					RedisUtil.setString(text, JSON.toJSONString(searchList));
 			} catch (IOException | ParseException e) {
 				e.printStackTrace();

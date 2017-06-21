@@ -25,6 +25,10 @@ public class Record {
 	private static final String CITY_NAME_KEY = "expCity";
 	private static final String JOB_TYPE_KEY = "jobType";
 
+	// public Record(){
+	//
+	// }
+
 	public Record() {
 		this.valueLIB = new HashMap<>();
 		this.valueMIB = new HashMap<>();
@@ -133,6 +137,9 @@ public class Record {
 class RecommendValue<T> {
 	T value;
 	double weight;
+
+	public RecommendValue() {
+	}
 
 	public RecommendValue(T value, double weight) {
 		super();
