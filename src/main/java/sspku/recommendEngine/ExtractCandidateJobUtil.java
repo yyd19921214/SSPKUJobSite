@@ -19,9 +19,9 @@ public class ExtractCandidateJobUtil {
 
 	private static final int DEFAULT_JOB_NUM = 1000;
 
-	private static final String DATE_CANDIDATE_PREFIX = "candidate-raw-%d-%s";
+	private static final String DATE_CANDIDATE_PREFIX = "candidate-raw-%s";
 
-	private static final String DATE_RECORD_PREFIX = "candidate-record-%d-%s";
+	private static final String DATE_RECORD_PREFIX = "candidate-record-%s";
 
 	private static final String DEFAULT_CITY = "北京";
 
@@ -55,7 +55,7 @@ public class ExtractCandidateJobUtil {
 
 	public List<Record> tranformJobToRecord(List<Job> jobs, int userId) {
 		LocalDate today = LocalDate.now();
-		String key = String.format(DATE_RECORD_PREFIX, userId, today.toString());
+		String key = String.format(DATE_RECORD_PREFIX, today.toString());
 		List<Record> records;
 		if (JobConstant.USE_REDIS_CACHE_RECOMMEND && RedisUtil.existsKey(key)) {
 			System.out.println("use the redis!!!");

@@ -96,6 +96,13 @@ class DBHelper(object):
         result = cursor.fetchall()
         return result
 
+    def selectCompanyByName(self,name):
+        cursor = self.db.cursor()
+        sql = 'select id,name,sourceId from company where name like \'%{0}%\''.format(name)
+        cursor.execute(sql)
+        result = cursor.fetchall()
+        return result
+
     def checkJobExist(self,sourceId):
         cursor = self.db.cursor()
         sql = 'select id from jobinfo where sourceId=\'{0}\''.format(sourceId)
@@ -107,6 +114,7 @@ class DBHelper(object):
             return False
 
 def request_with_proxy(url,data):
+    # proxies_list=['127.0.0.1']
     proxies_list=['116.255.162.107',
                   '121.41.8.23',
                   '112.74.108.33',
@@ -156,54 +164,74 @@ def parser_company_in_city(city_config):
 def parser_job_random():
     dbh = DBHelper()
     url = 'https://www.lagou.com/gongsi/searchPosition.json'
-    # mcookie = {"user_trace_token": "20170423133133-0a59a66b266649b2996f0592fb9f5e08",
-    #            "LGUID": "20170524174617-d5bca29f-4065-11e7-8db6-5254005c3644"}
     wait_insert = []
-    companyList=dbh.selectCompanyList(50)
+    companyList=dbh.selectCompanyList(100)
     for e in companyList:
         data = {'companyId': e[2].split('_')[1], 'pageNo': 1, 'pageSize': 50}
         try:
             import time
             time.sleep(1)
-            # proxies = {'http': 'http://duoduo999:tfc41zc5@116.255.162.107:16816/'}
-            # r = requests.post(url=url,data=data,proxies=proxies)
             r=request_with_proxy(url,data=data)
             res = json.loads(str(r.content, encoding='utf-8'))
             if res.get('message') == '操作成功':
                 for e in res['content']['data']['page']['result']:
                     print(e)
                     wait_insert.append(e)
-                    if len(wait_insert)>10:
+                    if len(wait_insert)>50:
                         break
         except:
             print('error!')
             pass
     return wait_insert
 
-# def parser_job_simple_info_city(city_name):
-#     url = 'https://www.lagou.com/gongsi/searchPosition.json'
-#     mcookie = {"user_trace_token": "20170423133133-0a59a66b266649b2996f0592fb9f5e08","LGUID":"20170524174617-d5bca29f-4065-11e7-8db6-5254005c3644"}
-#     wait_insert = []
-#     row = 0
-#     with open('lagou_{0}.txt'.format(city_name), 'r', encoding='utf-8') as fin:
-#         for line in fin:
-#             row += 1
-#             print(row)
-#             t = json.loads(line)
-#             try:
-#                 data = {'companyId': t['companyId'], 'pageNo': 1, 'pageSize': 50}
-#                 r = requests.post(url=url, data=data, cookies=mcookie)
-#                 res = json.loads(str(r.content, encoding='utf-8'))
-#                 if res.get('message') == '操作成功':
-#                     for e in res['content']['data']['page']['result']:
-#                         wait_insert.append(e)
-#             except e:
-#                 print(e)
-#                 pass
-#
-#     with open('lagou_{0}_job.txt'.format(city_name), 'w', encoding='utf-8') as fout:
-#         for e in wait_insert:
-#             fout.write('{0}\n'.format(json.dumps(e, ensure_ascii=False)))
+def parser_job_simple_info_city(city_name):
+    url = 'https://www.lagou.com/gongsi/searchPosition.json'
+    mcookie = {"user_trace_token": "20170423133133-0a59a66b266649b2996f0592fb9f5e08","LGUID":"20170524174617-d5bca29f-4065-11e7-8db6-5254005c3644"}
+    wait_insert = []
+    row = 0
+    with open('lagou_{0}.txt'.format(city_name), 'r', encoding='utf-8') as fin:
+        for line in fin:
+            row += 1
+            print(row)
+            t = json.loads(line)
+            try:
+                data = {'companyId': t['companyId'], 'pageNo': 1, 'pageSize': 50}
+                r = requests.post(url=url, data=data, cookies=mcookie)
+                res = json.loads(str(r.content, encoding='utf-8'))
+                if res.get('message') == '操作成功':
+                    for e in res['content']['data']['page']['result']:
+                        wait_insert.append(e)
+            except e:
+                print(e)
+                pass
+
+    with open('lagou_{0}_job.txt'.format(city_name), 'w', encoding='utf-8') as fout:
+        for e in wait_insert:
+            fout.write('{0}\n'.format(json.dumps(e, ensure_ascii=False)))
+
+def parse_job_famousCompany(companyList):
+    dbh = DBHelper()
+    url = 'https://www.lagou.com/gongsi/searchPosition.json'
+    wait_insert = []
+    for name in companyList:
+        comList=dbh.selectCompanyByName(name)
+        for com in comList:
+            for i in range(1,4):
+                data = {'companyId': com[2].split('_')[1], 'pageNo': i, 'pageSize': 50}
+                try:
+                    import time
+                    time.sleep(1)
+                    r = request_with_proxy(url, data=data)
+                    res = json.loads(str(r.content, encoding='utf-8'))
+                    if res.get('message') == '操作成功':
+                        for e in res['content']['data']['page']['result']:
+                            print(e)
+                            wait_insert.append(e)
+                except:
+                    print('error!')
+                    pass
+        return wait_insert
+
 
 
 def save_company_db(wait_insert):
@@ -302,37 +330,10 @@ def save_job_db(wait_insert):
 # save_company_db(wait_insert)
 
 
-wait_insert=parser_job_random()
+# wait_insert=parser_job_random()
+# print(len(wait_insert))
+# save_job_db(wait_insert)
+
+wait_insert=parse_job_famousCompany(['百度','阿里巴巴','腾讯','美团','京东商城','网易','京东商城'])
 print(len(wait_insert))
 save_job_db(wait_insert)
-
-
-# job = {'companyId': 'lagou_1712'}
-# dbh = DBHelper()
-# dbh.insertJob(job)
-# save_job_db('lagou_shengzheng_job.txt')
-# parser_company_in_city({'code':5,'name':'chongqing'})
-# parser_job_simple_info()
-# s='suzhou'
-# parser_job_simple_info_city(s)
-# save_job_db('lagou_{0}_job.txt'.format(s))
-
-# print(dbh.checkCompanyExist('lagou_157255555'))
-# # url='http://www.baidu.com'
-# import urllib.request as req
-# proxy = req.ProxyHandler({'http': r'http://duoduo999:tfc41zc5@116.255.162.107:16816'})
-# auth = req.HTTPBasicAuthHandler()
-# opener = req.build_opener(proxy, auth, req.HTTPHandler)
-# req.install_opener(opener)
-# conn = req.urlopen('http://www.baidu.com')
-# return_str = conn.read()
-# print(return_str)
-# myproxies={}
-# r = requests.post(url=url,proxies={'http':'222.161.56.166:9000'},timeout=2000)
-# print(r.content)
-
-
-# proxies = {'http': 'http://duoduo999:tfc41zc5@116.255.162.107:16816/'}
-# # auth = HTTPBasicAuth('duoduo999', 'tfc41zc5')
-# r = requests.post(url='http://www.baidu.com', proxies=proxies)
-# print(r)

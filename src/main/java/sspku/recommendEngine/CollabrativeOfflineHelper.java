@@ -3,6 +3,9 @@ package sspku.recommendEngine;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
+
+import com.google.common.collect.Sets;
 
 class CollabrativeOfflineHelper {
 
@@ -12,8 +15,8 @@ class CollabrativeOfflineHelper {
 	private Date finishTime;
 	private Date TimeRange;
 
-	private static String KEY_FORMAT = "JobPair_%d_%d";
-	
+	public static String KEY_FORMAT = "JobPair_%d_%d";
+
 	private static double WEIGHT_POST = 0.6;
 
 	private static double WEIGHT_COLLECT = 0.4;
@@ -41,6 +44,14 @@ class CollabrativeOfflineHelper {
 		this.collectPairSimilarity = collectPairSimilarity;
 	}
 
+	public Map<String, Double> getWeightedSimilarity() {
+		return weightedSimilarity;
+	}
+
+	public void setWeightedSimilarity(Map<String, Double> weightedSimilarity) {
+		this.weightedSimilarity = weightedSimilarity;
+	}
+
 	public Date getFinishTime() {
 		return finishTime;
 	}
@@ -58,25 +69,41 @@ class CollabrativeOfflineHelper {
 	}
 
 	public void addPairPostJob(int job1Id, int job2Id, double score) {
+		if (score == 0)
+			return;
 		String key = job1Id <= job2Id ? String.format(KEY_FORMAT, job1Id, job2Id)
 				: String.format(KEY_FORMAT, job2Id, job1Id);
 		this.postPairSimilarity.put(key, score);
 	}
 
 	public void addPairCollectJob(int job1Id, int job2Id, double score) {
+		if (score == 0)
+			return;
 		String key = job1Id <= job2Id ? String.format(KEY_FORMAT, job1Id, job2Id)
 				: String.format(KEY_FORMAT, job2Id, job1Id);
 		this.collectPairSimilarity.put(key, score);
 	}
 
 	public void calculateWeightedScore() {
-		for (String k : this.postPairSimilarity.keySet()) {
-			if (this.collectPairSimilarity.containsKey(k)) {
-				double weightScore = WEIGHT_POST * postPairSimilarity.get(k)
-						+ WEIGHT_COLLECT * collectPairSimilarity.get(k);
-				weightedSimilarity.put(k, weightScore);
-			}
+		Set<String> intersect = Sets.intersection(postPairSimilarity.keySet(), collectPairSimilarity.keySet());
+		for (String k : intersect) {
+			double weightScore = WEIGHT_POST * postPairSimilarity.get(k)
+					+ WEIGHT_COLLECT * collectPairSimilarity.get(k);
+			weightedSimilarity.put(k, weightScore);
 		}
+		postPairSimilarity.keySet().stream().filter(k -> !intersect.contains(k)).forEach(k -> {
+			weightedSimilarity.put(k, postPairSimilarity.get(k));
+		});
+		collectPairSimilarity.keySet().stream().filter(k -> !intersect.contains(k)).forEach(k -> {
+			weightedSimilarity.put(k, collectPairSimilarity.get(k));
+		});
+	}
+
+	@Override
+	public String toString() {
+		return "CollabrativeOfflineHelper [postPairSimilarity=" + postPairSimilarity + ", collectPairSimilarity="
+				+ collectPairSimilarity + ", weightedSimilarity=" + weightedSimilarity + ", finishTime=" + finishTime
+				+ ", TimeRange=" + TimeRange + "]";
 	}
 
 }

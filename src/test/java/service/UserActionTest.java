@@ -22,9 +22,7 @@ public class UserActionTest extends BaseControllerTest {
 
 	@Test
 	public void testCollectJob() {
-		boolean b = actionSer.collectJob(2, 12);
-		boolean b2 = actionSer.collectJob(2, 17);
-		boolean b3 = actionSer.collectJob(2, 19);
+		boolean b = actionSer.collectJob(2, 15);
 		Assert.assertTrue(b);
 	}
 	
